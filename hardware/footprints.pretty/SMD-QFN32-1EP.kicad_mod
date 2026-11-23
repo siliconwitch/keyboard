@@ -6,6 +6,7 @@
 	(property "Reference" "REF**"
 		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "3d91bd5f-cce2-4c7c-b6d6-479cfe720dbc")
 		(effects
 			(font
@@ -15,7 +16,7 @@
 		)
 	)
 	(property "Value" "Val**"
-		(at 0 3.8 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "c2eaca59-64ae-49eb-ac1c-f635345ef9a9")
@@ -28,7 +29,6 @@
 	)
 	(property "Datasheet" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "1cee5035-8172-478d-afb1-ace676c78777")
@@ -41,7 +41,6 @@
 	)
 	(property "Description" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "2583e694-6833-490b-90b0-ee57981a1bcf")

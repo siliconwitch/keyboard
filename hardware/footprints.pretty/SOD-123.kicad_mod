@@ -3,53 +3,51 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "SOD-123")
-	(tags "SOD-123")
 	(property "Reference" "REF**"
-		(at 0 -2 0)
+		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "5c813cbc-84b5-45a4-a0aa-35d3573110db")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)
 	(property "Value" "Val**"
-		(at 0 2.1 0)
+		(at 0 0 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "12459980-93ec-4d14-a5d8-25465bd8b01f")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)
 	(property "Datasheet" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "9df2fb6c-9a01-450c-8dda-024b1c6ddfcc")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)
 	(property "Description" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "434b35bb-86e7-4a80-b86a-8dfd526da733")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)
@@ -236,13 +234,13 @@
 		(uuid "3ea8d381-2884-4493-a631-0d00c072c3e5")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 -2 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "4ef1dce9-e176-4a2e-8fb0-c36ec2740b29")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)

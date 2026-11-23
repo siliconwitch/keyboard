@@ -3,27 +3,27 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "VQFN, 52 Pin (Nordic QFN52 (QGAA), https://docs-be.nordicsemi.com/bundle/ps_nrf54L15/page/pdf/nRF54L15_nRF54L10_nRF54L05_Datasheet_v1.0.pdf#page=888)")
-	(tags "VQFN NoLead")
 	(property "Reference" "REF**"
-		(at 0 -4.3 0)
+		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "61e9c00d-6a51-495d-b901-169a05cf95ca")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)
 	(property "Value" "Val**"
-		(at 0 4.3 0)
+		(at 0 0 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "2a3d6eec-9fc0-40f3-ab1e-f7b5f3d2a832")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)
@@ -34,7 +34,8 @@
 		(uuid "d4146d32-fe11-47f9-8d69-37865e02c1e5")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)
@@ -45,19 +46,8 @@
 		(uuid "46975988-06f2-43d9-bbf1-302935342a16")
 		(effects
 			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "KiLib_Generator" "package/no_lead"
-		(at 0 0 0)
-		(layer "F.SilkS")
-		(hide yes)
-		(uuid "951c6df7-7bf8-4ce6-955f-f0ea13fd79de")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)
@@ -373,8 +363,8 @@
 		(uuid "79ab8aa6-2581-48ce-b00f-8740b7880879")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)

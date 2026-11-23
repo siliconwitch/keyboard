@@ -3,27 +3,27 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "TSSOP, 10 Pin (https://www.ti.com/lit/ml/mpds035c/mpds035c.pdf, https://www.ti.com/lit/ds/symlink/ads1115.pdf#page=50, https://www.nxp.com/docs/en/package-information/SOT552-1.pdf)")
-	(tags "TSSOP SO Texas_DGS0010A Texas_VSSOP-10 NXP_SOT552-1 MSOP-10_3x3mm_P0.5mm VSSOP-10_3x3mm_P0.5mm")
 	(property "Reference" "REF**"
-		(at 0 -2.45 0)
+		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "977261f1-e481-4063-9500-e13502c1b2c4")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)
 	(property "Value" "Val**"
-		(at 0 2.45 0)
+		(at 0 0 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "c5098404-81f3-4f6c-bf5d-fe615da96f2d")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)
@@ -34,7 +34,8 @@
 		(uuid "9a83fdbd-2f8e-4588-a47d-c8887ec70a2d")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)
@@ -45,19 +46,8 @@
 		(uuid "ce2db74b-bdff-4b0c-871c-60015c4d3a11")
 		(effects
 			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
-	(property "KiLib_Generator" "package/gullwing"
-		(at 0 0 0)
-		(layer "F.SilkS")
-		(hide yes)
-		(uuid "0637a816-4a64-4d4f-b0b6-183bb4184c18")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)
@@ -273,8 +263,8 @@
 		(uuid "6537688d-78a6-4841-a6b7-8f729751a4ef")
 		(effects
 			(font
-				(size 0.75 0.75)
-				(thickness 0.11)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)

@@ -3,55 +3,51 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "USB 2.0 Type C Receptacle, GCT, 16P, top mounted, horizontal, 5A: https://gct.co/files/drawings/usb4105.pdf")
-	(tags "USB C Type-C Receptacle SMD USB 2.0 16P 16C USB4105-15-A USB4105-15-A-060 USB4105-15-A-120 USB4105-GF-A USB4105-GF-A-060 USB4105-GF-A-120")
 	(property "Reference" "REF**"
-		(at 0 -5.5 0)
-		(unlocked yes)
+		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "95c2ba4d-6f60-4594-9ea9-52fbf5601365")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)
 	(property "Value" "Val**"
-		(at 0 5 0)
-		(unlocked yes)
+		(at 0 0 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "36f32ef8-742f-42a9-978b-4071d547df0a")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)
 	(property "Datasheet" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "c1a4ba32-8ff6-4dfa-89e1-4f582d16d9c7")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)
 	(property "Description" ""
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "45efde1a-fc26-4d48-bdd5-2dacd928e126")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)
@@ -109,27 +105,14 @@
 		(layer "F.Fab")
 		(uuid "15e5f594-7c56-466a-af18-f0519ee4643f")
 	)
-	(fp_text user "PCB Edge"
-		(at 0 3.1 0)
-		(unlocked yes)
-		(layer "Dwgs.User")
-		(uuid "c7ea6cd0-75e4-49f1-bf60-aaeb5b1ee23c")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
-			)
-		)
-	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
-		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "53f862d7-917b-42f8-a70b-d28887588c5b")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)

@@ -3,27 +3,27 @@
 	(generator "pcbnew")
 	(generator_version "10.0")
 	(layer "F.Cu")
-	(descr "Kailh Choc keyswitch V1 CPG1350 V1")
-	(tags "Kailh Choc Keyswitch Switch CPG1350 V1 Cutout")
 	(property "Reference" "REF**"
-		(at 0 -9 0)
+		(at 0 0 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "84b07893-43b5-4c81-8e06-dd2486dbf3e1")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)
 	(property "Value" "Val**"
-		(at 0 9 0)
+		(at 0 0 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "ba69f12c-1899-4e70-b6de-5bc63346cdd5")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)
@@ -34,7 +34,8 @@
 		(uuid "c3fdbc47-ff75-4495-a762-6e9379afd425")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)
@@ -45,7 +46,8 @@
 		(uuid "aef6d3de-82aa-4b49-b36b-27ab290bfee0")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)
@@ -217,8 +219,8 @@
 		(uuid "050fd2bc-f274-4d63-a665-cb330b52c87d")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.2 0.2)
+				(thickness 0.03)
 			)
 		)
 	)
