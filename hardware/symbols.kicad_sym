@@ -1022,8 +1022,8 @@
 		)
 		(symbol "DRV2605LDGS_0_1"
 			(rectangle
-				(start -12.7 12.7)
-				(end 12.7 -12.7)
+				(start -10.16 10.16)
+				(end 10.16 -10.16)
 				(stroke
 					(width 0)
 					(type default)
@@ -1035,7 +1035,7 @@
 		)
 		(symbol "DRV2605LDGS_1_1"
 			(pin passive line
-				(at -17.78 -5.08 0)
+				(at -15.24 -5.08 0)
 				(length 5.08)
 				(name "REG"
 					(effects
@@ -1053,7 +1053,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 5.08 0)
+				(at -15.24 5.08 0)
 				(length 5.08)
 				(name "SCL"
 					(effects
@@ -1071,7 +1071,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -17.78 7.62 0)
+				(at -15.24 7.62 0)
 				(length 5.08)
 				(name "SDA"
 					(effects
@@ -1089,7 +1089,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 -7.62 0)
+				(at -15.24 -7.62 0)
 				(length 5.08)
 				(name "IN/TRIG"
 					(effects
@@ -1107,7 +1107,7 @@
 				)
 			)
 			(pin input line
-				(at -17.78 0 0)
+				(at -15.24 0 0)
 				(length 5.08)
 				(name "EN"
 					(effects
@@ -1125,7 +1125,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 17.78 270)
+				(at -2.54 15.24 270)
 				(length 5.08)
 				(name "VDD/NC"
 					(effects
@@ -1143,7 +1143,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 5.08 180)
+				(at 15.24 7.62 180)
 				(length 5.08)
 				(name "OUT+"
 					(effects
@@ -1161,7 +1161,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -17.78 90)
+				(at 0 -15.24 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1179,7 +1179,7 @@
 				)
 			)
 			(pin output line
-				(at 17.78 -7.62 180)
+				(at 15.24 -7.62 180)
 				(length 5.08)
 				(name "OUT-"
 					(effects
@@ -1197,7 +1197,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 17.78 270)
+				(at 2.54 15.24 270)
 				(length 5.08)
 				(name "VDD"
 					(effects
@@ -1809,7 +1809,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -1.27 180)
+				(at 10.16 -2.54 180)
 				(length 5.08)
 				(name "V2"
 					(effects
@@ -1845,7 +1845,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 1.27 180)
+				(at 10.16 2.54 180)
 				(length 5.08)
 				(name "V1"
 					(effects
@@ -2814,8 +2814,8 @@
 		)
 		(symbol "USB4105-GF-A_0_1"
 			(circle
-				(center -5.842 12.7)
-				(radius 1.27)
+				(center -4.191 3.81)
+				(radius 0.635)
 				(stroke
 					(width 0)
 					(type default)
@@ -2826,7 +2826,7 @@
 			)
 			(polyline
 				(pts
-					(xy -5.842 12.7) (xy 4.318 12.7)
+					(xy -4.191 3.81) (xy 0.889 3.81)
 				)
 				(stroke
 					(width 0.508)
@@ -2838,7 +2838,7 @@
 			)
 			(polyline
 				(pts
-					(xy -3.302 12.7) (xy -0.762 15.24) (xy 0.508 15.24)
+					(xy -2.921 3.81) (xy -1.651 5.08) (xy -1.016 5.08)
 				)
 				(stroke
 					(width 0.508)
@@ -2850,7 +2850,7 @@
 			)
 			(polyline
 				(pts
-					(xy -2.032 12.7) (xy 0.508 10.16) (xy 1.778 10.16)
+					(xy -2.286 3.81) (xy -1.016 2.54) (xy -0.381 2.54)
 				)
 				(stroke
 					(width 0.508)
@@ -2861,8 +2861,8 @@
 				)
 			)
 			(circle
-				(center 1.143 15.24)
-				(radius 0.635)
+				(center -0.6985 5.08)
+				(radius 0.3175)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -2872,8 +2872,8 @@
 				)
 			)
 			(rectangle
-				(start 1.778 10.795)
-				(end 3.048 9.525)
+				(start -0.381 2.8575)
+				(end 0.254 2.2225)
 				(stroke
 					(width 0)
 					(type default)
@@ -2884,7 +2884,7 @@
 			)
 			(polyline
 				(pts
-					(xy 4.318 13.97) (xy 6.858 12.7) (xy 4.318 11.43) (xy 4.318 13.97)
+					(xy 0.889 4.445) (xy 2.159 3.81) (xy 0.889 3.175) (xy 0.889 4.445)
 				)
 				(stroke
 					(width 0.254)
@@ -3305,8 +3305,8 @@
 		)
 		(symbol "USBLC6-2SC6_0_1"
 			(rectangle
-				(start -10.16 10.16)
-				(end 10.16 -10.16)
+				(start -7.62 7.62)
+				(end 7.62 -7.62)
 				(stroke
 					(width 0)
 					(type default)
@@ -3318,7 +3318,7 @@
 		)
 		(symbol "USBLC6-2SC6_1_1"
 			(pin passive line
-				(at -15.24 5.08 0)
+				(at -12.7 5.08 0)
 				(length 5.08)
 				(name "I/O1"
 					(effects
@@ -3336,7 +3336,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 -15.24 90)
+				(at 0 -12.7 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -3354,7 +3354,7 @@
 				)
 			)
 			(pin passive line
-				(at -15.24 -5.08 0)
+				(at -12.7 -5.08 0)
 				(length 5.08)
 				(name "I/O2"
 					(effects
@@ -3372,7 +3372,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 -5.08 180)
+				(at 12.7 -5.08 180)
 				(length 5.08)
 				(name "I/O2"
 					(effects
@@ -3390,7 +3390,7 @@
 				)
 			)
 			(pin passive line
-				(at 0 15.24 270)
+				(at 0 12.7 270)
 				(length 5.08)
 				(name "VBUS"
 					(effects
@@ -3408,7 +3408,7 @@
 				)
 			)
 			(pin passive line
-				(at 15.24 5.08 180)
+				(at 12.7 5.08 180)
 				(length 5.08)
 				(name "I/O1"
 					(effects
@@ -3429,8 +3429,12 @@
 		(embedded_fonts no)
 	)
 	(symbol "VL120628H"
+		(pin_numbers
+			(hide yes)
+		)
 		(pin_names
 			(offset 0)
+			(hide yes)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3515,7 +3519,7 @@
 		(symbol "VL120628H_0_0"
 			(polyline
 				(pts
-					(xy -1.016 -2.032) (xy -1.016 1.016) (xy 0 -1.016) (xy 1.016 1.016) (xy 1.016 -2.032)
+					(xy -0.7937 -1.6669) (xy -0.7937 0.7144) (xy 0 -0.8731) (xy 0.7937 0.7144) (xy 0.7937 -1.6669)
 				)
 				(stroke
 					(width 0)
@@ -3526,9 +3530,9 @@
 				)
 			)
 			(arc
-				(start 0 -3.048)
-				(mid -0.8622 -3.5222)
-				(end -1.524 -2.794)
+				(start 0 -2.4606)
+				(mid -0.6736 -2.8311)
+				(end -1.1906 -2.2622)
 				(stroke
 					(width 0)
 					(type default)
@@ -3538,9 +3542,9 @@
 				)
 			)
 			(arc
-				(start 0 -3.048)
-				(mid 0.8657 -2.5527)
-				(end 1.524 -3.302)
+				(start 0 -2.4606)
+				(mid 0.6763 -2.0737)
+				(end 1.1906 -2.6591)
 				(stroke
 					(width 0)
 					(type default)
@@ -3553,19 +3557,7 @@
 		(symbol "VL120628H_0_1"
 			(polyline
 				(pts
-					(xy 0 2.032) (xy 0 2.54)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 1.7272) (xy 0 2.0828)
+					(xy 0 1.27) (xy 0 2.54)
 				)
 				(stroke
 					(width 0)
@@ -3576,8 +3568,8 @@
 				)
 			)
 			(circle
-				(center 0 -1.524)
-				(radius 3.2512)
+				(center 0 -1.27)
+				(radius 2.54)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -3588,19 +3580,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 -4.7752) (xy 0 -5.1816)
-				)
-				(stroke
-					(width 0)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 0 -7.62) (xy 0 -7.112)
+					(xy 0 -3.81) (xy 0 -5.08)
 				)
 				(stroke
 					(width 0)
