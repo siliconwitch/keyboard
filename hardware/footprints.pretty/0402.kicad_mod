@@ -90,7 +90,7 @@
 		(uuid "f8746bdb-f80e-472d-b150-4b4a0483a1f5")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.stpZ"
+	(model "${KIPRJMOD}/models/0402.step"
 		(offset
 			(xyz 0 0 0)
 		)

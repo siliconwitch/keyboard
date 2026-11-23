@@ -5,6 +5,7 @@ Decisions not yet recorded in firmware code or KiCad files.
 ## Switches
 
 - Kailh Choc v1 (PG1350).
+- The switches form a key matrix with one 1N4148W diode (Diodes Inc. 1N4148W-7-F, SOD-123) per switch, hand soldered.
 - Key pitch: 18 mm horizontal, 17 mm vertical, the usual Choc v1 spacing. The 17 × 16 mm printed caps leave a 1 mm gap each way.
 
 ## Layout
@@ -17,16 +18,17 @@ Decisions not yet recorded in firmware code or KiCad files.
 ## Touchpad
 
 - Touch sensor: Azoteq TPS65-201A-S, 65 × 49 mm, IQS550 controller. I2C at 7-bit address 0x74, plus RDY and NRST lines.
+- Wires join the touchpad module to six solder pads on the top board. The board has no FPC connector.
 - Force sensing: one Alps Alpine HSFPAR under each corner of the touchpad, soldered to the top board.
 - Haptic actuators: two Vybronics VL120628H linear resonant actuators.
 - Haptic drivers: one TI DRV2605L per actuator, on the top board. The DRV2605L address is fixed at 0x5A, so each sits on its own I2C bus.
 
 ## Controller and power
 
-- SoC: Nordic nRF54LM20A with a 32 MHz crystal and a 32.768 kHz crystal.
+- SoC: Nordic nRF54LM20A in the QFN52 package (QGAA), with a 32 MHz crystal and a 32.768 kHz crystal.
 - PMIC: Nordic nPM1300.
 - Antenna: Ignion NN02-101 in a board corner, with a 5 × 5 mm copper-free area on every layer and a pi matching network tuned with a VNA.
-- USB-C connector for charging and firmware updates.
+- USB-C connector for charging and firmware updates: GCT USB4105-GF-A, USB 2.0, top mount. Its 0.95 mm shell stakes stay inside the top board.
 - The two DRV2605L drivers run from VSYS with no load switch. Holding EN low shuts each down to 4 µA (7 µA max). If VSYS can exceed the DRV2605L's 5.2 V limit on USB power, they run from the battery instead.
 - The nPM1300's two load switches stay free for other loads.
 
