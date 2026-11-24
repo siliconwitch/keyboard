@@ -117,8 +117,8 @@
 		)
 		(symbol "C_1_1"
 			(pin passive line
-				(at 0 3.81 270)
-				(length 2.794)
+				(at 0 5.08 270)
+				(length 4.064)
 				(name ""
 					(effects
 						(font
@@ -135,8 +135,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -3.81 90)
-				(length 2.794)
+				(at 0 -5.08 90)
+				(length 4.064)
 				(name ""
 					(effects
 						(font
@@ -477,8 +477,8 @@
 		)
 		(symbol "CRYSTAL-2-PIN_1_1"
 			(pin passive line
-				(at -3.81 0 0)
-				(length 1.27)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "1"
 					(effects
 						(font
@@ -495,8 +495,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+				(at 5.08 0 180)
+				(length 2.54)
 				(name "2"
 					(effects
 						(font
@@ -698,8 +698,8 @@
 		)
 		(symbol "CRYSTAL-4-PIN_1_1"
 			(pin passive line
-				(at -3.81 0 0)
-				(length 1.27)
+				(at -5.08 0 0)
+				(length 2.54)
 				(name "1"
 					(effects
 						(font
@@ -734,8 +734,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 1.27)
+				(at 5.08 0 180)
+				(length 2.54)
 				(name "3"
 					(effects
 						(font
@@ -844,6 +844,7 @@
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
+			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -901,8 +902,8 @@
 		)
 		(symbol "D_1_1"
 			(pin passive line
-				(at -3.81 0 0)
-				(length 2.54)
+				(at -5.08 0 0)
+				(length 3.81)
 				(name "K"
 					(effects
 						(font
@@ -919,8 +920,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.81 0 180)
-				(length 2.54)
+				(at 5.08 0 180)
+				(length 3.81)
 				(name "A"
 					(effects
 						(font
@@ -1552,8 +1553,8 @@
 		)
 		(symbol "FerriteBead_1_1"
 			(pin passive line
-				(at 0 2.54 270)
-				(length 1.27)
+				(at 0 5.08 270)
+				(length 3.81)
 				(name ""
 					(effects
 						(font
@@ -1570,8 +1571,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -2.54 90)
-				(length 1.27)
+				(at 0 -5.08 90)
+				(length 3.81)
 				(name ""
 					(effects
 						(font
@@ -1662,7 +1663,7 @@
 		(symbol "GND_0_1"
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					(xy 0 0) (xy 0 0) (xy 1.27 0) (xy 0 -1.27) (xy -1.27 0) (xy 0 0)
 				)
 				(stroke
 					(width 0)
@@ -1778,8 +1779,8 @@
 		)
 		(symbol "HSFPAR004A_0_1"
 			(rectangle
-				(start -5.08 5.08)
-				(end 5.08 -5.08)
+				(start -6.35 6.35)
+				(end 6.35 -6.35)
 				(stroke
 					(width 0)
 					(type default)
@@ -1791,7 +1792,7 @@
 		)
 		(symbol "HSFPAR004A_1_1"
 			(pin power_in line
-				(at -10.16 2.54 0)
+				(at 0 11.43 270)
 				(length 5.08)
 				(name "VDD"
 					(effects
@@ -1809,7 +1810,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 -2.54 180)
+				(at 11.43 1.27 180)
 				(length 5.08)
 				(name "V2"
 					(effects
@@ -1827,7 +1828,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 0 0)
+				(at -2.54 -11.43 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -1845,7 +1846,7 @@
 				)
 			)
 			(pin output line
-				(at 10.16 2.54 180)
+				(at 11.43 3.81 180)
 				(length 5.08)
 				(name "V1"
 					(effects
@@ -1863,7 +1864,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 -2.54 0)
+				(at 2.54 -11.43 90)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -2023,8 +2024,8 @@
 		)
 		(symbol "L_1_1"
 			(pin passive line
-				(at 0 3.81 270)
-				(length 1.27)
+				(at 0 5.08 270)
+				(length 2.54)
 				(name "1"
 					(effects
 						(font
@@ -2041,8 +2042,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -3.81 90)
-				(length 1.27)
+				(at 0 -5.08 90)
+				(length 2.54)
 				(name "2"
 					(effects
 						(font
@@ -2152,7 +2153,7 @@
 		(symbol "NN02-101_0_1"
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0 -3.81)
+					(xy 0 2.54) (xy 0 -2.54)
 				)
 				(stroke
 					(width 0.254)
@@ -2177,8 +2178,8 @@
 		)
 		(symbol "NN02-101_1_1"
 			(pin passive line
-				(at 0 -5.08 90)
-				(length 2.54)
+				(at 0 -7.62 90)
+				(length 5.08)
 				(name "A"
 					(effects
 						(font
@@ -2484,8 +2485,8 @@
 		)
 		(symbol "R_1_1"
 			(pin passive line
-				(at 0 3.81 270)
-				(length 1.27)
+				(at 0 5.08 270)
+				(length 2.54)
 				(name ""
 					(effects
 						(font
@@ -2502,8 +2503,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -3.81 90)
-				(length 1.27)
+				(at 0 -5.08 90)
+				(length 2.54)
 				(name ""
 					(effects
 						(font
@@ -2618,7 +2619,7 @@
 		)
 		(symbol "TPS65-201A-S_1_1"
 			(pin output line
-				(at -10.16 6.35 0)
+				(at -10.16 3.81 0)
 				(length 5.08)
 				(name "RDY"
 					(effects
@@ -2636,7 +2637,7 @@
 				)
 			)
 			(pin input line
-				(at -10.16 3.81 0)
+				(at -10.16 1.27 0)
 				(length 5.08)
 				(name "NRST"
 					(effects
@@ -2654,7 +2655,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 1.27 0)
+				(at -10.16 -6.35 0)
 				(length 5.08)
 				(name "GND"
 					(effects
@@ -2672,7 +2673,7 @@
 				)
 			)
 			(pin power_in line
-				(at -10.16 -1.27 0)
+				(at -10.16 6.35 0)
 				(length 5.08)
 				(name "VDDHI"
 					(effects
@@ -2690,7 +2691,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -3.81 0)
+				(at -10.16 -1.27 0)
 				(length 5.08)
 				(name "SCL"
 					(effects
@@ -2708,7 +2709,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -10.16 -6.35 0)
+				(at -10.16 -3.81 0)
 				(length 5.08)
 				(name "SDA"
 					(effects
@@ -3698,7 +3699,7 @@
 		(symbol "V_{BATT}_0_1"
 			(polyline
 				(pts
-					(xy -0.762 1.27) (xy 0 2.54)
+					(xy -0.762 0) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -3710,7 +3711,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0.762 1.27)
+					(xy 0 1.27) (xy 0.762 0)
 				)
 				(stroke
 					(width 0)
@@ -3722,7 +3723,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 0) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -3823,7 +3824,7 @@
 		(symbol "V_{BUSOUT}_0_1"
 			(polyline
 				(pts
-					(xy -0.762 1.27) (xy 0 2.54)
+					(xy -0.762 0) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -3835,7 +3836,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0.762 1.27)
+					(xy 0 1.27) (xy 0.762 0)
 				)
 				(stroke
 					(width 0)
@@ -3847,7 +3848,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 0) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -3948,7 +3949,7 @@
 		(symbol "V_{OUT1}_0_1"
 			(polyline
 				(pts
-					(xy -0.762 1.27) (xy 0 2.54)
+					(xy -0.762 0) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -3960,7 +3961,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0.762 1.27)
+					(xy 0 1.27) (xy 0.762 0)
 				)
 				(stroke
 					(width 0)
@@ -3972,7 +3973,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 0) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -4073,7 +4074,7 @@
 		(symbol "V_{OUT2}_0_1"
 			(polyline
 				(pts
-					(xy -0.762 1.27) (xy 0 2.54)
+					(xy -0.762 0) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -4085,7 +4086,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0.762 1.27)
+					(xy 0 1.27) (xy 0.762 0)
 				)
 				(stroke
 					(width 0)
@@ -4097,7 +4098,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 0) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -4198,7 +4199,7 @@
 		(symbol "V_{SYS}_0_1"
 			(polyline
 				(pts
-					(xy -0.762 1.27) (xy 0 2.54)
+					(xy -0.762 0) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -4210,7 +4211,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0.762 1.27)
+					(xy 0 1.27) (xy 0.762 0)
 				)
 				(stroke
 					(width 0)
@@ -4222,7 +4223,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 0) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -4323,7 +4324,7 @@
 		(symbol "V_{USB}_0_1"
 			(polyline
 				(pts
-					(xy -0.762 1.27) (xy 0 2.54)
+					(xy -0.762 0) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -4335,7 +4336,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 2.54) (xy 0.762 1.27)
+					(xy 0 1.27) (xy 0.762 0)
 				)
 				(stroke
 					(width 0)
@@ -4347,7 +4348,7 @@
 			)
 			(polyline
 				(pts
-					(xy 0 0) (xy 0 2.54)
+					(xy 0 0) (xy 0 1.27)
 				)
 				(stroke
 					(width 0)
@@ -4464,7 +4465,7 @@
 		)
 		(symbol "nPM1300-QEXX_0_0"
 			(pin power_out line
-				(at 25.4 20.32 180)
+				(at 24.13 20.32 180)
 				(length 5.08)
 				(name "VOUT1"
 					(effects
@@ -4482,7 +4483,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 15.24 180)
+				(at 24.13 15.24 180)
 				(length 5.08)
 				(name "SW1"
 					(effects
@@ -4500,7 +4501,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 33.02 180)
+				(at 24.13 33.02 180)
 				(length 5.08)
 				(name "PVDD"
 					(effects
@@ -4518,7 +4519,7 @@
 				)
 			)
 			(pin passive line
-				(at 25.4 -5.08 180)
+				(at 24.13 -5.08 180)
 				(length 5.08)
 				(name "SW2"
 					(effects
@@ -4536,7 +4537,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 2.54 0)
+				(at -24.13 2.54 0)
 				(length 5.08)
 				(name "GPIO0"
 					(effects
@@ -4554,7 +4555,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 0 0)
+				(at -24.13 0 0)
 				(length 5.08)
 				(name "GPIO1"
 					(effects
@@ -4572,7 +4573,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -2.54 0)
+				(at -24.13 -2.54 0)
 				(length 5.08)
 				(name "GPIO2"
 					(effects
@@ -4590,7 +4591,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -5.08 0)
+				(at -24.13 -5.08 0)
 				(length 5.08)
 				(name "GPIO3"
 					(effects
@@ -4608,7 +4609,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -7.62 0)
+				(at -24.13 -7.62 0)
 				(length 5.08)
 				(name "GPIO4"
 					(effects
@@ -4626,7 +4627,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 30.48 180)
+				(at 24.13 30.48 180)
 				(length 5.08)
 				(name "VDDIO"
 					(effects
@@ -4644,7 +4645,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -35.56 0)
+				(at -24.13 -35.56 0)
 				(length 5.08)
 				(name "SDA"
 					(effects
@@ -4662,7 +4663,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -38.1 0)
+				(at -24.13 -38.1 0)
 				(length 5.08)
 				(name "SCL"
 					(effects
@@ -4680,7 +4681,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -30.48 0)
+				(at -24.13 -30.48 0)
 				(length 5.08)
 				(name "SHPHLD"
 					(effects
@@ -4698,7 +4699,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 -25.4 0)
+				(at -24.13 -25.4 0)
 				(length 5.08)
 				(name "VSET2"
 					(effects
@@ -4716,7 +4717,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 -22.86 0)
+				(at -24.13 -22.86 0)
 				(length 5.08)
 				(name "VSET1"
 					(effects
@@ -4734,7 +4735,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 10.16 0)
+				(at -24.13 10.16 0)
 				(length 5.08)
 				(name "NTC"
 					(effects
@@ -4752,7 +4753,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 12.7 0)
+				(at -24.13 12.7 0)
 				(length 5.08)
 				(name "VBAT"
 					(effects
@@ -4770,7 +4771,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 35.56 180)
+				(at 24.13 35.56 180)
 				(length 5.08)
 				(name "VSYS"
 					(effects
@@ -4788,7 +4789,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 38.1 0)
+				(at -24.13 38.1 0)
 				(length 5.08)
 				(name "VBUS"
 					(effects
@@ -4806,7 +4807,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 38.1 180)
+				(at 24.13 38.1 180)
 				(length 5.08)
 				(name "VBUSOUT"
 					(effects
@@ -4824,7 +4825,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 35.56 0)
+				(at -24.13 35.56 0)
 				(length 5.08)
 				(name "CC1"
 					(effects
@@ -4842,7 +4843,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 33.02 0)
+				(at -24.13 33.02 0)
 				(length 5.08)
 				(name "CC2"
 					(effects
@@ -4860,7 +4861,7 @@
 				)
 			)
 			(pin open_collector line
-				(at -25.4 -12.7 0)
+				(at -24.13 -12.7 0)
 				(length 5.08)
 				(name "LED0"
 					(effects
@@ -4878,7 +4879,7 @@
 				)
 			)
 			(pin open_collector line
-				(at -25.4 -15.24 0)
+				(at -24.13 -15.24 0)
 				(length 5.08)
 				(name "LED1"
 					(effects
@@ -4896,7 +4897,7 @@
 				)
 			)
 			(pin open_collector line
-				(at -25.4 -17.78 0)
+				(at -24.13 -17.78 0)
 				(length 5.08)
 				(name "LED2"
 					(effects
@@ -4914,7 +4915,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 0 180)
+				(at 24.13 0 180)
 				(length 5.08)
 				(name "VOUT2"
 					(effects
@@ -4932,7 +4933,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -38.1 180)
+				(at 24.13 -38.1 180)
 				(length 5.08)
 				(name "AVSS"
 					(effects
@@ -4952,7 +4953,7 @@
 		)
 		(symbol "nPM1300-QEXX_1_0"
 			(pin power_in line
-				(at 25.4 10.16 180)
+				(at 24.13 10.16 180)
 				(length 5.08)
 				(name "PVSS1"
 					(effects
@@ -4970,7 +4971,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -10.16 180)
+				(at 24.13 -10.16 180)
 				(length 5.08)
 				(name "PVSS2"
 					(effects
@@ -4988,7 +4989,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -22.86 180)
+				(at 24.13 -22.86 180)
 				(length 5.08)
 				(name "LSIN1/VINLDO1"
 					(effects
@@ -5006,7 +5007,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 -25.4 180)
+				(at 24.13 -25.4 180)
 				(length 5.08)
 				(name "LSOUT1/VOUTLDO1"
 					(effects
@@ -5024,7 +5025,7 @@
 				)
 			)
 			(pin power_in line
-				(at 25.4 -30.48 180)
+				(at 24.13 -30.48 180)
 				(length 5.08)
 				(name "LSIN2/VINLDO2"
 					(effects
@@ -5042,7 +5043,7 @@
 				)
 			)
 			(pin power_out line
-				(at 25.4 -33.02 180)
+				(at 24.13 -33.02 180)
 				(length 5.08)
 				(name "LSOUT2/VOUTLDO2"
 					(effects
@@ -5062,8 +5063,8 @@
 		)
 		(symbol "nPM1300-QEXX_1_1"
 			(rectangle
-				(start -20.32 40.64)
-				(end 20.32 -40.64)
+				(start -19.05 40.64)
+				(end 19.05 -40.64)
 				(stroke
 					(width 0)
 					(type default)
@@ -5158,8 +5159,8 @@
 		)
 		(symbol "nRF54LM20A-QGAA_0_1"
 			(rectangle
-				(start -20.32 45.72)
-				(end 20.32 -43.18)
+				(start -19.05 45.72)
+				(end 19.05 -43.18)
 				(stroke
 					(width 0)
 					(type default)
@@ -5171,7 +5172,7 @@
 		)
 		(symbol "nRF54LM20A-QGAA_1_1"
 			(pin bidirectional line
-				(at 25.4 -30.48 180)
+				(at 24.13 -30.48 180)
 				(length 5.08)
 				(name "P2.01"
 					(effects
@@ -5189,7 +5190,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -33.02 180)
+				(at 24.13 -33.02 180)
 				(length 5.08)
 				(name "P2.02"
 					(effects
@@ -5207,7 +5208,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -35.56 180)
+				(at 24.13 -35.56 180)
 				(length 5.08)
 				(name "P2.03"
 					(effects
@@ -5225,7 +5226,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -38.1 180)
+				(at 24.13 -38.1 180)
 				(length 5.08)
 				(name "P2.04"
 					(effects
@@ -5243,7 +5244,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -40.64 180)
+				(at 24.13 -40.64 180)
 				(length 5.08)
 				(name "P2.05"
 					(effects
@@ -5261,7 +5262,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 43.18 0)
+				(at -24.13 43.18 0)
 				(length 5.08)
 				(name "VDD"
 					(effects
@@ -5279,7 +5280,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -17.78 180)
+				(at 24.13 -17.78 180)
 				(length 5.08)
 				(name "P1.29/AIN3"
 					(effects
@@ -5297,7 +5298,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -20.32 180)
+				(at 24.13 -20.32 180)
 				(length 5.08)
 				(name "P1.30/AIN2"
 					(effects
@@ -5315,7 +5316,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -22.86 180)
+				(at 24.13 -22.86 180)
 				(length 5.08)
 				(name "P1.31/AIN1"
 					(effects
@@ -5333,7 +5334,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 25.4 180)
+				(at 24.13 25.4 180)
 				(length 5.08)
 				(name "P1.00/AIN0"
 					(effects
@@ -5351,7 +5352,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 22.86 180)
+				(at 24.13 22.86 180)
 				(length 5.08)
 				(name "P1.01/NFC1"
 					(effects
@@ -5369,7 +5370,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 20.32 180)
+				(at 24.13 20.32 180)
 				(length 5.08)
 				(name "P1.02/NFC2"
 					(effects
@@ -5387,7 +5388,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 17.78 180)
+				(at 24.13 17.78 180)
 				(length 5.08)
 				(name "P1.03/AIN7"
 					(effects
@@ -5405,7 +5406,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 15.24 180)
+				(at 24.13 15.24 180)
 				(length 5.08)
 				(name "P1.04/AIN6"
 					(effects
@@ -5423,7 +5424,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 12.7 180)
+				(at 24.13 12.7 180)
 				(length 5.08)
 				(name "P1.05/AIN5"
 					(effects
@@ -5441,7 +5442,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 10.16 180)
+				(at 24.13 10.16 180)
 				(length 5.08)
 				(name "P1.06/AIN4"
 					(effects
@@ -5459,7 +5460,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 20.32 0)
+				(at -24.13 10.16 0)
 				(length 5.08)
 				(name "VBUS"
 					(effects
@@ -5477,7 +5478,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 17.78 0)
+				(at -24.13 7.62 0)
 				(length 5.08)
 				(name "DECUSB"
 					(effects
@@ -5495,7 +5496,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 15.24 0)
+				(at -24.13 15.24 0)
 				(length 5.08)
 				(name "D+"
 					(effects
@@ -5513,7 +5514,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 12.7 0)
+				(at -24.13 12.7 0)
 				(length 5.08)
 				(name "D-"
 					(effects
@@ -5531,7 +5532,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 10.16 0)
+				(at -24.13 5.08 0)
 				(length 5.08)
 				(name "TXRTUNE"
 					(effects
@@ -5549,7 +5550,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 7.62 180)
+				(at 24.13 7.62 180)
 				(length 5.08)
 				(name "P1.07/EXTREF"
 					(effects
@@ -5567,7 +5568,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 5.08 180)
+				(at 24.13 5.08 180)
 				(length 5.08)
 				(name "P1.08"
 					(effects
@@ -5585,7 +5586,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 2.54 180)
+				(at 24.13 2.54 180)
 				(length 5.08)
 				(name "P1.09"
 					(effects
@@ -5603,7 +5604,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 43.18 180)
+				(at 24.13 43.18 180)
 				(length 5.08)
 				(name "P0.03"
 					(effects
@@ -5621,7 +5622,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 40.64 180)
+				(at 24.13 40.64 180)
 				(length 5.08)
 				(name "P0.04"
 					(effects
@@ -5639,7 +5640,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 38.1 180)
+				(at 24.13 38.1 180)
 				(length 5.08)
 				(name "P0.06"
 					(effects
@@ -5657,7 +5658,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 35.56 180)
+				(at 24.13 35.56 180)
 				(length 5.08)
 				(name "P0.07"
 					(effects
@@ -5675,7 +5676,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 33.02 180)
+				(at 24.13 33.02 180)
 				(length 5.08)
 				(name "P0.08"
 					(effects
@@ -5693,7 +5694,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 30.48 180)
+				(at 24.13 30.48 180)
 				(length 5.08)
 				(name "P0.09"
 					(effects
@@ -5711,7 +5712,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -12.7 0)
+				(at -24.13 -30.48 0)
 				(length 5.08)
 				(name "SWDCLK"
 					(effects
@@ -5729,7 +5730,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -25.4 -10.16 0)
+				(at -24.13 -33.02 0)
 				(length 5.08)
 				(name "SWDIO"
 					(effects
@@ -5747,7 +5748,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 -7.62 0)
+				(at -24.13 -27.94 0)
 				(length 5.08)
 				(name "~{RESET}"
 					(effects
@@ -5765,7 +5766,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 -2.54 0)
+				(at -24.13 -17.78 0)
 				(length 5.08)
 				(name "ANT"
 					(effects
@@ -5783,7 +5784,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -35.56 0)
+				(at -24.13 -35.56 0)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -5801,7 +5802,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 25.4 0)
+				(at -24.13 25.4 0)
 				(length 5.08)
 				(name "DECRF"
 					(effects
@@ -5819,7 +5820,7 @@
 				)
 			)
 			(pin input line
-				(at -25.4 5.08 0)
+				(at -24.13 0 0)
 				(length 5.08)
 				(name "XC1"
 					(effects
@@ -5837,7 +5838,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 2.54 0)
+				(at -24.13 -12.7 0)
 				(length 5.08)
 				(name "XC2"
 					(effects
@@ -5855,7 +5856,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 0 180)
+				(at 24.13 0 180)
 				(length 5.08)
 				(name "P1.15"
 					(effects
@@ -5873,7 +5874,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -2.54 180)
+				(at 24.13 -2.54 180)
 				(length 5.08)
 				(name "P1.16"
 					(effects
@@ -5891,7 +5892,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -5.08 180)
+				(at 24.13 -5.08 180)
 				(length 5.08)
 				(name "P1.18"
 					(effects
@@ -5909,7 +5910,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 40.64 0)
+				(at -24.13 40.64 0)
 				(length 5.08)
 				(name "VDD"
 					(effects
@@ -5927,7 +5928,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 33.02 0)
+				(at -24.13 35.56 0)
 				(length 5.08)
 				(name "DCC"
 					(effects
@@ -5945,7 +5946,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 30.48 0)
+				(at -24.13 33.02 0)
 				(length 5.08)
 				(name "DECD"
 					(effects
@@ -5963,7 +5964,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -38.1 0)
+				(at -24.13 -38.1 0)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -5981,7 +5982,7 @@
 				)
 			)
 			(pin passive line
-				(at -25.4 27.94 0)
+				(at -24.13 27.94 0)
 				(length 5.08)
 				(name "DECA"
 					(effects
@@ -5999,7 +6000,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -7.62 180)
+				(at 24.13 -7.62 180)
 				(length 5.08)
 				(name "P1.19"
 					(effects
@@ -6017,7 +6018,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -10.16 180)
+				(at 24.13 -10.16 180)
 				(length 5.08)
 				(name "P1.20/XL1"
 					(effects
@@ -6035,7 +6036,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -12.7 180)
+				(at 24.13 -12.7 180)
 				(length 5.08)
 				(name "P1.21/XL2"
 					(effects
@@ -6053,7 +6054,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -15.24 180)
+				(at 24.13 -15.24 180)
 				(length 5.08)
 				(name "P1.24"
 					(effects
@@ -6071,7 +6072,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 38.1 0)
+				(at -24.13 38.1 0)
 				(length 5.08)
 				(name "VDD"
 					(effects
@@ -6089,7 +6090,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -27.94 180)
+				(at 24.13 -27.94 180)
 				(length 5.08)
 				(name "P2.00"
 					(effects
@@ -6107,7 +6108,7 @@
 				)
 			)
 			(pin power_in line
-				(at -25.4 -40.64 0)
+				(at -24.13 -40.64 0)
 				(length 5.08)
 				(name "VSS"
 					(effects

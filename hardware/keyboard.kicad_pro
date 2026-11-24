@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -430,7 +430,7 @@
         "uuid": "3fef803a-b19b-478f-bb8a-b02ab99d827c"
       }
     ],
-    "used_designators": "#PWR6,#PWR9",
+    "used_designators": "#PWR6,#PWR9,#PWR14,#PWR32-36,#PWR46,#PWR64-66,#PWR72,#PWR93-107,C20-21,C33-36,L8",
     "variants": []
   },
   "sheets": [
