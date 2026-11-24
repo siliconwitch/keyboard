@@ -5,3 +5,5 @@ Read [README.md](README.md) for the project introduction.
 [docs/design.md](docs/design.md) holds design decisions not yet recorded in firmware code or hardware design files. When code or a hardware file records a decision, remove it from `design.md`. When the design is complete, `design.md` is empty.
 
 Images go in `docs`.
+
+Before searching online for a datasheet or reference material, look in `docs/datasheets/`. It holds local copies and is not tracked by git.
