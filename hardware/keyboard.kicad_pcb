@@ -10,18 +10,12 @@
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
-		(9 "F.Adhes" user "F.Adhesive")
-		(11 "B.Adhes" user "B.Adhesive")
 		(13 "F.Paste" user)
-		(15 "B.Paste" user)
 		(5 "F.SilkS" user "F.Silkscreen")
 		(7 "B.SilkS" user "B.Silkscreen")
 		(1 "F.Mask" user)
 		(3 "B.Mask" user)
 		(17 "Dwgs.User" user "User.Drawings")
-		(19 "Cmts.User" user "User.Comments")
-		(21 "Eco1.User" user "User.Eco1")
-		(23 "Eco2.User" user "User.Eco2")
 		(25 "Edge.Cuts" user)
 		(27 "Margin" user)
 		(31 "F.CrtYd" user "F.Courtyard")
@@ -30,6 +24,51 @@
 		(33 "B.Fab" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+				(color "White")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(color "Black")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(color "FR4 natural")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(color "Black")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+				(color "White")
+			)
+			(copper_finish "ENIG")
+			(dielectric_constraints no)
+			(edge_plating yes)
+		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
 		(tenting
@@ -46,6 +85,7 @@
 		)
 		(capping no)
 		(filling no)
+		(zone_defaults)
 		(pcbplotparams
 			(layerselection 0x00000000_00000000_55555555_5755f5ff)
 			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
@@ -82,90 +122,6 @@
 			(scaleselection 1)
 			(outputdirectory "")
 		)
-	)
-	(gr_arc
-		(start 30 56)
-		(mid 31.7574 51.7574)
-		(end 36 50)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "093cf0fe-38b6-4a13-96ef-d581457ea81a")
-	)
-	(gr_line
-		(start 30 139)
-		(end 30 56)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "7351a8f4-5900-4a50-a02d-64dfe6378459")
-	)
-	(gr_line
-		(start 36 50)
-		(end 375 50)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "be20f302-372d-4b1e-8d49-15b12d444206")
-	)
-	(gr_arc
-		(start 36 145)
-		(mid 31.7574 143.2426)
-		(end 30 139)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "516e185d-4a3a-40c1-a99c-ed2a4d4a1509")
-	)
-	(gr_arc
-		(start 375 50)
-		(mid 379.2426 51.7574)
-		(end 381 56)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "bdd07645-0e40-4454-bb82-02bddc994344")
-	)
-	(gr_line
-		(start 375 145)
-		(end 36 145)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "b68853d1-c7f9-4ef7-80e3-9a42d32e366a")
-	)
-	(gr_line
-		(start 381 56)
-		(end 381 139)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "def4c1d4-6669-4848-923f-effdee8dea04")
-	)
-	(gr_arc
-		(start 381 139)
-		(mid 379.2426 143.2426)
-		(end 375 145)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "7106efd8-3226-46e2-ac01-167f4a1d9fbb")
 	)
 	(embedded_fonts no)
 )
