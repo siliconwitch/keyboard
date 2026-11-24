@@ -5,12 +5,263 @@
 	(uuid "3fef803a-b19b-478f-bb8a-b02ab99d827c")
 	(paper "User" 406.4 322.58)
 	(title_block
-		(title "Happy Witching Keyboard")
+		(title "Happy Witching Keyboard (HWKB)")
 		(date "2026-11-24")
 		(rev "1")
-		(company "by siliconwitch")
+		(company "https://github.com/siliconwitch/keyboard")
+		(comment 1 "By Raj Nakarja (siliconwitch)")
 	)
 	(lib_symbols
+		(symbol "symbols:1.8V"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1.8V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1.8V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1.8V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "1.8V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "symbols:3.0V"
+			(power global)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "3.0V"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "3.0V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "3.0V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "3.0V"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "symbols:C"
 			(pin_numbers
 				(hide yes)
@@ -1328,7 +1579,7 @@
 						)
 					)
 				)
-				(pin open_collector line
+				(pin output line
 					(at 11.43 3.81 180)
 					(length 5.08)
 					(name "~{RESET}"
@@ -3891,256 +4142,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "symbols:V_{OUT1}"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "V_{OUT1}"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "V_{OUT1}_0_1"
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "V_{OUT1}_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "V_{OUT1}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "symbols:V_{OUT2}"
-			(power global)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "V_{OUT2}"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "V_{OUT2}_0_1"
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "V_{OUT2}_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(hide yes)
-					(name "V_{OUT2}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "symbols:V_{SYS}"
 			(power global)
 			(pin_names
@@ -6186,6 +6187,18 @@
 		)
 		(uuid "86a333e9-2c15-41c9-87af-a3f8d51ff1c4")
 	)
+	(text "Holes"
+		(exclude_from_sim no)
+		(at 288.29 275.59 0)
+		(effects
+			(font
+				(size 2.54 2.54)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "86abc112-d625-4805-8ee4-a31a98ba0cb8")
+	)
 	(text "Touchpad"
 		(exclude_from_sim no)
 		(at 227.33 307.34 0)
@@ -6221,6 +6234,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06589da3-6066-4eb5-8ad7-c5f3056c4f7a")
+	)
+	(junction
+		(at 151.13 101.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09fda843-7ed6-436b-ab10-fb8a3aa8d8e2")
 	)
 	(junction
 		(at 87.63 177.8)
@@ -6295,7 +6314,7 @@
 		(uuid "21e859ed-2c06-4eef-aa6f-6e1c55ce8ad8")
 	)
 	(junction
-		(at 152.4 50.8)
+		(at 151.13 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22db9b62-81fb-42f1-af90-7a9f8be77ea7")
@@ -6307,7 +6326,7 @@
 		(uuid "23c6c800-09f8-4389-9fbb-88831fac960b")
 	)
 	(junction
-		(at 101.6 58.42)
+		(at 66.04 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25a2b679-26d1-4d73-b0d2-dbdaedcc97af")
@@ -6319,13 +6338,7 @@
 		(uuid "263d858e-b0c4-497e-b1df-d6c4634cb693")
 	)
 	(junction
-		(at 276.86 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2796ba71-890c-439b-a136-95c586cfde67")
-	)
-	(junction
-		(at 234.95 62.23)
+		(at 226.06 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29f361f1-ba9d-4561-b70f-e749aeab7e96")
@@ -6335,6 +6348,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a2eaf0d-97ae-4f5a-95e6-9540f606ea74")
+	)
+	(junction
+		(at 151.13 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2af4bd0e-dd5d-49d9-858a-3c2e5d719f3b")
 	)
 	(junction
 		(at 46.99 238.76)
@@ -6349,19 +6368,13 @@
 		(uuid "2fedba96-dd7d-4423-9e1f-bcf009921e54")
 	)
 	(junction
-		(at 151.13 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "301b5cbf-239f-44ac-8347-8ce3608270a9")
-	)
-	(junction
 		(at 67.31 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30ed3a5f-d58a-496a-9761-3104435f2c37")
 	)
 	(junction
-		(at 276.86 46.99)
+		(at 287.02 46.99)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "314c2c81-2522-476c-9a20-36cd484d60a7")
@@ -6487,6 +6500,12 @@
 		(uuid "531c4441-ff56-4633-b178-fc59b838cd2d")
 	)
 	(junction
+		(at 151.13 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "560a0c3b-8385-4e23-980e-1d3b96e78df2")
+	)
+	(junction
 		(at 101.6 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6505,12 +6524,6 @@
 		(uuid "596ee4b2-f438-4fd6-944f-193b3456a843")
 	)
 	(junction
-		(at 161.29 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b5c6373-4e2a-4fc2-96f8-50d3373d8ddb")
-	)
-	(junction
 		(at 107.95 157.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6521,12 +6534,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6547c0b6-a86d-4f90-bbf5-c53cf3be9fea")
-	)
-	(junction
-		(at 266.7 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66568045-d150-4a82-b0a0-a840ef6e4691")
 	)
 	(junction
 		(at 200.66 90.17)
@@ -6619,7 +6626,7 @@
 		(uuid "715a52d8-a630-4b03-82e8-21cc449b47b0")
 	)
 	(junction
-		(at 83.82 60.96)
+		(at 66.04 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76d25431-aea5-4d2f-af25-6b9a18e957d6")
@@ -6739,6 +6746,12 @@
 		(uuid "9b1783c8-3ace-4602-8e92-0ab9bf661fdc")
 	)
 	(junction
+		(at 256.54 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e58c0a8-ec9e-4e3e-94fa-5877435048c0")
+	)
+	(junction
 		(at 77.47 208.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6823,6 +6836,12 @@
 		(uuid "b73015fd-682d-4ec7-b33e-3fde28225ec6")
 	)
 	(junction
+		(at 151.13 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b860ea9d-45b5-4d15-aac3-3b0ba06db1fc")
+	)
+	(junction
 		(at 210.82 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6883,22 +6902,10 @@
 		(uuid "c42b42d1-a2bc-48ca-b117-22c6e3edaef4")
 	)
 	(junction
-		(at 256.54 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c73321b3-5c87-4c0b-82ad-21b7579886bc")
-	)
-	(junction
 		(at 148.59 218.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c82e1d77-5914-40e8-b5dd-c5c5ce30b10f")
-	)
-	(junction
-		(at 161.29 76.2)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8ea27d6-d508-4988-8a5d-60e59995021f")
 	)
 	(junction
 		(at 118.11 248.92)
@@ -6929,12 +6936,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0573e6b-9419-4665-95c5-d4798304c580")
-	)
-	(junction
-		(at 151.13 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d21fba57-2a2c-49c2-a49b-1cfb178616b9")
 	)
 	(junction
 		(at 168.91 279.4)
@@ -6991,7 +6992,7 @@
 		(uuid "dd26c196-8d73-4268-9fa9-2624237e7dce")
 	)
 	(junction
-		(at 158.75 35.56)
+		(at 165.1 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dffa0260-e8f1-47fc-bc5f-c97db437dd4f")
@@ -7007,6 +7008,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1857bbb-b808-47fb-8653-daaaedeac9c2")
+	)
+	(junction
+		(at 256.54 46.99)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1d57947-25f0-4748-aa03-4d11f5157b78")
 	)
 	(junction
 		(at 87.63 279.4)
@@ -7043,6 +7050,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e981c944-1f99-4f46-acd6-57dba2022f17")
+	)
+	(junction
+		(at 271.78 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea6f3e47-8337-4092-a038-f94ed2e46b4d")
 	)
 	(junction
 		(at 97.79 147.32)
@@ -7093,18 +7106,6 @@
 		(uuid "fda6547b-e8cd-409f-9547-48d7df86537c")
 	)
 	(no_connect
-		(at 151.13 104.14)
-		(uuid "0d02e5da-765b-4fbc-99cf-94d2e03db060")
-	)
-	(no_connect
-		(at 151.13 93.98)
-		(uuid "20384bee-d58f-4a84-8219-4b5bffc14e99")
-	)
-	(no_connect
-		(at 151.13 96.52)
-		(uuid "255c6e2e-6f62-41de-8d6d-ce2f4acca539")
-	)
-	(no_connect
 		(at 102.87 73.66)
 		(uuid "4741b6fc-0112-476e-93dc-e72729755411")
 	)
@@ -7127,10 +7128,6 @@
 	(no_connect
 		(at 102.87 76.2)
 		(uuid "98ad6ae5-9a97-4c7b-925f-f8d9ad9ea93f")
-	)
-	(no_connect
-		(at 151.13 101.6)
-		(uuid "a5c77ade-557f-4e6a-b714-00671cdc30aa")
 	)
 	(no_connect
 		(at 102.87 101.6)
@@ -7160,7 +7157,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 85.09) (xy 287.02 85.09)
+			(xy 264.16 85.09) (xy 287.02 85.09)
 		)
 		(stroke
 			(width 0)
@@ -7220,6 +7217,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 50.8) (xy 165.1 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08717587-1320-4843-bb52-eda85691020e")
+	)
+	(wire
+		(pts
 			(xy 91.44 93.98) (xy 88.9 93.98)
 		)
 		(stroke
@@ -7240,7 +7247,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 62.23) (xy 234.95 67.31)
+			(xy 226.06 62.23) (xy 226.06 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7250,7 +7257,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 60.96) (xy 102.87 60.96)
+			(xy 66.04 60.96) (xy 102.87 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7290,7 +7297,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 109.22) (xy 152.4 111.76)
+			(xy 151.13 109.22) (xy 151.13 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7318,6 +7325,16 @@
 		)
 		(uuid "155e9f84-e3d9-4a2d-b5db-e6285b8c18f5")
 	)
+	(wire
+		(pts
+			(xy 246.38 36.83) (xy 246.38 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17a8ff89-160f-409d-a37f-a8e4638bfe42")
+	)
 	(polyline
 		(pts
 			(xy 182.88 12.7) (xy 182.88 127)
@@ -7340,7 +7357,17 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 63.5) (xy 152.4 60.96)
+			(xy 256.54 36.83) (xy 276.86 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b921807-2ba8-4fc0-ad85-de09da9b4693")
+	)
+	(wire
+		(pts
+			(xy 151.13 63.5) (xy 151.13 60.96)
 		)
 		(stroke
 			(width 0)
@@ -7350,7 +7377,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 39.37) (xy 287.02 39.37)
+			(xy 271.78 39.37) (xy 287.02 39.37)
 		)
 		(stroke
 			(width 0)
@@ -7380,7 +7407,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 38.1) (xy 158.75 35.56)
+			(xy 165.1 38.1) (xy 165.1 35.56)
 		)
 		(stroke
 			(width 0)
@@ -7420,16 +7447,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 76.2) (xy 165.1 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "279461d7-16de-417c-90dd-bce6139119a6")
-	)
-	(wire
-		(pts
 			(xy 168.91 157.48) (xy 189.23 157.48)
 		)
 		(stroke
@@ -7450,7 +7467,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 64.77) (xy 287.02 64.77)
+			(xy 236.22 64.77) (xy 287.02 64.77)
 		)
 		(stroke
 			(width 0)
@@ -7610,6 +7627,16 @@
 	)
 	(wire
 		(pts
+			(xy 151.13 93.98) (xy 151.13 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36730df5-5b3e-44c9-8dd8-b929e85c10e8")
+	)
+	(wire
+		(pts
 			(xy 358.14 245.11) (xy 358.14 243.84)
 		)
 		(stroke
@@ -7617,6 +7644,16 @@
 			(type default)
 		)
 		(uuid "372ed67a-3e22-4897-9198-0aa335f78204")
+	)
+	(wire
+		(pts
+			(xy 151.13 96.52) (xy 151.13 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37a12057-acaf-47f3-8e7a-0665abfe1e6a")
 	)
 	(wire
 		(pts
@@ -7630,13 +7667,13 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 109.22) (xy 151.13 109.22)
+			(xy 151.13 104.14) (xy 151.13 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a5e8e15-78d5-40e7-91db-8d0ad5ce7a32")
+		(uuid "383ce4b8-094d-4b48-a163-bf0f0b7272cc")
 	)
 	(wire
 		(pts
@@ -7657,6 +7694,16 @@
 			(type default)
 		)
 		(uuid "3df49561-9bef-4114-871f-c9aeb4618b4e")
+	)
+	(polyline
+		(pts
+			(xy 285.75 262.89) (xy 285.75 278.13)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "3e07ac13-0ce9-4f4f-b780-caf511292842")
 	)
 	(wire
 		(pts
@@ -7830,7 +7877,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 67.31) (xy 246.38 64.77)
+			(xy 236.22 67.31) (xy 236.22 64.77)
 		)
 		(stroke
 			(width 0)
@@ -7860,16 +7907,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 55.88) (xy 165.1 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5978a2dc-5a48-4833-b640-bf2440dd2e11")
-	)
-	(wire
-		(pts
 			(xy 148.59 177.8) (xy 168.91 177.8)
 		)
 		(stroke
@@ -7890,7 +7927,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 67.31) (xy 287.02 67.31)
+			(xy 246.38 67.31) (xy 287.02 67.31)
 		)
 		(stroke
 			(width 0)
@@ -7907,6 +7944,16 @@
 			(type default)
 		)
 		(uuid "5e52b128-1834-405a-a598-ffa21eb34978")
+	)
+	(wire
+		(pts
+			(xy 161.29 76.2) (xy 165.1 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e7bfd28-7916-4bab-b765-bf25d572abb7")
 	)
 	(wire
 		(pts
@@ -7930,7 +7977,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 72.39) (xy 287.02 72.39)
+			(xy 264.16 72.39) (xy 287.02 72.39)
 		)
 		(stroke
 			(width 0)
@@ -7970,7 +8017,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 30.48) (xy 152.4 33.02)
+			(xy 151.13 27.94) (xy 151.13 33.02)
 		)
 		(stroke
 			(width 0)
@@ -8120,17 +8167,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 55.88) (xy 152.4 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8148f338-22ca-4093-bcd7-90413519ad9e")
-	)
-	(wire
-		(pts
-			(xy 158.75 38.1) (xy 151.13 38.1)
+			(xy 165.1 38.1) (xy 151.13 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8180,7 +8217,7 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 62.23) (xy 287.02 62.23)
+			(xy 226.06 62.23) (xy 287.02 62.23)
 		)
 		(stroke
 			(width 0)
@@ -8190,7 +8227,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 53.34) (xy 101.6 58.42)
+			(xy 66.04 53.34) (xy 66.04 58.42)
 		)
 		(stroke
 			(width 0)
@@ -8237,16 +8274,6 @@
 			(type default)
 		)
 		(uuid "8f46474f-f9e1-4e87-afe2-078076cbe424")
-	)
-	(wire
-		(pts
-			(xy 256.54 36.83) (xy 276.86 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9107c880-ef00-40c6-9653-73c53f715f39")
 	)
 	(wire
 		(pts
@@ -8310,13 +8337,23 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 55.88) (xy 161.29 55.88)
+			(xy 66.04 58.42) (xy 102.87 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a112b45b-4232-4335-ad68-69cb02228269")
+		(uuid "a0e9265e-e097-471c-aa72-85c99f7f425f")
+	)
+	(wire
+		(pts
+			(xy 151.13 101.6) (xy 151.13 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a17e2aaa-26a0-476a-bae7-77878f11966c")
 	)
 	(wire
 		(pts
@@ -8340,16 +8377,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 60.96) (xy 151.13 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5816e4f-d35c-4e89-8b98-03f32c94af75")
-	)
-	(wire
-		(pts
 			(xy 26.67 259.08) (xy 46.99 259.08)
 		)
 		(stroke
@@ -8360,7 +8387,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 39.37) (xy 276.86 36.83)
+			(xy 271.78 39.37) (xy 271.78 36.83)
 		)
 		(stroke
 			(width 0)
@@ -8390,7 +8417,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 60.96) (xy 83.82 66.04)
+			(xy 66.04 60.96) (xy 66.04 66.04)
 		)
 		(stroke
 			(width 0)
@@ -8407,16 +8434,6 @@
 			(type default)
 		)
 		(uuid "b130d454-f6f3-4f93-9e4c-0a9aea08e8c7")
-	)
-	(wire
-		(pts
-			(xy 152.4 33.02) (xy 151.13 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b17b5660-da89-4224-a768-63e95e5c6f07")
 	)
 	(wire
 		(pts
@@ -8440,7 +8457,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 30.48) (xy 158.75 35.56)
+			(xy 165.1 27.94) (xy 165.1 35.56)
 		)
 		(stroke
 			(width 0)
@@ -8480,23 +8497,23 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 81.28) (xy 151.13 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be3e5031-4d95-4fd5-87e1-ce693ef79534")
-	)
-	(wire
-		(pts
-			(xy 276.86 72.39) (xy 276.86 73.66)
+			(xy 264.16 72.39) (xy 264.16 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "bebb87ac-a52b-41ef-96ad-853d401240e2")
+	)
+	(wire
+		(pts
+			(xy 161.29 55.88) (xy 165.1 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "becd148b-c4be-4b20-a493-0615c1f25df8")
 	)
 	(wire
 		(pts
@@ -8520,7 +8537,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 46.99) (xy 276.86 46.99)
+			(xy 266.7 46.99) (xy 287.02 46.99)
 		)
 		(stroke
 			(width 0)
@@ -8570,26 +8587,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 76.2) (xy 152.4 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5828f94-eb2a-4236-b404-51859d5f9eb9")
-	)
-	(wire
-		(pts
-			(xy 152.4 40.64) (xy 151.13 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7256288-f3cf-44ef-9b2d-4e4caa215eab")
-	)
-	(wire
-		(pts
 			(xy 276.86 102.87) (xy 287.02 102.87)
 		)
 		(stroke
@@ -8620,7 +8617,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 36.83) (xy 256.54 36.83)
+			(xy 256.54 46.99) (xy 266.7 46.99)
 		)
 		(stroke
 			(width 0)
@@ -8760,17 +8757,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 46.99) (xy 287.02 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8fe53fe-6f8d-4ef7-86ce-7796f16ebf36")
-	)
-	(wire
-		(pts
-			(xy 152.4 83.82) (xy 152.4 81.28)
+			(xy 151.13 83.82) (xy 151.13 81.28)
 		)
 		(stroke
 			(width 0)
@@ -8800,7 +8787,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 40.64) (xy 152.4 50.8)
+			(xy 151.13 40.64) (xy 151.13 50.8)
 		)
 		(stroke
 			(width 0)
@@ -8830,7 +8817,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 35.56) (xy 151.13 35.56)
+			(xy 151.13 35.56) (xy 165.1 35.56)
 		)
 		(stroke
 			(width 0)
@@ -8870,7 +8857,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 44.45) (xy 276.86 46.99)
+			(xy 287.02 44.45) (xy 287.02 46.99)
 		)
 		(stroke
 			(width 0)
@@ -8930,16 +8917,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 76.2) (xy 161.29 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eaf18e76-9f12-40a3-8c85-c67cf7b89828")
-	)
-	(wire
-		(pts
 			(xy 189.23 177.8) (xy 209.55 177.8)
 		)
 		(stroke
@@ -8970,7 +8947,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 83.82) (xy 276.86 85.09)
+			(xy 264.16 83.82) (xy 264.16 85.09)
 		)
 		(stroke
 			(width 0)
@@ -8980,7 +8957,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 78.74) (xy 266.7 82.55)
+			(xy 254 78.74) (xy 254 82.55)
 		)
 		(stroke
 			(width 0)
@@ -9020,17 +8997,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 58.42) (xy 102.87 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f482f17f-2594-4802-b3e0-13fafe29cf43")
-	)
-	(wire
-		(pts
-			(xy 271.78 78.74) (xy 266.7 78.74)
+			(xy 259.08 78.74) (xy 254 78.74)
 		)
 		(stroke
 			(width 0)
@@ -9077,26 +9044,6 @@
 			(type default)
 		)
 		(uuid "f8f77033-94b2-46a3-ac84-9a3a13add4f9")
-	)
-	(wire
-		(pts
-			(xy 151.13 50.8) (xy 165.1 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fad0b53c-7af2-4dec-b87c-d406253deaa2")
-	)
-	(wire
-		(pts
-			(xy 287.02 44.45) (xy 276.86 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fbf52b97-aa1f-4d2e-81e5-9d639ea017a9")
 	)
 	(label "COL1"
 		(at 335.28 102.87 0)
@@ -9881,7 +9828,7 @@
 		(fields_autoplaced yes)
 		(uuid "014149ae-5fc3-4d73-a08b-3ea681ed5cd9")
 		(property "Reference" "SW50"
-			(at 184.15 264.16 0)
+			(at 184.15 261.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9957,8 +9904,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 184.15 269.24 0)
+		(property "Key" "M"
+			(at 184.15 264.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9984,7 +9931,7 @@
 	)
 	(symbol
 		(lib_id "symbols:C")
-		(at 246.38 41.91 0)
+		(at 256.54 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9995,7 +9942,7 @@
 		(fields_autoplaced yes)
 		(uuid "0172334c-e558-4a79-837f-b926c13626d4")
 		(property "Reference" "C7"
-			(at 250.19 40.6399 0)
+			(at 260.35 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10006,7 +9953,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 250.19 43.1799 0)
+			(at 260.35 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10016,8 +9963,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 246.38 41.91 0)
+		(property "Footprint" "footprints:0402"
+			(at 256.54 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10028,7 +9975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 41.91 0)
+			(at 256.54 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10039,7 +9986,7 @@
 			)
 		)
 		(property "Description" "Chip capacitor"
-			(at 246.38 41.91 0)
+			(at 256.54 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10049,8 +9996,8 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
-			(at 246.38 41.91 0)
+		(property "Ideal part number" "GRM155R61A225KE01D"
+			(at 256.54 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10060,8 +10007,8 @@
 				)
 			)
 		)
-		(property "Order link" ""
-			(at 246.38 41.91 0)
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61A225KE01D/10695166"
+			(at 256.54 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10099,7 +10046,7 @@
 		(fields_autoplaced yes)
 		(uuid "0370e01d-7c39-4b33-b6e0-c0cb568d25bd")
 		(property "Reference" "SW61"
-			(at 184.15 203.2 0)
+			(at 184.15 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10175,8 +10122,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 184.15 208.28 0)
+		(property "Key" "Super R"
+			(at 184.15 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10213,7 +10160,7 @@
 		(fields_autoplaced yes)
 		(uuid "03f3a198-0cae-4677-9520-88e856bd8703")
 		(property "Reference" "SW34"
-			(at 123.19 223.52 0)
+			(at 123.19 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10289,8 +10236,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 123.19 228.6 0)
+		(property "Key" "F"
+			(at 123.19 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10327,7 +10274,7 @@
 		(fields_autoplaced yes)
 		(uuid "0452fd8b-d9dd-4f67-91a0-027c232b7042")
 		(property "Reference" "SW56"
-			(at 163.83 162.56 0)
+			(at 163.83 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10403,8 +10350,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 163.83 167.64 0)
+		(property "Key" "Alt"
+			(at 163.83 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10441,7 +10388,7 @@
 		(fields_autoplaced yes)
 		(uuid "04aa86d9-e9a4-4723-ad7a-78e5e54c1f36")
 		(property "Reference" "D40"
-			(at 71.12 253.9999 90)
+			(at 69.85 253.9999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10463,7 +10410,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 67.31 254 0)
 			(hide yes)
 			(show_name no)
@@ -10534,7 +10481,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{OUT1}")
+		(lib_id "symbols:1.8V")
 		(at 231.14 24.13 0)
 		(unit 1)
 		(body_style 1)
@@ -10543,6 +10490,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "04d39b29-2445-49fd-8633-64e355d8ce3c")
 		(property "Reference" "#PWR46"
 			(at 231.14 24.13 0)
@@ -10555,7 +10503,7 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT1}"
+		(property "Value" "1.8V"
 			(at 231.14 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10623,7 +10571,7 @@
 		(fields_autoplaced yes)
 		(uuid "0679816b-ac55-4d6a-8aa9-3cc39a0eaaaf")
 		(property "Reference" "SW62"
-			(at 204.47 203.2 0)
+			(at 204.47 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10699,8 +10647,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 204.47 208.28 0)
+		(property "Key" "Alt R"
+			(at 204.47 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10737,7 +10685,7 @@
 		(fields_autoplaced yes)
 		(uuid "068327f4-d156-4382-834f-1e0e918272c2")
 		(property "Reference" "D5"
-			(at 132.08 152.3999 90)
+			(at 130.81 152.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10759,7 +10707,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 128.27 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -10842,7 +10790,7 @@
 		(fields_autoplaced yes)
 		(uuid "069ecd88-c309-4f41-b37b-35528c7448bd")
 		(property "Reference" "D45"
-			(at 91.44 274.3199 90)
+			(at 90.17 274.3199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10864,7 +10812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 87.63 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -10936,7 +10884,7 @@
 	)
 	(symbol
 		(lib_id "symbols:V_{BATT}")
-		(at 101.6 53.34 0)
+		(at 66.04 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10944,9 +10892,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "0bafa45f-7aad-4a83-ab8f-b1b1dcd5a414")
 		(property "Reference" "#PWR7"
-			(at 101.6 53.34 0)
+			(at 66.04 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10957,17 +10906,18 @@
 			)
 		)
 		(property "Value" "V_{BATT}"
-			(at 101.6 49.53 0)
+			(at 68.58 52.7049 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 53.34 0)
+			(at 66.04 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10978,7 +10928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 53.34 0)
+			(at 66.04 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10989,7 +10939,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 101.6 53.34 0)
+			(at 66.04 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11025,7 +10975,7 @@
 		(fields_autoplaced yes)
 		(uuid "0dc8667c-f3c4-4841-beb5-60f16d7822fd")
 		(property "Reference" "R6"
-			(at 354.33 31.75 90)
+			(at 354.33 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11035,7 +10985,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 354.33 34.29 90)
+			(at 354.33 33.02 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11044,7 +10994,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0402"
 			(at 354.33 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11077,7 +11027,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "RC0402FR-074K7L"
 			(at 354.33 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11088,7 +11038,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-074K7L/2827881"
 			(at 354.33 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -11116,7 +11066,7 @@
 	)
 	(symbol
 		(lib_id "symbols:C")
-		(at 33.02 106.68 0)
+		(at 33.02 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11127,17 +11077,6 @@
 		(fields_autoplaced yes)
 		(uuid "10304196-6703-4c33-8664-ce0748527f93")
 		(property "Reference" "C17"
-			(at 36.83 105.4099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
 			(at 36.83 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11148,8 +11087,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 33.02 106.68 0)
+		(property "Value" "10u"
+			(at 36.83 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:0603"
+			(at 33.02 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11160,7 +11110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 106.68 0)
+			(at 33.02 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11171,7 +11121,7 @@
 			)
 		)
 		(property "Description" "Chip capacitor"
-			(at 33.02 106.68 0)
+			(at 33.02 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11181,8 +11131,8 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
-			(at 33.02 106.68 0)
+		(property "Ideal part number" "GRM188R61E106MA73D"
+			(at 33.02 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11192,8 +11142,8 @@
 				)
 			)
 		)
-		(property "Order link" ""
-			(at 33.02 106.68 0)
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E106MA73D/3900486"
+			(at 33.02 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11231,7 +11181,7 @@
 		(fields_autoplaced yes)
 		(uuid "10670721-3e5c-45c8-9609-a94a71713666")
 		(property "Reference" "J2"
-			(at 265.43 96.52 0)
+			(at 265.43 95.25 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11252,7 +11202,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:ECV3-06"
 			(at 265.43 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -11347,7 +11297,7 @@
 		(fields_autoplaced yes)
 		(uuid "10d3a2e2-a8a7-4cf7-8544-66e774bcc0cf")
 		(property "Reference" "D10"
-			(at 50.8 172.7199 90)
+			(at 49.53 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11369,7 +11319,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 46.99 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -11452,7 +11402,7 @@
 		(fields_autoplaced yes)
 		(uuid "10d956bf-0074-4360-b983-16309ed91b30")
 		(property "Reference" "SW57"
-			(at 184.15 162.56 0)
+			(at 184.15 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11528,8 +11478,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 184.15 167.64 0)
+		(property "Key" "Super"
+			(at 184.15 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11554,7 +11504,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{OUT1}")
+		(lib_id "symbols:1.8V")
 		(at 269.24 281.94 0)
 		(unit 1)
 		(body_style 1)
@@ -11563,6 +11513,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "115b30f7-47ab-41c5-81f1-6f6a415dd0cb")
 		(property "Reference" "#PWR61"
 			(at 269.24 281.94 0)
@@ -11575,7 +11526,7 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT1}"
+		(property "Value" "1.8V"
 			(at 269.24 278.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11654,13 +11605,14 @@
 			)
 		)
 		(property "Value" "V_{USB}"
-			(at 101.6 24.13 0)
+			(at 104.14 27.3049 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -11721,7 +11673,7 @@
 		(fields_autoplaced yes)
 		(uuid "12404910-ff64-4125-8059-06bfa38c22e7")
 		(property "Reference" "SW27"
-			(at 82.55 203.2 0)
+			(at 82.55 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11797,8 +11749,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 82.55 208.28 0)
+		(property "Key" "["
+			(at 82.55 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11835,7 +11787,7 @@
 		(fields_autoplaced yes)
 		(uuid "13833255-770c-44ca-9ab5-e87e6f3aa947")
 		(property "Reference" "SW5"
-			(at 123.19 142.24 0)
+			(at 123.19 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11911,8 +11863,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 123.19 147.32 0)
+		(property "Key" "4"
+			(at 123.19 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12028,7 +11980,7 @@
 		(fields_autoplaced yes)
 		(uuid "13d45558-4ace-419c-902c-f5648c5eede5")
 		(property "Reference" "D30"
-			(at 50.8 233.6799 90)
+			(at 49.53 233.6799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12050,7 +12002,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 46.99 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -12121,7 +12073,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{OUT1}")
+		(lib_id "symbols:1.8V")
 		(at 200.66 24.13 0)
 		(unit 1)
 		(body_style 1)
@@ -12130,6 +12082,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "141d69e8-b604-4a6a-95aa-587e8ac744ad")
 		(property "Reference" "#PWR66"
 			(at 200.66 24.13 0)
@@ -12142,7 +12095,7 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT1}"
+		(property "Value" "1.8V"
 			(at 200.66 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12198,7 +12151,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{OUT2}")
+		(lib_id "symbols:3.0V")
 		(at 339.09 176.53 0)
 		(unit 1)
 		(body_style 1)
@@ -12220,7 +12173,7 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT2}"
+		(property "Value" "3.0V"
 			(at 339.09 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12277,7 +12230,7 @@
 	)
 	(symbol
 		(lib_id "symbols:FerriteBead")
-		(at 266.7 41.91 0)
+		(at 256.54 41.91 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12288,7 +12241,7 @@
 		(fields_autoplaced yes)
 		(uuid "15a06042-46ce-4a49-bb55-0e5ac5a7941a")
 		(property "Reference" "FB1"
-			(at 269.24 40.6018 0)
+			(at 259.08 39.3318 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12299,7 +12252,7 @@
 			)
 		)
 		(property "Value" "120R"
-			(at 269.24 43.1418 0)
+			(at 259.08 41.8718 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12309,8 +12262,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 266.7 41.91 0)
+		(property "Footprint" "footprints:0402"
+			(at 256.54 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12321,7 +12274,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 41.91 0)
+			(at 256.54 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12332,7 +12285,7 @@
 			)
 		)
 		(property "Description" "Ferrite bead"
-			(at 266.7 41.91 0)
+			(at 256.54 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12342,18 +12295,19 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
-			(at 266.7 41.91 0)
+		(property "Ideal part number" "BLM15AG121SN1D"
+			(at 259.08 44.4118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Order link" ""
-			(at 266.7 41.91 0)
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/BLM15AG121SN1D/584216"
+			(at 256.54 41.91 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12391,7 +12345,7 @@
 		(fields_autoplaced yes)
 		(uuid "15bd4b24-4abb-470b-a14a-8db5a2dad767")
 		(property "Reference" "SW47"
-			(at 123.19 264.16 0)
+			(at 123.19 261.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12467,8 +12421,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 123.19 269.24 0)
+		(property "Key" "V"
+			(at 123.19 264.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12494,7 +12448,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 266.7 82.55 0)
+		(at 254 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12502,9 +12456,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "1767f16b-0705-455c-858a-daa394e1f7ae")
 		(property "Reference" "#PWR51"
-			(at 266.7 82.55 0)
+			(at 254 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12515,7 +12470,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 266.7 86.995 90)
+			(at 254 86.995 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12527,7 +12482,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 82.55 0)
+			(at 254 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12538,7 +12493,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 266.7 82.55 0)
+			(at 254 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12549,7 +12504,7 @@
 			)
 		)
 		(property "Description" "Ground symbol"
-			(at 266.7 82.55 0)
+			(at 254 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12581,6 +12536,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "17fea610-22dc-407f-ab84-4aae5e5b5b06")
 		(property "Reference" "#PWR105"
 			(at 220.98 34.29 0)
@@ -12767,7 +12723,7 @@
 		(fields_autoplaced yes)
 		(uuid "19e856e6-05ad-457b-a8cb-f32e13a44f74")
 		(property "Reference" "SW44"
-			(at 62.23 264.16 0)
+			(at 62.23 261.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12843,8 +12799,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 62.23 269.24 0)
+		(property "Key" "Z"
+			(at 62.23 264.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12870,7 +12826,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 53.34 92.71 0)
+		(at 53.34 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12881,7 +12837,7 @@
 		(fields_autoplaced yes)
 		(uuid "1a3fdc74-ad64-4aa8-999d-ae20c190d7b6")
 		(property "Reference" "#PWR28"
-			(at 53.34 92.71 0)
+			(at 53.34 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12892,7 +12848,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 96.52 0)
+			(at 53.34 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12903,7 +12859,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 92.71 0)
+			(at 53.34 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12914,7 +12870,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 92.71 0)
+			(at 53.34 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12925,7 +12881,7 @@
 			)
 		)
 		(property "Description" "Ground symbol"
-			(at 53.34 92.71 0)
+			(at 53.34 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12960,7 +12916,7 @@
 		(fields_autoplaced yes)
 		(uuid "1b996a16-2bef-4abd-8b5f-a7f88ba2b7be")
 		(property "Reference" "SW16"
-			(at 41.91 182.88 0)
+			(at 41.91 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13036,8 +12992,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 41.91 187.96 0)
+		(property "Key" "Tab"
+			(at 41.91 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13074,7 +13030,7 @@
 		(fields_autoplaced yes)
 		(uuid "1c8d1ca2-bc68-4c2b-b3c8-fc8138767eeb")
 		(property "Reference" "SW54"
-			(at 82.55 284.48 0)
+			(at 82.55 281.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13150,8 +13106,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 82.55 289.56 0)
+		(property "Key" "Shift R"
+			(at 82.55 284.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13176,7 +13132,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{OUT2}")
+		(lib_id "symbols:3.0V")
 		(at 261.62 176.53 0)
 		(unit 1)
 		(body_style 1)
@@ -13198,7 +13154,7 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT2}"
+		(property "Value" "3.0V"
 			(at 261.62 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13255,7 +13211,7 @@
 	)
 	(symbol
 		(lib_id "symbols:V_{BUSOUT}")
-		(at 152.4 30.48 0)
+		(at 151.13 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13266,7 +13222,7 @@
 		(fields_autoplaced yes)
 		(uuid "21a71d4f-437e-47e7-92ec-135f49dae2b1")
 		(property "Reference" "#PWR92"
-			(at 152.4 30.48 0)
+			(at 151.13 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13277,17 +13233,18 @@
 			)
 		)
 		(property "Value" "V_{BUSOUT}"
-			(at 152.4 26.67 0)
+			(at 153.67 27.3049 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 30.48 0)
+			(at 151.13 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13298,7 +13255,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 30.48 0)
+			(at 151.13 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13309,7 +13266,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 152.4 30.48 0)
+			(at 151.13 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13344,7 +13301,7 @@
 		(fields_autoplaced yes)
 		(uuid "2316e0c9-ceda-4d86-abad-5f31839127f1")
 		(property "Reference" "L3"
-			(at 236.22 86.36 90)
+			(at 236.22 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13354,7 +13311,7 @@
 			)
 		)
 		(property "Value" "2.0n"
-			(at 236.22 88.9 90)
+			(at 236.22 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13363,7 +13320,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0201"
 			(at 236.22 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -13396,7 +13353,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "LQP03HQ2N0B02D"
 			(at 236.22 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -13407,7 +13364,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/LQP03HQ2N0B02D/6098695"
 			(at 236.22 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -13443,6 +13400,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "23be1085-ecc9-43f0-9ba6-a76e42499037")
 		(property "Reference" "#PWR84"
 			(at 243.84 247.65 0)
@@ -13524,7 +13482,7 @@
 		(fields_autoplaced yes)
 		(uuid "248ef258-53fa-4ee4-be69-445386adecde")
 		(property "Reference" "D3"
-			(at 91.44 152.3999 90)
+			(at 90.17 152.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13546,7 +13504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 87.63 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -13629,7 +13587,7 @@
 		(fields_autoplaced yes)
 		(uuid "24d392c5-03cd-4855-93f2-ae99bc2b72f3")
 		(property "Reference" "D16"
-			(at 50.8 193.0399 90)
+			(at 49.53 193.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13651,7 +13609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 46.99 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -13734,7 +13692,7 @@
 		(fields_autoplaced yes)
 		(uuid "24e384ca-1753-4f3b-979d-73eb655642bf")
 		(property "Reference" "SW40"
-			(at 62.23 243.84 0)
+			(at 62.23 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13810,8 +13768,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 62.23 248.92 0)
+		(property "Key" ";"
+			(at 62.23 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13837,7 +13795,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 43.18 92.71 0)
+		(at 43.18 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13848,7 +13806,7 @@
 		(fields_autoplaced yes)
 		(uuid "25466c1b-c08b-4be9-bf57-8d4c4bddcead")
 		(property "Reference" "#PWR20"
-			(at 43.18 92.71 0)
+			(at 43.18 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13859,7 +13817,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 96.52 0)
+			(at 43.18 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13870,7 +13828,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 92.71 0)
+			(at 43.18 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13881,7 +13839,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 92.71 0)
+			(at 43.18 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13892,7 +13850,7 @@
 			)
 		)
 		(property "Description" "Ground symbol"
-			(at 43.18 92.71 0)
+			(at 43.18 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13916,7 +13874,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 234.95 77.47 0)
+		(at 226.06 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13924,9 +13882,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "257437f0-0383-4967-a6ef-ab5cfd334554")
 		(property "Reference" "#PWR47"
-			(at 234.95 77.47 0)
+			(at 226.06 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13937,7 +13896,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 234.95 81.28 0)
+			(at 226.06 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13948,7 +13907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 77.47 0)
+			(at 226.06 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13959,7 +13918,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 77.47 0)
+			(at 226.06 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13970,7 +13929,7 @@
 			)
 		)
 		(property "Description" "Ground symbol"
-			(at 234.95 77.47 0)
+			(at 226.06 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14005,7 +13964,7 @@
 		(fields_autoplaced yes)
 		(uuid "27bfe20b-b6b6-43f3-9123-8defeb800318")
 		(property "Reference" "D14"
-			(at 132.08 172.7199 90)
+			(at 130.81 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14027,7 +13986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 128.27 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -14110,7 +14069,7 @@
 		(fields_autoplaced yes)
 		(uuid "280bac09-3529-435a-85fa-fe5ac6d74c65")
 		(property "Reference" "SW11"
-			(at 62.23 162.56 0)
+			(at 62.23 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14186,8 +14145,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 62.23 167.64 0)
+		(property "Key" "0"
+			(at 62.23 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14224,7 +14183,7 @@
 		(fields_autoplaced yes)
 		(uuid "2834d86f-17d0-4639-b67c-bf4360921d6f")
 		(property "Reference" "SW35"
-			(at 143.51 223.52 0)
+			(at 143.51 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14300,8 +14259,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 143.51 228.6 0)
+		(property "Key" "G"
+			(at 143.51 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14335,6 +14294,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "2a0172df-7435-486b-8747-2c7a54647e83")
 		(property "Reference" "#PWR55"
 			(at 210.82 100.33 0)
@@ -14416,7 +14376,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a02b6fb-4a0a-491c-a1b7-8a131d262d28")
 		(property "Reference" "D24"
-			(at 213.36 193.0399 90)
+			(at 212.09 193.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14438,7 +14398,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 209.55 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -14521,7 +14481,7 @@
 		(fields_autoplaced yes)
 		(uuid "2a995619-e243-4670-beef-c7cb120d824c")
 		(property "Reference" "SW1"
-			(at 41.91 142.24 0)
+			(at 41.91 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14597,8 +14557,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 41.91 147.32 0)
+		(property "Key" "Esc"
+			(at 41.91 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14635,7 +14595,7 @@
 		(fields_autoplaced yes)
 		(uuid "2b0a0466-729c-46cb-8176-a497f0b8fde9")
 		(property "Reference" "SW59"
-			(at 143.51 203.2 0)
+			(at 143.51 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14711,8 +14671,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 143.51 208.28 0)
+		(property "Key" "Space L"
+			(at 143.51 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14746,6 +14706,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "2ba60155-cc32-4fc1-a5ff-5cdb46314d7d")
 		(property "Reference" "#PWR31"
 			(at 88.9 99.06 0)
@@ -14827,7 +14788,7 @@
 		(fields_autoplaced yes)
 		(uuid "2c3e0535-9772-4604-ab7a-22373f9ce40b")
 		(property "Reference" "SW39"
-			(at 41.91 243.84 0)
+			(at 41.91 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14903,8 +14864,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 41.91 248.92 0)
+		(property "Key" "L"
+			(at 41.91 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14941,7 +14902,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d4187b7-63b0-487c-b559-8de0287d23d8")
 		(property "Reference" "D56"
-			(at 172.72 172.7199 90)
+			(at 171.45 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14963,7 +14924,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 168.91 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -15034,8 +14995,8 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{OUT1}")
-		(at 63.5 82.55 0)
+		(lib_id "symbols:1.8V")
+		(at 63.5 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15046,7 +15007,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e2a38c8-cd0a-44de-85a0-cd74aa4755d3")
 		(property "Reference" "#PWR29"
-			(at 63.5 82.55 0)
+			(at 63.5 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15056,8 +15017,8 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT1}"
-			(at 63.5 78.74 0)
+		(property "Value" "1.8V"
+			(at 63.5 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15067,7 +15028,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 82.55 0)
+			(at 63.5 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15078,7 +15039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 82.55 0)
+			(at 63.5 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15089,7 +15050,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 63.5 82.55 0)
+			(at 63.5 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15238,7 +15199,7 @@
 		(fields_autoplaced yes)
 		(uuid "30a88d0d-8d27-4cbb-96ea-0cc9ee335ecd")
 		(property "Reference" "SW58"
-			(at 204.47 162.56 0)
+			(at 204.47 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15314,8 +15275,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 204.47 167.64 0)
+		(property "Key" "Space"
+			(at 204.47 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15349,19 +15310,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "31d43edf-be61-43ea-ac71-0b6e943072f1")
 		(property "Reference" "C35"
-			(at 220.98 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 223.52 30.48 0)
+			(at 224.79 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15371,7 +15323,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Value" "100n"
+			(at 224.79 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:0402"
 			(at 220.98 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -15404,7 +15367,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "GRM155R71C104KA88D"
 			(at 220.98 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -15415,7 +15378,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R71C104KA88D/1644733"
 			(at 220.98 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -15454,7 +15417,7 @@
 		(fields_autoplaced yes)
 		(uuid "31ecaf17-82ff-426e-926c-3c9c541ebb17")
 		(property "Reference" "D52"
-			(at 50.8 294.6399 90)
+			(at 49.53 294.6399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15476,7 +15439,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 46.99 294.64 0)
 			(hide yes)
 			(show_name no)
@@ -15547,8 +15510,8 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{OUT1}")
-		(at 73.66 82.55 0)
+		(lib_id "symbols:1.8V")
+		(at 73.66 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15559,7 +15522,7 @@
 		(fields_autoplaced yes)
 		(uuid "332ed810-eb44-4539-924e-0c963e99c219")
 		(property "Reference" "#PWR32"
-			(at 73.66 82.55 0)
+			(at 73.66 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15569,8 +15532,8 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT1}"
-			(at 73.66 78.74 0)
+		(property "Value" "1.8V"
+			(at 73.66 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15580,7 +15543,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 82.55 0)
+			(at 73.66 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15591,7 +15554,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 82.55 0)
+			(at 73.66 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15602,7 +15565,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 73.66 82.55 0)
+			(at 73.66 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15634,19 +15597,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "33fc2c9c-e264-4f2f-97af-62eeceed10ca")
 		(property "Reference" "C8"
-			(at 241.3 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.5p"
-			(at 243.84 96.52 0)
+			(at 245.11 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15656,7 +15610,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Value" "1.5p"
+			(at 245.11 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:0201"
 			(at 241.3 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -15689,7 +15654,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "GJM0335C1E1R5WB01D"
 			(at 241.3 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -15700,7 +15665,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GJM0335C1E1R5WB01D/2592528"
 			(at 241.3 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -15736,6 +15701,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "34755233-9d5d-429b-9180-eb7aa2e02feb")
 		(property "Reference" "#PWR89"
 			(at 368.3 232.41 0)
@@ -15805,7 +15771,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{OUT1}")
+		(lib_id "symbols:1.8V")
 		(at 220.98 24.13 0)
 		(unit 1)
 		(body_style 1)
@@ -15814,6 +15780,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "34c66121-7778-4787-8881-e4ba3ff50834")
 		(property "Reference" "#PWR64"
 			(at 220.98 24.13 0)
@@ -15826,7 +15793,7 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT1}"
+		(property "Value" "1.8V"
 			(at 220.98 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15891,6 +15858,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3525f1e1-b024-4703-8fea-0adb317bb59c")
 		(property "Reference" "#PWR53"
 			(at 231.14 100.33 0)
@@ -16040,7 +16008,7 @@
 	)
 	(symbol
 		(lib_id "symbols:V_{SYS}")
-		(at 158.75 30.48 0)
+		(at 165.1 27.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16051,7 +16019,7 @@
 		(fields_autoplaced yes)
 		(uuid "3563d4ca-c299-4c44-9ca0-e8a9f2a8eb25")
 		(property "Reference" "#PWR10"
-			(at 158.75 30.48 0)
+			(at 165.1 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16062,17 +16030,18 @@
 			)
 		)
 		(property "Value" "V_{SYS}"
-			(at 158.75 26.67 0)
+			(at 167.64 27.3049 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 30.48 0)
+			(at 165.1 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16083,7 +16052,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 30.48 0)
+			(at 165.1 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16094,7 +16063,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 158.75 30.48 0)
+			(at 165.1 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16129,7 +16098,7 @@
 		(fields_autoplaced yes)
 		(uuid "362dbd8d-ef24-4a2c-abaa-f7af8cbcc9a6")
 		(property "Reference" "SW12"
-			(at 82.55 162.56 0)
+			(at 82.55 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16205,8 +16174,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 82.55 167.64 0)
+		(property "Key" "-"
+			(at 82.55 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16243,7 +16212,7 @@
 		(fields_autoplaced yes)
 		(uuid "369869b2-dd21-49ff-ae2a-d1ad943b376f")
 		(property "Reference" "D19"
-			(at 111.76 193.0399 90)
+			(at 110.49 193.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16265,7 +16234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 107.95 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -16348,7 +16317,7 @@
 		(fields_autoplaced yes)
 		(uuid "36c0447b-748b-43db-b396-a2f189abbcf7")
 		(property "Reference" "L4"
-			(at 226.06 86.36 90)
+			(at 226.06 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16358,7 +16327,7 @@
 			)
 		)
 		(property "Value" "2.0n"
-			(at 226.06 88.9 90)
+			(at 226.06 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16367,7 +16336,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0201"
 			(at 226.06 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -16400,7 +16369,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "LQP03HQ2N0B02D"
 			(at 226.06 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -16411,7 +16380,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/LQP03HQ2N0B02D/6098695"
 			(at 226.06 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -16447,6 +16416,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3748e50f-51f0-4c52-8cdd-75256ecbc961")
 		(property "Reference" "#PWR80"
 			(at 269.24 252.73 0)
@@ -16525,6 +16495,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "379078fb-c09e-47de-ae94-3ed45031bf1c")
 		(property "Reference" "#PWR6"
 			(at 86.36 50.8 0)
@@ -16603,6 +16574,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "38fd0f6c-8031-49ed-a125-c3a5aeabf127")
 		(property "Reference" "#PWR72"
 			(at 200.66 34.29 0)
@@ -16684,7 +16656,7 @@
 		(fields_autoplaced yes)
 		(uuid "3af25dc8-32a5-46c7-a936-4d27c9518fe2")
 		(property "Reference" "SW8"
-			(at 184.15 142.24 0)
+			(at 184.15 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16760,8 +16732,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 184.15 147.32 0)
+		(property "Key" "7"
+			(at 184.15 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16795,6 +16767,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "3c7029a5-8000-42f4-a2d7-0a71ee698cad")
 		(property "Reference" "#PWR81"
 			(at 266.7 222.25 0)
@@ -16875,7 +16848,7 @@
 		(fields_autoplaced yes)
 		(uuid "3cdc0663-35a7-4033-859a-d33443c8ee69")
 		(property "Reference" "D62"
-			(at 213.36 213.3599 90)
+			(at 212.09 213.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16897,7 +16870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 209.55 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -16980,7 +16953,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d16bafe-94b0-4ae5-b42c-c9dc26e78a6d")
 		(property "Reference" "SW36"
-			(at 163.83 223.52 0)
+			(at 163.83 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17056,8 +17029,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 163.83 228.6 0)
+		(property "Key" "H"
+			(at 163.83 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17094,7 +17067,7 @@
 		(fields_autoplaced yes)
 		(uuid "3d4c9147-e9e8-4511-a896-e75a80563c89")
 		(property "Reference" "D49"
-			(at 172.72 274.3199 90)
+			(at 171.45 274.3199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17116,7 +17089,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 168.91 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -17346,7 +17319,7 @@
 	)
 	(symbol
 		(lib_id "symbols:V_{BUSOUT}")
-		(at 43.18 82.55 0)
+		(at 43.18 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17357,7 +17330,7 @@
 		(fields_autoplaced yes)
 		(uuid "424b1dde-f23c-4152-99c9-af8778348c8e")
 		(property "Reference" "#PWR91"
-			(at 43.18 82.55 0)
+			(at 43.18 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17368,7 +17341,7 @@
 			)
 		)
 		(property "Value" "V_{BUSOUT}"
-			(at 43.18 78.74 0)
+			(at 43.18 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17378,7 +17351,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 82.55 0)
+			(at 43.18 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17389,7 +17362,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 82.55 0)
+			(at 43.18 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17400,7 +17373,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 43.18 82.55 0)
+			(at 43.18 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17435,7 +17408,7 @@
 		(fields_autoplaced yes)
 		(uuid "433fef4c-9957-4451-b7d1-8263dfdbf976")
 		(property "Reference" "R4"
-			(at 96.52 90.17 90)
+			(at 96.52 100.33 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17445,7 +17418,7 @@
 			)
 		)
 		(property "Value" "150k"
-			(at 96.52 92.71 90)
+			(at 96.52 102.87 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17454,7 +17427,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0402"
 			(at 96.52 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -17487,7 +17460,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "RC0402FR-07150KL"
 			(at 96.52 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -17498,7 +17471,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07150KL/726542"
 			(at 96.52 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -17534,6 +17507,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "44facd76-838c-472e-bbfd-bc225df83833")
 		(property "Reference" "#PWR43"
 			(at 266.7 57.15 0)
@@ -17612,6 +17586,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "45816422-c645-4f76-8529-8be8c63b125e")
 		(property "Reference" "#PWR88"
 			(at 368.3 222.25 0)
@@ -17692,7 +17667,7 @@
 		(fields_autoplaced yes)
 		(uuid "45d5256c-8a99-4d15-a061-753eb96da332")
 		(property "Reference" "SW45"
-			(at 82.55 264.16 0)
+			(at 82.55 261.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17768,8 +17743,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 82.55 269.24 0)
+		(property "Key" "X"
+			(at 82.55 264.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17806,7 +17781,7 @@
 		(fields_autoplaced yes)
 		(uuid "46527fdf-ecd5-4a29-8194-fd278b707bd3")
 		(property "Reference" "D39"
-			(at 50.8 253.9999 90)
+			(at 49.53 253.9999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17828,7 +17803,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 46.99 254 0)
 			(hide yes)
 			(show_name no)
@@ -17912,7 +17887,7 @@
 		(fields_autoplaced yes)
 		(uuid "4743bee0-0b49-4f96-afbe-6458ed868e05")
 		(property "Reference" "R8"
-			(at 354.33 52.07 90)
+			(at 354.33 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17922,7 +17897,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 354.33 54.61 90)
+			(at 354.33 53.34 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17931,7 +17906,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0402"
 			(at 354.33 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -17964,7 +17939,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "RC0402FR-074K7L"
 			(at 354.33 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -17975,7 +17950,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-074K7L/2827881"
 			(at 354.33 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -18002,7 +17977,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{OUT2}")
+		(lib_id "symbols:3.0V")
 		(at 261.62 140.97 0)
 		(unit 1)
 		(body_style 1)
@@ -18024,7 +17999,7 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT2}"
+		(property "Value" "3.0V"
 			(at 261.62 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18092,7 +18067,7 @@
 		(fields_autoplaced yes)
 		(uuid "4962f14f-d836-428e-9b90-7bcc73a67675")
 		(property "Reference" "SW2"
-			(at 62.23 142.24 0)
+			(at 62.23 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18168,8 +18143,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 62.23 147.32 0)
+		(property "Key" "1"
+			(at 62.23 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18225,7 +18200,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0402"
 			(at 248.92 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -18258,7 +18233,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "GRM155R61C105KA12D"
 			(at 248.92 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -18269,7 +18244,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61C105KA12D/4905129"
 			(at 248.92 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -18305,6 +18280,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "4b3b83a5-545c-4c31-b956-ae32cb060b68")
 		(property "Reference" "#PWR79"
 			(at 254 247.65 0)
@@ -18383,19 +18359,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "4cc62143-a21e-42b8-8704-848231adddc7")
 		(property "Reference" "C21"
-			(at 210.82 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 213.36 30.48 0)
+			(at 214.63 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18405,7 +18372,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Value" "100n"
+			(at 214.63 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:0402"
 			(at 210.82 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -18438,7 +18416,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "GRM155R71C104KA88D"
 			(at 210.82 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -18449,7 +18427,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R71C104KA88D/1644733"
 			(at 210.82 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -18488,7 +18466,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d30d6d5-ee3e-4aff-a8c3-6cb81ba8917e")
 		(property "Reference" "D60"
-			(at 172.72 213.3599 90)
+			(at 171.45 213.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18510,7 +18488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 168.91 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -18593,7 +18571,7 @@
 		(fields_autoplaced yes)
 		(uuid "4dfb8c4c-78b3-40d7-975b-aeb73905cdf2")
 		(property "Reference" "D28"
-			(at 111.76 213.3599 90)
+			(at 110.49 213.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18615,7 +18593,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 107.95 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -18696,6 +18674,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "4eb52bbb-a991-43c0-a54f-ab9df2579a3a")
 		(property "Reference" "#PWR4"
 			(at 52.07 50.8 0)
@@ -18774,19 +18753,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "4edd7b46-10e4-4216-bfe7-ac7ffe8b828a")
 		(property "Reference" "C10"
-			(at 220.98 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.5p"
-			(at 223.52 96.52 0)
+			(at 224.79 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18796,7 +18766,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Value" "1.5p"
+			(at 224.79 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:0201"
 			(at 220.98 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -18829,7 +18810,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "GJM0335C1E1R5WB01D"
 			(at 220.98 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -18840,7 +18821,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GJM0335C1E1R5WB01D/2592528"
 			(at 220.98 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -18879,7 +18860,7 @@
 		(fields_autoplaced yes)
 		(uuid "4fb3037e-5de1-4c35-93d4-2d0edea59a0f")
 		(property "Reference" "SW9"
-			(at 204.47 142.24 0)
+			(at 204.47 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18955,8 +18936,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 204.47 147.32 0)
+		(property "Key" "8"
+			(at 204.47 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18990,6 +18971,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "518d8f66-5ae4-4162-bf32-65d2e9dc6aa4")
 		(property "Reference" "#PWR85"
 			(at 327.66 247.65 0)
@@ -19071,7 +19053,7 @@
 		(fields_autoplaced yes)
 		(uuid "533ff10c-e31b-4e6f-88fa-904d51f771c4")
 		(property "Reference" "L1"
-			(at 281.94 33.02 90)
+			(at 281.94 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19081,7 +19063,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 281.94 35.56 90)
+			(at 281.94 34.29 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19090,7 +19072,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0603"
 			(at 281.94 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -19123,7 +19105,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "MLZ1608M4R7WT000"
 			(at 281.94 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -19134,7 +19116,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/tdk-corporation/MLZ1608M4R7WT000/2465149"
 			(at 281.94 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -19170,6 +19152,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "54275ecf-53fd-4a55-b3fe-4170464cbe9b")
 		(property "Reference" "#PWR42"
 			(at 287.02 118.11 0)
@@ -19240,7 +19223,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 256.54 77.47 0)
+		(at 246.38 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19248,9 +19231,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "55713587-60cf-4c9f-b66b-c0069517c9f0")
 		(property "Reference" "#PWR50"
-			(at 256.54 77.47 0)
+			(at 246.38 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19261,7 +19245,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 256.54 81.28 0)
+			(at 246.38 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19272,7 +19256,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 77.47 0)
+			(at 246.38 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19283,7 +19267,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 77.47 0)
+			(at 246.38 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19294,7 +19278,7 @@
 			)
 		)
 		(property "Description" "Ground symbol"
-			(at 256.54 77.47 0)
+			(at 246.38 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19329,7 +19313,7 @@
 		(fields_autoplaced yes)
 		(uuid "5647a744-dc54-4f65-af01-cd8c0b38047a")
 		(property "Reference" "D51"
-			(at 213.36 274.3199 90)
+			(at 212.09 274.3199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19351,7 +19335,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 209.55 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -19434,7 +19418,7 @@
 		(fields_autoplaced yes)
 		(uuid "56ca13e7-6281-457d-a51e-97f0f0a14e74")
 		(property "Reference" "D65"
-			(at 172.72 253.9999 90)
+			(at 171.45 253.9999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19456,7 +19440,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 168.91 254 0)
 			(hide yes)
 			(show_name no)
@@ -19539,7 +19523,7 @@
 		(fields_autoplaced yes)
 		(uuid "58f127e1-9bec-4c08-b810-3e2020e8ffa1")
 		(property "Reference" "D15"
-			(at 152.4 172.7199 90)
+			(at 151.13 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19561,7 +19545,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 148.59 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -19644,7 +19628,7 @@
 		(fields_autoplaced yes)
 		(uuid "592084ea-7dda-4e08-b797-a4f2bf08b082")
 		(property "Reference" "D32"
-			(at 91.44 233.6799 90)
+			(at 90.17 233.6799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19666,7 +19650,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 87.63 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -19749,7 +19733,7 @@
 		(fields_autoplaced yes)
 		(uuid "5cffd2b3-a8bf-479d-a97b-1f56c278f9be")
 		(property "Reference" "D42"
-			(at 111.76 253.9999 90)
+			(at 110.49 253.9999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19771,7 +19755,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 107.95 254 0)
 			(hide yes)
 			(show_name no)
@@ -19842,7 +19826,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{OUT1}")
+		(lib_id "symbols:1.8V")
 		(at 165.1 48.26 0)
 		(unit 1)
 		(body_style 1)
@@ -19864,14 +19848,15 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT1}"
-			(at 165.1 44.45 0)
+		(property "Value" "1.8V"
+			(at 167.64 47.6249 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -19932,7 +19917,7 @@
 		(fields_autoplaced yes)
 		(uuid "5ee4f075-f2ed-44b6-8230-a83037d162b0")
 		(property "Reference" "SW15"
-			(at 143.51 162.56 0)
+			(at 143.51 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20008,8 +19993,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 143.51 167.64 0)
+		(property "Key" "`"
+			(at 143.51 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20046,7 +20031,7 @@
 		(fields_autoplaced yes)
 		(uuid "60166ae7-35eb-44b8-a435-87a964589bf0")
 		(property "Reference" "D4"
-			(at 111.76 152.3999 90)
+			(at 110.49 152.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20068,7 +20053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 107.95 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -20151,7 +20136,7 @@
 		(fields_autoplaced yes)
 		(uuid "61157a7c-70cd-44c9-9b31-03f3cacdf97a")
 		(property "Reference" "SW51"
-			(at 204.47 264.16 0)
+			(at 204.47 261.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20227,8 +20212,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 204.47 269.24 0)
+		(property "Key" ","
+			(at 204.47 264.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20367,7 +20352,7 @@
 		(fields_autoplaced yes)
 		(uuid "64a28a09-0409-4075-a8d0-5ec7de968a3a")
 		(property "Reference" "SW7"
-			(at 163.83 142.24 0)
+			(at 163.83 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20443,8 +20428,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 163.83 147.32 0)
+		(property "Key" "6"
+			(at 163.83 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20481,7 +20466,7 @@
 		(fields_autoplaced yes)
 		(uuid "671b9314-283e-4b21-844e-b6faa3d2c3f7")
 		(property "Reference" "D20"
-			(at 132.08 193.0399 90)
+			(at 130.81 193.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20503,7 +20488,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 128.27 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -20583,6 +20568,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "685bfce5-5377-4ee8-9b54-e2831ec8ba01")
 		(property "Reference" "#PWR87"
 			(at 340.36 222.25 0)
@@ -20660,6 +20646,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "68614628-c17e-4590-9927-c05faebb3174")
 		(property "Reference" "#PWR56"
 			(at 200.66 100.33 0)
@@ -20760,7 +20747,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0402"
 			(at 322.58 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -20793,7 +20780,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "GRM155R61C105KA12D"
 			(at 322.58 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -20804,7 +20791,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61C105KA12D/4905129"
 			(at 322.58 242.57 0)
 			(hide yes)
 			(show_name no)
@@ -20843,7 +20830,7 @@
 		(fields_autoplaced yes)
 		(uuid "6a652c05-f5a5-4d8a-a3c4-59815b848183")
 		(property "Reference" "D17"
-			(at 71.12 193.0399 90)
+			(at 69.85 193.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -20865,7 +20852,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 67.31 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -20937,7 +20924,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 246.38 77.47 0)
+		(at 236.22 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -20945,9 +20932,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6b0607f3-0b70-49d1-afd4-410602938b9d")
 		(property "Reference" "#PWR49"
-			(at 246.38 77.47 0)
+			(at 236.22 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20958,7 +20946,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 246.38 81.28 0)
+			(at 236.22 81.28 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20969,7 +20957,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 77.47 0)
+			(at 236.22 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20980,7 +20968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 77.47 0)
+			(at 236.22 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20991,7 +20979,7 @@
 			)
 		)
 		(property "Description" "Ground symbol"
-			(at 246.38 77.47 0)
+			(at 236.22 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21026,7 +21014,7 @@
 		(fields_autoplaced yes)
 		(uuid "6b53c1fa-290e-4e94-8695-b655c898fb4f")
 		(property "Reference" "D57"
-			(at 193.04 172.7199 90)
+			(at 191.77 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21048,7 +21036,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 189.23 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -21210,7 +21198,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d5b2450-d304-48f2-be62-b365df32b5bc")
 		(property "Reference" "SW55"
-			(at 102.87 284.48 0)
+			(at 102.87 281.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21286,8 +21274,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 102.87 289.56 0)
+		(property "Key" "Fn"
+			(at 102.87 284.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21324,7 +21312,7 @@
 		(fields_autoplaced yes)
 		(uuid "6d850c06-42e9-4ebe-8553-1e7e2d7fae77")
 		(property "Reference" "SW52"
-			(at 41.91 284.48 0)
+			(at 41.91 281.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21400,8 +21388,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 41.91 289.56 0)
+		(property "Key" "."
+			(at 41.91 284.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21435,19 +21423,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "6e293278-094a-4baf-b73b-7549927c8bb4")
 		(property "Reference" "C14"
-			(at 200.66 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "tune"
-			(at 203.2 96.52 0)
+			(at 204.47 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21457,7 +21436,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Value" "TBD"
+			(at 204.47 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:0402"
 			(at 200.66 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -21529,7 +21519,7 @@
 	)
 	(symbol
 		(lib_id "symbols:C")
-		(at 63.5 87.63 0)
+		(at 63.5 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -21540,17 +21530,6 @@
 		(fields_autoplaced yes)
 		(uuid "6e63d9d5-5dc6-4548-b9db-afb6f87415ce")
 		(property "Reference" "C23"
-			(at 67.31 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
 			(at 67.31 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21561,8 +21540,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 63.5 87.63 0)
+		(property "Value" "100n"
+			(at 67.31 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:0402"
+			(at 63.5 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21573,7 +21563,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 87.63 0)
+			(at 63.5 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21584,7 +21574,7 @@
 			)
 		)
 		(property "Description" "Chip capacitor"
-			(at 63.5 87.63 0)
+			(at 63.5 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21594,8 +21584,8 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
-			(at 63.5 87.63 0)
+		(property "Ideal part number" "GRM155R71C104KA88D"
+			(at 63.5 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21605,8 +21595,8 @@
 				)
 			)
 		)
-		(property "Order link" ""
-			(at 63.5 87.63 0)
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R71C104KA88D/1644733"
+			(at 63.5 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21644,7 +21634,7 @@
 		(fields_autoplaced yes)
 		(uuid "6ed32ed3-5971-4c8b-9d51-a0c6d740e9d2")
 		(property "Reference" "D48"
-			(at 152.4 274.3199 90)
+			(at 151.13 274.3199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21666,7 +21656,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 148.59 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -21749,7 +21739,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f2f0302-4283-4281-abe1-1775218d9a5f")
 		(property "Reference" "D59"
-			(at 152.4 213.3599 90)
+			(at 151.13 213.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21771,7 +21761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 148.59 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -21854,7 +21844,7 @@
 		(fields_autoplaced yes)
 		(uuid "7080dda5-798e-414b-8cfa-98efed06bec1")
 		(property "Reference" "SW17"
-			(at 62.23 182.88 0)
+			(at 62.23 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21930,8 +21920,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 62.23 187.96 0)
+		(property "Key" "Q"
+			(at 62.23 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21968,7 +21958,7 @@
 		(fields_autoplaced yes)
 		(uuid "737de80f-d70a-4661-9170-1a73716a9640")
 		(property "Reference" "D12"
-			(at 91.44 172.7199 90)
+			(at 90.17 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21990,7 +21980,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 87.63 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -22152,7 +22142,7 @@
 		(fields_autoplaced yes)
 		(uuid "74cfd130-8934-4f2f-948c-7599dd831c6e")
 		(property "Reference" "D26"
-			(at 71.12 213.3599 90)
+			(at 69.85 213.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22174,7 +22164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 67.31 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -22245,8 +22235,8 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{USB}")
-		(at 234.95 52.07 0)
+		(lib_id "symbols:V_{BUSOUT}")
+		(at 226.06 52.07 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22257,7 +22247,7 @@
 		(fields_autoplaced yes)
 		(uuid "74e9e90e-b496-4420-8585-227ab9310c9c")
 		(property "Reference" "#PWR48"
-			(at 234.95 52.07 0)
+			(at 226.06 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22267,18 +22257,19 @@
 				)
 			)
 		)
-		(property "Value" "V_{USB}"
-			(at 234.95 49.53 0)
+		(property "Value" "V_{BUSOUT}"
+			(at 228.6 51.4349 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 234.95 52.07 0)
+			(at 226.06 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22289,7 +22280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 52.07 0)
+			(at 226.06 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22300,7 +22291,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 234.95 52.07 0)
+			(at 226.06 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22332,6 +22323,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "74f9649a-bfc6-4e47-a679-f1fff70a3bc9")
 		(property "Reference" "#PWR54"
 			(at 220.98 100.33 0)
@@ -22413,7 +22405,7 @@
 		(fields_autoplaced yes)
 		(uuid "758e7594-c465-4aec-ba9a-42572f3523e2")
 		(property "Reference" "SW14"
-			(at 123.19 162.56 0)
+			(at 123.19 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22489,8 +22481,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 123.19 167.64 0)
+		(property "Key" "\\"
+			(at 123.19 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22527,7 +22519,7 @@
 		(fields_autoplaced yes)
 		(uuid "78325430-c13f-48e3-b862-2eb8971857b1")
 		(property "Reference" "SW38"
-			(at 204.47 223.52 0)
+			(at 204.47 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22603,8 +22595,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 204.47 228.6 0)
+		(property "Key" "K"
+			(at 204.47 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22638,6 +22630,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7936921b-99e8-4df0-ba4a-871f0e2ec592")
 		(property "Reference" "#PWR107"
 			(at 241.3 100.33 0)
@@ -22708,7 +22701,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 73.66 92.71 0)
+		(at 73.66 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22719,7 +22712,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a65b875-4def-49fc-b06c-293cbe20fe21")
 		(property "Reference" "#PWR33"
-			(at 73.66 92.71 0)
+			(at 73.66 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22730,7 +22723,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 73.66 96.52 0)
+			(at 73.66 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22741,7 +22734,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 73.66 92.71 0)
+			(at 73.66 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22752,7 +22745,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 92.71 0)
+			(at 73.66 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22763,7 +22756,7 @@
 			)
 		)
 		(property "Description" "Ground symbol"
-			(at 73.66 92.71 0)
+			(at 73.66 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22798,7 +22791,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ad1991c-5c49-40c7-9bf3-72b763024866")
 		(property "Reference" "SW41"
-			(at 82.55 243.84 0)
+			(at 82.55 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22874,8 +22867,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 82.55 248.92 0)
+		(property "Key" "'"
+			(at 82.55 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -22901,7 +22894,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 152.4 83.82 0)
+		(at 151.13 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -22909,9 +22902,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "7c90d116-6f5e-4e0a-a903-6eca96e08adc")
 		(property "Reference" "#PWR16"
-			(at 152.4 83.82 0)
+			(at 151.13 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22922,7 +22916,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 87.63 0)
+			(at 151.13 87.63 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22933,7 +22927,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 83.82 0)
+			(at 151.13 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22944,7 +22938,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 83.82 0)
+			(at 151.13 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22955,7 +22949,7 @@
 			)
 		)
 		(property "Description" "Ground symbol"
-			(at 152.4 83.82 0)
+			(at 151.13 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -22990,7 +22984,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d0cc8ec-46f2-4942-a1a0-c02e8905b958")
 		(property "Reference" "D2"
-			(at 71.12 152.3999 90)
+			(at 69.85 152.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23012,7 +23006,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 67.31 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -23174,7 +23168,7 @@
 		(fields_autoplaced yes)
 		(uuid "7ecbdee8-a89a-4fea-9091-96e3fdc147c0")
 		(property "Reference" "SW43"
-			(at 41.91 264.16 0)
+			(at 41.91 261.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23250,8 +23244,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 41.91 269.24 0)
+		(property "Key" "Shift"
+			(at 41.91 264.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23309,7 +23303,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0402"
 			(at 269.24 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -23342,7 +23336,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "GRM155R61C105KA12D"
 			(at 269.24 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -23353,7 +23347,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61C105KA12D/4905129"
 			(at 269.24 287.02 0)
 			(hide yes)
 			(show_name no)
@@ -23381,7 +23375,7 @@
 	)
 	(symbol
 		(lib_id "symbols:V_{SYS}")
-		(at 43.18 101.6 0)
+		(at 43.18 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23392,7 +23386,7 @@
 		(fields_autoplaced yes)
 		(uuid "7fb9d4bc-ef3c-466b-90c1-376ae2cd99eb")
 		(property "Reference" "#PWR23"
-			(at 43.18 101.6 0)
+			(at 43.18 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23403,7 +23397,7 @@
 			)
 		)
 		(property "Value" "V_{SYS}"
-			(at 43.18 97.79 0)
+			(at 43.18 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23413,7 +23407,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 101.6 0)
+			(at 43.18 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23424,7 +23418,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 101.6 0)
+			(at 43.18 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23435,7 +23429,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 43.18 101.6 0)
+			(at 43.18 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23577,7 +23571,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 33.02 111.76 0)
+		(at 33.02 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -23588,7 +23582,7 @@
 		(fields_autoplaced yes)
 		(uuid "810e8713-9f78-4685-aca4-e2f9a347d4cd")
 		(property "Reference" "#PWR22"
-			(at 33.02 111.76 0)
+			(at 33.02 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23599,7 +23593,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 115.57 0)
+			(at 33.02 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23610,7 +23604,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 111.76 0)
+			(at 33.02 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23621,7 +23615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 111.76 0)
+			(at 33.02 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23632,7 +23626,7 @@
 			)
 		)
 		(property "Description" "Ground symbol"
-			(at 33.02 111.76 0)
+			(at 33.02 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -23667,7 +23661,7 @@
 		(fields_autoplaced yes)
 		(uuid "824b0ba3-6c50-4711-a884-dd949ebdb03b")
 		(property "Reference" "SW64"
-			(at 143.51 243.84 0)
+			(at 143.51 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23743,8 +23737,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 143.51 248.92 0)
+		(property "Key" "Left"
+			(at 143.51 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23781,7 +23775,7 @@
 		(fields_autoplaced yes)
 		(uuid "82d438a8-fd76-4740-9610-9595491dd198")
 		(property "Reference" "D1"
-			(at 50.8 152.3999 90)
+			(at 49.53 152.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23803,7 +23797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 46.99 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -23886,7 +23880,7 @@
 		(fields_autoplaced yes)
 		(uuid "8537c923-2556-4ed6-9c20-91251d3981c2")
 		(property "Reference" "D58"
-			(at 213.36 172.7199 90)
+			(at 212.09 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -23908,7 +23902,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 209.55 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -24067,6 +24061,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "86b099e4-2ff6-48fa-9417-b3300394529a")
 		(property "Reference" "#PWR58"
 			(at 254 110.49 0)
@@ -24137,7 +24132,7 @@
 	)
 	(symbol
 		(lib_id "symbols:C")
-		(at 43.18 87.63 0)
+		(at 43.18 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24148,17 +24143,6 @@
 		(fields_autoplaced yes)
 		(uuid "885d9203-086b-497d-8305-2047c38f228b")
 		(property "Reference" "C16"
-			(at 46.99 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
 			(at 46.99 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24169,8 +24153,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 43.18 87.63 0)
+		(property "Value" "1u"
+			(at 46.99 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:0402"
+			(at 43.18 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24181,7 +24176,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 87.63 0)
+			(at 43.18 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24192,7 +24187,7 @@
 			)
 		)
 		(property "Description" "Chip capacitor"
-			(at 43.18 87.63 0)
+			(at 43.18 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24202,8 +24197,8 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
-			(at 43.18 87.63 0)
+		(property "Ideal part number" "GRM155R61C105KA12D"
+			(at 43.18 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24213,8 +24208,8 @@
 				)
 			)
 		)
-		(property "Order link" ""
-			(at 43.18 87.63 0)
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61C105KA12D/4905129"
+			(at 43.18 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24240,7 +24235,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{OUT1}")
+		(lib_id "symbols:1.8V")
 		(at 210.82 24.13 0)
 		(unit 1)
 		(body_style 1)
@@ -24249,6 +24244,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "89502a73-7362-405f-aa50-f05165b1afa6")
 		(property "Reference" "#PWR65"
 			(at 210.82 24.13 0)
@@ -24261,7 +24257,7 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT1}"
+		(property "Value" "1.8V"
 			(at 210.82 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24350,7 +24346,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0402"
 			(at 368.3 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -24383,7 +24379,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "GRM155R61C105KA12D"
 			(at 368.3 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -24394,7 +24390,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61C105KA12D/4905129"
 			(at 368.3 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -24433,7 +24429,7 @@
 		(fields_autoplaced yes)
 		(uuid "8af845b8-3755-4b12-a1a6-5fe17af2b90a")
 		(property "Reference" "SW60"
-			(at 163.83 203.2 0)
+			(at 163.83 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24509,8 +24505,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 163.83 208.28 0)
+		(property "Key" "Space R"
+			(at 163.83 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24547,7 +24543,7 @@
 		(fields_autoplaced yes)
 		(uuid "8be52648-f51b-4619-a519-c681cf2ad0e8")
 		(property "Reference" "SW3"
-			(at 82.55 142.24 0)
+			(at 82.55 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24623,8 +24619,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 82.55 147.32 0)
+		(property "Key" "2"
+			(at 82.55 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24650,7 +24646,7 @@
 	)
 	(symbol
 		(lib_id "symbols:C")
-		(at 234.95 72.39 0)
+		(at 226.06 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -24661,7 +24657,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c96c474-2733-423f-88e2-d0c0bb9a5afb")
 		(property "Reference" "C12"
-			(at 238.76 71.1199 0)
+			(at 229.87 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24672,7 +24668,7 @@
 			)
 		)
 		(property "Value" "4.7u"
-			(at 238.76 73.6599 0)
+			(at 229.87 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24682,8 +24678,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 234.95 72.39 0)
+		(property "Footprint" "footprints:0402"
+			(at 226.06 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24694,7 +24690,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 72.39 0)
+			(at 226.06 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24705,7 +24701,7 @@
 			)
 		)
 		(property "Description" "Chip capacitor"
-			(at 234.95 72.39 0)
+			(at 226.06 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24715,8 +24711,8 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
-			(at 234.95 72.39 0)
+		(property "Ideal part number" "GRM155R61A475MEAAD"
+			(at 226.06 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24726,8 +24722,8 @@
 				)
 			)
 		)
-		(property "Order link" ""
-			(at 234.95 72.39 0)
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61A475MEAAD/6234735"
+			(at 226.06 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24753,7 +24749,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{OUT2}")
+		(lib_id "symbols:3.0V")
 		(at 165.1 68.58 0)
 		(unit 1)
 		(body_style 1)
@@ -24775,14 +24771,15 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT2}"
-			(at 165.1 64.77 0)
+		(property "Value" "3.0V"
+			(at 167.64 67.9449 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -24843,7 +24840,7 @@
 		(fields_autoplaced yes)
 		(uuid "8eaefddb-b012-4a26-b024-7a33523464d1")
 		(property "Reference" "SW37"
-			(at 184.15 223.52 0)
+			(at 184.15 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24919,8 +24916,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 184.15 228.6 0)
+		(property "Key" "J"
+			(at 184.15 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -24957,7 +24954,7 @@
 		(fields_autoplaced yes)
 		(uuid "90860029-f663-450c-9a79-5e4d4f6a1573")
 		(property "Reference" "SW6"
-			(at 143.51 142.24 0)
+			(at 143.51 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25033,8 +25030,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 143.51 147.32 0)
+		(property "Key" "5"
+			(at 143.51 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25071,7 +25068,7 @@
 		(fields_autoplaced yes)
 		(uuid "91d39d88-0c5b-4556-8375-a59aa767c947")
 		(property "Reference" "L2"
-			(at 246.38 86.36 90)
+			(at 246.38 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25081,7 +25078,7 @@
 			)
 		)
 		(property "Value" "2.7n"
-			(at 246.38 88.9 90)
+			(at 246.38 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25090,7 +25087,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0201"
 			(at 246.38 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -25123,7 +25120,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "LQP03HQ2N7B02D"
 			(at 246.38 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -25134,7 +25131,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/LQP03HQ2N7B02D/6098709"
 			(at 246.38 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -25173,7 +25170,7 @@
 		(fields_autoplaced yes)
 		(uuid "92201089-986c-4dac-8c54-db6c4f1f1cdc")
 		(property "Reference" "SW42"
-			(at 102.87 243.84 0)
+			(at 102.87 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25249,8 +25246,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 102.87 248.92 0)
+		(property "Key" "Return"
+			(at 102.87 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25287,7 +25284,7 @@
 		(fields_autoplaced yes)
 		(uuid "92459db9-8fb4-473a-8c4a-6a519a481f19")
 		(property "Reference" "D38"
-			(at 213.36 233.6799 90)
+			(at 212.09 233.6799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25309,7 +25306,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 209.55 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -25381,7 +25378,7 @@
 	)
 	(symbol
 		(lib_id "symbols:C")
-		(at 73.66 87.63 0)
+		(at 73.66 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25392,17 +25389,6 @@
 		(fields_autoplaced yes)
 		(uuid "93519d04-30c0-4c96-ada9-59028828951f")
 		(property "Reference" "C33"
-			(at 77.47 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
 			(at 77.47 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25413,8 +25399,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 73.66 87.63 0)
+		(property "Value" "10u"
+			(at 77.47 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:0402"
+			(at 73.66 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25425,7 +25422,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 73.66 87.63 0)
+			(at 73.66 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25436,7 +25433,7 @@
 			)
 		)
 		(property "Description" "Chip capacitor"
-			(at 73.66 87.63 0)
+			(at 73.66 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25446,8 +25443,8 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
-			(at 73.66 87.63 0)
+		(property "Ideal part number" "GRM155R60J106ME15D"
+			(at 73.66 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25457,8 +25454,8 @@
 				)
 			)
 		)
-		(property "Order link" ""
-			(at 73.66 87.63 0)
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R60J106ME15D/5877401"
+			(at 73.66 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25496,7 +25493,7 @@
 		(fields_autoplaced yes)
 		(uuid "94030543-bc2f-4d6d-90b2-071ea7d380f1")
 		(property "Reference" "D54"
-			(at 91.44 294.6399 90)
+			(at 90.17 294.6399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25518,7 +25515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 87.63 294.64 0)
 			(hide yes)
 			(show_name no)
@@ -25622,7 +25619,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0402"
 			(at 261.62 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -25655,7 +25652,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "GRM155R71C104KA88D"
 			(at 261.62 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -25666,7 +25663,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R71C104KA88D/1644733"
 			(at 261.62 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -25693,7 +25690,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{OUT1}")
+		(lib_id "symbols:1.8V")
 		(at 347.98 24.13 0)
 		(mirror y)
 		(unit 1)
@@ -25703,6 +25700,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "975ee46d-d680-4bbc-ad54-34d76c9fcbb8")
 		(property "Reference" "#PWR63"
 			(at 347.98 24.13 0)
@@ -25715,7 +25713,7 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT1}"
+		(property "Value" "1.8V"
 			(at 347.98 20.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25771,7 +25769,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{OUT2}")
+		(lib_id "symbols:3.0V")
 		(at 322.58 140.97 0)
 		(unit 1)
 		(body_style 1)
@@ -25793,7 +25791,7 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT2}"
+		(property "Value" "3.0V"
 			(at 322.58 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25850,7 +25848,7 @@
 	)
 	(symbol
 		(lib_id "symbols:CRYSTAL-4-PIN")
-		(at 276.86 78.74 270)
+		(at 264.16 78.74 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -25861,7 +25859,7 @@
 		(fields_autoplaced yes)
 		(uuid "98f48837-b7ae-4aec-9140-f1d87f8a9419")
 		(property "Reference" "Y1"
-			(at 281.94 77.4699 90)
+			(at 269.24 76.1999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25872,7 +25870,7 @@
 			)
 		)
 		(property "Value" "32MHz"
-			(at 281.94 80.0099 90)
+			(at 269.24 78.7399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25882,8 +25880,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 276.86 78.74 0)
+		(property "Footprint" "footprints:CRYSTAL-4-PAD"
+			(at 264.16 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25894,7 +25892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 78.74 0)
+			(at 264.16 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25905,7 +25903,7 @@
 			)
 		)
 		(property "Description" "Crystal"
-			(at 276.86 78.74 0)
+			(at 264.16 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25915,18 +25913,19 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
-			(at 276.86 78.74 0)
+		(property "Ideal part number" "ECS-320-CDX-2152"
+			(at 269.24 81.2799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Order link" ""
-			(at 276.86 78.74 0)
+		(property "Order link" "https://www.digikey.com/en/products/detail/ecs-inc/ECS-320-CDX-2152/13890217"
+			(at 264.16 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25980,7 +25979,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "tune"
+		(property "Value" "TBD"
 			(at 214.63 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25991,7 +25990,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0402"
 			(at 210.82 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -26074,7 +26073,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a48be57-c27c-4872-be4e-1ae615799dcb")
 		(property "Reference" "D50"
-			(at 193.04 274.3199 90)
+			(at 191.77 274.3199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26096,7 +26095,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 189.23 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -26168,7 +26167,7 @@
 	)
 	(symbol
 		(lib_id "symbols:V_{USB}")
-		(at 33.02 82.55 0)
+		(at 33.02 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26179,7 +26178,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b206aa8-813c-4892-99a7-f47f0ecaa2f2")
 		(property "Reference" "#PWR18"
-			(at 33.02 82.55 0)
+			(at 33.02 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26190,7 +26189,7 @@
 			)
 		)
 		(property "Value" "V_{USB}"
-			(at 33.02 78.74 0)
+			(at 33.02 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26200,7 +26199,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 82.55 0)
+			(at 33.02 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26211,7 +26210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 82.55 0)
+			(at 33.02 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26222,7 +26221,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 33.02 82.55 0)
+			(at 33.02 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26257,7 +26256,7 @@
 		(fields_autoplaced yes)
 		(uuid "9b2b08c4-cd90-4701-b25a-aae02e669fc6")
 		(property "Reference" "D29"
-			(at 132.08 213.3599 90)
+			(at 130.81 213.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26279,7 +26278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 128.27 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -26351,7 +26350,7 @@
 	)
 	(symbol
 		(lib_id "symbols:C")
-		(at 256.54 41.91 0)
+		(at 251.46 36.83 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26362,29 +26361,27 @@
 		(fields_autoplaced yes)
 		(uuid "9bbafe9e-e226-448b-a086-c25caddbf4d1")
 		(property "Reference" "C6"
-			(at 260.35 40.6399 0)
+			(at 251.46 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "2.2u"
-			(at 260.35 43.1799 0)
+			(at 251.46 31.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 256.54 41.91 0)
+		(property "Footprint" "footprints:0402"
+			(at 251.46 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26395,7 +26392,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 41.91 0)
+			(at 251.46 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26406,7 +26403,7 @@
 			)
 		)
 		(property "Description" "Chip capacitor"
-			(at 256.54 41.91 0)
+			(at 251.46 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26416,8 +26413,8 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
-			(at 256.54 41.91 0)
+		(property "Ideal part number" "GRM155R61A225KE01D"
+			(at 251.46 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26427,8 +26424,8 @@
 				)
 			)
 		)
-		(property "Order link" ""
-			(at 256.54 41.91 0)
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61A225KE01D/10695166"
+			(at 251.46 36.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26466,7 +26463,7 @@
 		(fields_autoplaced yes)
 		(uuid "9df14e83-114f-400b-8cbc-c4a55bc21aac")
 		(property "Reference" "SW13"
-			(at 102.87 162.56 0)
+			(at 102.87 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26542,8 +26539,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 102.87 167.64 0)
+		(property "Key" "="
+			(at 102.87 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26580,7 +26577,7 @@
 		(fields_autoplaced yes)
 		(uuid "9fa59074-e5f3-41a9-a6f0-bc49a78dfd51")
 		(property "Reference" "D8"
-			(at 193.04 152.3999 90)
+			(at 191.77 152.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26602,7 +26599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 189.23 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -26685,7 +26682,7 @@
 		(fields_autoplaced yes)
 		(uuid "a065722e-961d-4949-9189-3a0adf5b1e12")
 		(property "Reference" "D46"
-			(at 111.76 274.3199 90)
+			(at 110.49 274.3199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -26707,7 +26704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 107.95 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -26779,7 +26776,7 @@
 	)
 	(symbol
 		(lib_id "symbols:C")
-		(at 63.5 106.68 0)
+		(at 63.5 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26790,17 +26787,6 @@
 		(fields_autoplaced yes)
 		(uuid "a0779cce-e5b4-4761-9b83-64964e74bf7b")
 		(property "Reference" "C34"
-			(at 67.31 105.4099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
 			(at 67.31 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26811,8 +26797,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 63.5 106.68 0)
+		(property "Value" "10u"
+			(at 67.31 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:0603"
+			(at 63.5 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26823,7 +26820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 106.68 0)
+			(at 63.5 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26834,7 +26831,7 @@
 			)
 		)
 		(property "Description" "Chip capacitor"
-			(at 63.5 106.68 0)
+			(at 63.5 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26844,8 +26841,8 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
-			(at 63.5 106.68 0)
+		(property "Ideal part number" "GRM188R61E106MA73D"
+			(at 63.5 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26855,8 +26852,8 @@
 				)
 			)
 		)
-		(property "Order link" ""
-			(at 63.5 106.68 0)
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E106MA73D/3900486"
+			(at 63.5 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26883,7 +26880,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 43.18 111.76 0)
+		(at 43.18 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -26894,7 +26891,7 @@
 		(fields_autoplaced yes)
 		(uuid "a180edae-f560-409e-9ed4-1212e1499bf9")
 		(property "Reference" "#PWR24"
-			(at 43.18 111.76 0)
+			(at 43.18 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26905,7 +26902,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 43.18 115.57 0)
+			(at 43.18 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26916,7 +26913,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 111.76 0)
+			(at 43.18 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26927,7 +26924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 111.76 0)
+			(at 43.18 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -26938,7 +26935,7 @@
 			)
 		)
 		(property "Description" "Ground symbol"
-			(at 43.18 111.76 0)
+			(at 43.18 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -27073,7 +27070,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0402"
 			(at 294.64 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -27106,7 +27103,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "GRM155R61C105KA12D"
 			(at 294.64 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -27117,7 +27114,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61C105KA12D/4905129"
 			(at 294.64 227.33 0)
 			(hide yes)
 			(show_name no)
@@ -27364,7 +27361,7 @@
 		(fields_autoplaced yes)
 		(uuid "a5e72dab-e6e8-409f-aef1-562fa1a86c6d")
 		(property "Reference" "SW53"
-			(at 62.23 284.48 0)
+			(at 62.23 281.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27440,8 +27437,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 62.23 289.56 0)
+		(property "Key" "/"
+			(at 62.23 284.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -27499,7 +27496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SMD-QFN32-1EP"
 			(at 127 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -27693,7 +27690,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0402"
 			(at 96.52 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -27726,7 +27723,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "RC0402FR-0747KL"
 			(at 96.52 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -27737,7 +27734,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0747KL/726616"
 			(at 96.52 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -27878,6 +27875,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a72d51cf-138d-4df0-9957-9a9b80d7317a")
 		(property "Reference" "#PWR90"
 			(at 317.5 247.65 0)
@@ -28094,7 +28092,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{OUT1}")
+		(lib_id "symbols:1.8V")
 		(at 287.02 24.13 0)
 		(unit 1)
 		(body_style 1)
@@ -28103,6 +28101,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a93f0c50-65c9-45af-9396-74051b366161")
 		(property "Reference" "#PWR37"
 			(at 287.02 24.13 0)
@@ -28115,14 +28114,15 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT1}"
-			(at 287.02 20.32 0)
+		(property "Value" "1.8V"
+			(at 289.56 23.4949 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -28180,6 +28180,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "a9d4e028-7599-45df-b265-1f44d0abc356")
 		(property "Reference" "#PWR93"
 			(at 271.78 222.25 0)
@@ -28249,7 +28250,7 @@
 	)
 	(symbol
 		(lib_id "symbols:V_{BATT}")
-		(at 53.34 82.55 0)
+		(at 53.34 85.09 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28260,7 +28261,7 @@
 		(fields_autoplaced yes)
 		(uuid "aa699a5c-49db-45b2-b00b-373d7813be3f")
 		(property "Reference" "#PWR27"
-			(at 53.34 82.55 0)
+			(at 53.34 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28271,7 +28272,7 @@
 			)
 		)
 		(property "Value" "V_{BATT}"
-			(at 53.34 78.74 0)
+			(at 53.34 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28281,7 +28282,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 82.55 0)
+			(at 53.34 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28292,7 +28293,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 82.55 0)
+			(at 53.34 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28303,7 +28304,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 53.34 82.55 0)
+			(at 53.34 85.09 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28327,7 +28328,7 @@
 	)
 	(symbol
 		(lib_id "symbols:C")
-		(at 246.38 72.39 0)
+		(at 236.22 72.39 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28338,7 +28339,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac9c6228-0479-43b9-beb1-9349fe5a77ec")
 		(property "Reference" "C11"
-			(at 250.19 71.1199 0)
+			(at 240.03 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28349,7 +28350,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 250.19 73.6599 0)
+			(at 240.03 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28359,8 +28360,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 246.38 72.39 0)
+		(property "Footprint" "footprints:0402"
+			(at 236.22 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28371,7 +28372,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 72.39 0)
+			(at 236.22 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28382,7 +28383,7 @@
 			)
 		)
 		(property "Description" "Chip capacitor"
-			(at 246.38 72.39 0)
+			(at 236.22 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28392,8 +28393,8 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
-			(at 246.38 72.39 0)
+		(property "Ideal part number" "GRM155R61A225KE01D"
+			(at 236.22 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28403,8 +28404,8 @@
 				)
 			)
 		)
-		(property "Order link" ""
-			(at 246.38 72.39 0)
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61A225KE01D/10695166"
+			(at 236.22 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28442,7 +28443,7 @@
 		(fields_autoplaced yes)
 		(uuid "acef11c5-379c-4e3a-87e7-130e42a50028")
 		(property "Reference" "D43"
-			(at 50.8 274.3199 90)
+			(at 49.53 274.3199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28464,7 +28465,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 46.99 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -28547,7 +28548,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad22db2d-2d52-4064-98f0-6bd17f94319e")
 		(property "Reference" "SW23"
-			(at 184.15 182.88 0)
+			(at 184.15 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28623,8 +28624,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 184.15 187.96 0)
+		(property "Key" "U"
+			(at 184.15 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28661,7 +28662,7 @@
 		(fields_autoplaced yes)
 		(uuid "adc140c8-ffee-4754-a09d-2bd80c7c1204")
 		(property "Reference" "L7"
-			(at 156.21 69.85 90)
+			(at 156.21 78.74 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28671,7 +28672,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 156.21 72.39 90)
+			(at 156.21 81.28 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -28680,7 +28681,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0806"
 			(at 156.21 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -28713,7 +28714,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "DFE201610E-2R2M#P2"
 			(at 156.21 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -28724,7 +28725,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/DFE201610E-2R2M-P2/7430537"
 			(at 156.21 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -28752,7 +28753,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 63.5 111.76 0)
+		(at 63.5 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28763,7 +28764,7 @@
 		(fields_autoplaced yes)
 		(uuid "aeab1f0f-5e9d-4c41-867f-3a83c487cafd")
 		(property "Reference" "#PWR35"
-			(at 63.5 111.76 0)
+			(at 63.5 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28774,7 +28775,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 115.57 0)
+			(at 63.5 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28785,7 +28786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 111.76 0)
+			(at 63.5 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28796,7 +28797,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 111.76 0)
+			(at 63.5 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28807,7 +28808,7 @@
 			)
 		)
 		(property "Description" "Ground symbol"
-			(at 63.5 111.76 0)
+			(at 63.5 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28831,7 +28832,7 @@
 	)
 	(symbol
 		(lib_id "symbols:C")
-		(at 53.34 87.63 0)
+		(at 53.34 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -28842,17 +28843,6 @@
 		(fields_autoplaced yes)
 		(uuid "af66b121-2550-491b-a01d-db7a4247a3d9")
 		(property "Reference" "C22"
-			(at 57.15 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2.2u"
 			(at 57.15 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28863,8 +28853,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 53.34 87.63 0)
+		(property "Value" "2.2u"
+			(at 57.15 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:0402"
+			(at 53.34 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28875,7 +28876,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 87.63 0)
+			(at 53.34 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28886,7 +28887,7 @@
 			)
 		)
 		(property "Description" "Chip capacitor"
-			(at 53.34 87.63 0)
+			(at 53.34 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28896,8 +28897,8 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
-			(at 53.34 87.63 0)
+		(property "Ideal part number" "GRM155R61A225KE01D"
+			(at 53.34 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28907,8 +28908,8 @@
 				)
 			)
 		)
-		(property "Order link" ""
-			(at 53.34 87.63 0)
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61A225KE01D/10695166"
+			(at 53.34 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -28946,7 +28947,7 @@
 		(fields_autoplaced yes)
 		(uuid "af764a2e-4ebf-4a23-81c9-8d66c368e66c")
 		(property "Reference" "SW20"
-			(at 123.19 182.88 0)
+			(at 123.19 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29022,8 +29023,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 123.19 187.96 0)
+		(property "Key" "R"
+			(at 123.19 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29060,7 +29061,7 @@
 		(fields_autoplaced yes)
 		(uuid "afc37776-b8e1-4d62-866f-627e733fbf8e")
 		(property "Reference" "SW28"
-			(at 102.87 203.2 0)
+			(at 102.87 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29136,8 +29137,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 102.87 208.28 0)
+		(property "Key" "]"
+			(at 102.87 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29163,7 +29164,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 152.4 111.76 0)
+		(at 151.13 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29171,9 +29172,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b011abc8-77df-4fab-ab74-bb09e0648a94")
 		(property "Reference" "#PWR17"
-			(at 152.4 111.76 0)
+			(at 151.13 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29184,7 +29186,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 116.205 90)
+			(at 151.13 118.745 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29196,7 +29198,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 111.76 0)
+			(at 151.13 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29207,7 +29209,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 111.76 0)
+			(at 151.13 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29218,7 +29220,7 @@
 			)
 		)
 		(property "Description" "Ground symbol"
-			(at 152.4 111.76 0)
+			(at 151.13 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29253,7 +29255,7 @@
 		(fields_autoplaced yes)
 		(uuid "b06732be-22a9-467b-a399-bacd20690f3c")
 		(property "Reference" "SW33"
-			(at 102.87 223.52 0)
+			(at 102.87 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29329,8 +29331,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 102.87 228.6 0)
+		(property "Key" "D"
+			(at 102.87 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29356,7 +29358,7 @@
 	)
 	(symbol
 		(lib_id "symbols:V_{SYS}")
-		(at 53.34 101.6 0)
+		(at 53.34 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29367,7 +29369,7 @@
 		(fields_autoplaced yes)
 		(uuid "b15f576e-f8b9-408f-8424-83f797545c98")
 		(property "Reference" "#PWR25"
-			(at 53.34 101.6 0)
+			(at 53.34 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29378,7 +29380,7 @@
 			)
 		)
 		(property "Value" "V_{SYS}"
-			(at 53.34 97.79 0)
+			(at 53.34 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29388,7 +29390,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 101.6 0)
+			(at 53.34 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29399,7 +29401,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 101.6 0)
+			(at 53.34 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29410,7 +29412,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 53.34 101.6 0)
+			(at 53.34 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29442,6 +29444,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b1f2913f-3931-4131-871c-284a051fb661")
 		(property "Reference" "#PWR82"
 			(at 294.64 222.25 0)
@@ -29511,7 +29514,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 53.34 111.76 0)
+		(at 53.34 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -29522,7 +29525,7 @@
 		(fields_autoplaced yes)
 		(uuid "b255d296-9483-4f9c-a0fe-5d7cbaed63df")
 		(property "Reference" "#PWR26"
-			(at 53.34 111.76 0)
+			(at 53.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29533,7 +29536,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 115.57 0)
+			(at 53.34 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29544,7 +29547,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 111.76 0)
+			(at 53.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29555,7 +29558,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 111.76 0)
+			(at 53.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29566,7 +29569,7 @@
 			)
 		)
 		(property "Description" "Ground symbol"
-			(at 53.34 111.76 0)
+			(at 53.34 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -29924,7 +29927,7 @@
 		(fields_autoplaced yes)
 		(uuid "b54ec1a2-d5e8-4cc3-a096-c73b87ea9ac3")
 		(property "Reference" "D37"
-			(at 193.04 233.6799 90)
+			(at 191.77 233.6799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -29946,7 +29949,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 189.23 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -30029,7 +30032,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5ea4a25-8634-4989-9140-0ee4b5532164")
 		(property "Reference" "D66"
-			(at 193.04 253.9999 90)
+			(at 191.77 253.9999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30051,7 +30054,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 189.23 254 0)
 			(hide yes)
 			(show_name no)
@@ -30134,7 +30137,7 @@
 		(fields_autoplaced yes)
 		(uuid "b69e6efc-c5c5-4d83-ba0d-7b19c2a7a18a")
 		(property "Reference" "SW4"
-			(at 102.87 142.24 0)
+			(at 102.87 139.7 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30210,8 +30213,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 102.87 147.32 0)
+		(property "Key" "3"
+			(at 102.87 142.24 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30248,7 +30251,7 @@
 		(fields_autoplaced yes)
 		(uuid "b831c861-7312-46b2-a12e-91c867a73436")
 		(property "Reference" "D64"
-			(at 152.4 253.9999 90)
+			(at 151.13 253.9999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30270,7 +30273,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 148.59 254 0)
 			(hide yes)
 			(show_name no)
@@ -30350,19 +30353,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "b8369361-9fdc-4dc8-b70b-569df78fecde")
 		(property "Reference" "C20"
-			(at 200.66 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10u"
-			(at 203.2 30.48 0)
+			(at 204.47 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30372,7 +30366,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Value" "10u"
+			(at 204.47 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:0402"
 			(at 200.66 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -30405,7 +30410,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "GRM155R60J106ME15D"
 			(at 200.66 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -30416,7 +30421,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R60J106ME15D/5877401"
 			(at 200.66 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -30455,7 +30460,7 @@
 		(fields_autoplaced yes)
 		(uuid "b90d92b1-5c6d-42e2-911d-a6004bc50d76")
 		(property "Reference" "SW32"
-			(at 82.55 223.52 0)
+			(at 82.55 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30531,8 +30536,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 82.55 228.6 0)
+		(property "Key" "S"
+			(at 82.55 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30683,7 +30688,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba0218c7-0bda-4803-bd2c-2b1ea4a313d2")
 		(property "Reference" "SW29"
-			(at 123.19 203.2 0)
+			(at 123.19 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30759,8 +30764,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 123.19 208.28 0)
+		(property "Key" "Bksp"
+			(at 123.19 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30797,7 +30802,7 @@
 		(fields_autoplaced yes)
 		(uuid "bbe7761e-d5e6-447d-a2d2-0f5dee52eda4")
 		(property "Reference" "D22"
-			(at 172.72 193.0399 90)
+			(at 171.45 193.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -30819,7 +30824,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 168.91 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -30899,6 +30904,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "bd512f48-4a41-4a48-9211-c98fd3afa163")
 		(property "Reference" "#PWR5"
 			(at 81.28 50.8 0)
@@ -30980,7 +30986,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf08e16d-2bf7-40de-9f9f-949f4f631f78")
 		(property "Reference" "D25"
-			(at 50.8 213.3599 90)
+			(at 49.53 213.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31002,7 +31008,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 46.99 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -31074,7 +31080,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 63.5 92.71 0)
+		(at 63.5 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31085,7 +31091,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf1e03a7-ac36-4e95-b34e-16ac7b60cf88")
 		(property "Reference" "#PWR30"
-			(at 63.5 92.71 0)
+			(at 63.5 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31096,7 +31102,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 96.52 0)
+			(at 63.5 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31107,7 +31113,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 92.71 0)
+			(at 63.5 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31118,7 +31124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 92.71 0)
+			(at 63.5 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31129,7 +31135,7 @@
 			)
 		)
 		(property "Description" "Ground symbol"
-			(at 63.5 92.71 0)
+			(at 63.5 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31185,7 +31191,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0402"
 			(at 266.7 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -31218,7 +31224,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "GRM155R61A225KE01D"
 			(at 266.7 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -31229,7 +31235,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R61A225KE01D/10695166"
 			(at 266.7 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -31268,7 +31274,7 @@
 		(fields_autoplaced yes)
 		(uuid "c111fc21-6215-4e24-871b-1bafa909fc62")
 		(property "Reference" "D18"
-			(at 91.44 193.0399 90)
+			(at 90.17 193.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31290,7 +31296,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 87.63 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -31362,7 +31368,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 152.4 63.5 0)
+		(at 151.13 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -31370,9 +31376,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "c21f83a2-be3b-4c6f-88ce-e57468147612")
 		(property "Reference" "#PWR13"
-			(at 152.4 63.5 0)
+			(at 151.13 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31383,7 +31390,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 67.31 0)
+			(at 151.13 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31394,7 +31401,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 63.5 0)
+			(at 151.13 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31405,7 +31412,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 63.5 0)
+			(at 151.13 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31416,7 +31423,7 @@
 			)
 		)
 		(property "Description" "Ground symbol"
-			(at 152.4 63.5 0)
+			(at 151.13 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31451,7 +31458,7 @@
 		(fields_autoplaced yes)
 		(uuid "c24ded59-d02d-413a-a76c-7a5415a205d4")
 		(property "Reference" "SW31"
-			(at 62.23 223.52 0)
+			(at 62.23 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31527,8 +31534,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 62.23 228.6 0)
+		(property "Key" "A"
+			(at 62.23 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31553,7 +31560,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{OUT2}")
+		(lib_id "symbols:3.0V")
 		(at 339.09 140.97 0)
 		(unit 1)
 		(body_style 1)
@@ -31575,7 +31582,7 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT2}"
+		(property "Value" "3.0V"
 			(at 339.09 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -31643,7 +31650,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2a3e639-8251-43ae-adeb-e4488f35439e")
 		(property "Reference" "D53"
-			(at 71.12 294.6399 90)
+			(at 69.85 294.6399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31665,7 +31672,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 67.31 294.64 0)
 			(hide yes)
 			(show_name no)
@@ -31748,7 +31755,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2b54183-333b-4aeb-b145-48a199af5da7")
 		(property "Reference" "D55"
-			(at 111.76 294.6399 90)
+			(at 110.49 294.6399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31770,7 +31777,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 107.95 294.64 0)
 			(hide yes)
 			(show_name no)
@@ -31853,7 +31860,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2da2975-de56-477f-8f45-3ba885ee1274")
 		(property "Reference" "SW10"
-			(at 41.91 162.56 0)
+			(at 41.91 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31929,8 +31936,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 41.91 167.64 0)
+		(property "Key" "9"
+			(at 41.91 162.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31967,7 +31974,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4857f7d-6636-4299-89b8-df4529d36230")
 		(property "Reference" "D63"
-			(at 132.08 253.9999 90)
+			(at 130.81 253.9999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31989,7 +31996,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 128.27 254 0)
 			(hide yes)
 			(show_name no)
@@ -32072,7 +32079,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4ccf991-3f90-4d35-a7a0-ec568f9fa01e")
 		(property "Reference" "D21"
-			(at 152.4 193.0399 90)
+			(at 151.13 193.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32094,7 +32101,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 148.59 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -32177,7 +32184,7 @@
 		(fields_autoplaced yes)
 		(uuid "c4d31ba2-f82e-49a7-9690-95c11655ac13")
 		(property "Reference" "D36"
-			(at 172.72 233.6799 90)
+			(at 171.45 233.6799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32199,7 +32206,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 168.91 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -32282,7 +32289,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6ad9529-8a15-45ad-b004-4293eec18da9")
 		(property "Reference" "D27"
-			(at 91.44 213.3599 90)
+			(at 90.17 213.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32304,7 +32311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 87.63 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -32387,7 +32394,7 @@
 		(fields_autoplaced yes)
 		(uuid "c738cb9e-07e5-4736-912b-5cb79d9b1836")
 		(property "Reference" "D61"
-			(at 193.04 213.3599 90)
+			(at 191.77 213.3599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32409,7 +32416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 189.23 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -32481,7 +32488,7 @@
 	)
 	(symbol
 		(lib_id "symbols:C")
-		(at 33.02 87.63 0)
+		(at 33.02 90.17 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32492,17 +32499,6 @@
 		(fields_autoplaced yes)
 		(uuid "c7b3712c-3302-44f4-8681-cfdee2fb5af7")
 		(property "Reference" "C15"
-			(at 36.83 86.3599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
 			(at 36.83 88.8999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32513,8 +32509,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 33.02 87.63 0)
+		(property "Value" "1u"
+			(at 36.83 91.4399 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:0402"
+			(at 33.02 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32525,7 +32532,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 87.63 0)
+			(at 33.02 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32536,7 +32543,7 @@
 			)
 		)
 		(property "Description" "Chip capacitor"
-			(at 33.02 87.63 0)
+			(at 33.02 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32546,8 +32553,8 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
-			(at 33.02 87.63 0)
+		(property "Ideal part number" "CL05A105KA5NQNC"
+			(at 33.02 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32557,8 +32564,8 @@
 				)
 			)
 		)
-		(property "Order link" ""
-			(at 33.02 87.63 0)
+		(property "Order link" "https://www.digikey.com/en/products/detail/samsung-electro-mechanics/CL05A105KA5NQNC/3887103"
+			(at 33.02 90.17 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32596,7 +32603,7 @@
 		(fields_autoplaced yes)
 		(uuid "c94f1449-a6cc-4914-9b1f-af1bfe5f36bb")
 		(property "Reference" "SW46"
-			(at 102.87 264.16 0)
+			(at 102.87 261.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32672,8 +32679,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 102.87 269.24 0)
+		(property "Key" "C"
+			(at 102.87 264.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32699,7 +32706,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 246.38 46.99 0)
+		(at 256.54 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32707,9 +32714,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "ca1d54d4-0190-4517-8a1d-141c2285217d")
 		(property "Reference" "#PWR45"
-			(at 246.38 46.99 0)
+			(at 256.54 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32720,7 +32728,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 246.38 50.8 0)
+			(at 256.54 60.96 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32731,7 +32739,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 46.99 0)
+			(at 256.54 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32742,7 +32750,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 46.99 0)
+			(at 256.54 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32753,7 +32761,7 @@
 			)
 		)
 		(property "Description" "Ground symbol"
-			(at 246.38 46.99 0)
+			(at 256.54 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32777,7 +32785,7 @@
 	)
 	(symbol
 		(lib_id "symbols:C")
-		(at 53.34 106.68 0)
+		(at 53.34 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32788,17 +32796,6 @@
 		(fields_autoplaced yes)
 		(uuid "ca343590-c7c5-481a-8e18-c8f1f869a4dc")
 		(property "Reference" "C19"
-			(at 57.15 105.4099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
 			(at 57.15 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32809,8 +32806,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 53.34 106.68 0)
+		(property "Value" "10u"
+			(at 57.15 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:0603"
+			(at 53.34 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32821,7 +32829,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 106.68 0)
+			(at 53.34 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32832,7 +32840,7 @@
 			)
 		)
 		(property "Description" "Chip capacitor"
-			(at 53.34 106.68 0)
+			(at 53.34 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32842,8 +32850,8 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
-			(at 53.34 106.68 0)
+		(property "Ideal part number" "GRM188R61E106MA73D"
+			(at 53.34 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32853,8 +32861,8 @@
 				)
 			)
 		)
-		(property "Order link" ""
-			(at 53.34 106.68 0)
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E106MA73D/3900486"
+			(at 53.34 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32889,6 +32897,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "cace504f-9bd9-4857-9e2b-a27756ccd464")
 		(property "Reference" "#PWR104"
 			(at 210.82 34.29 0)
@@ -32959,7 +32968,7 @@
 	)
 	(symbol
 		(lib_id "symbols:CONN-2-PIN-BATTERY")
-		(at 83.82 59.69 0)
+		(at 66.04 59.69 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -32970,7 +32979,7 @@
 		(fields_autoplaced yes)
 		(uuid "cb318c20-83b1-4c74-8500-b0e75305a3f1")
 		(property "Reference" "J3"
-			(at 79.375 55.88 0)
+			(at 61.595 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -32980,7 +32989,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 79.375 55.88 0)
+			(at 61.595 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -32991,7 +33000,7 @@
 			)
 		)
 		(property "Footprint" "footprints:BATTERY-SOLDER-PADS"
-			(at 83.82 59.69 0)
+			(at 66.04 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33002,7 +33011,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 59.69 0)
+			(at 66.04 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33013,7 +33022,7 @@
 			)
 		)
 		(property "Description" "Battery solder pads"
-			(at 83.82 59.69 0)
+			(at 66.04 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33024,7 +33033,7 @@
 			)
 		)
 		(property "Ideal part number" ""
-			(at 83.82 59.69 0)
+			(at 66.04 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33035,7 +33044,7 @@
 			)
 		)
 		(property "Order link" ""
-			(at 83.82 59.69 0)
+			(at 66.04 59.69 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -33073,7 +33082,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbd226f6-4d41-4680-847b-be87bfb2b5a9")
 		(property "Reference" "SW30"
-			(at 41.91 223.52 0)
+			(at 41.91 220.98 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33149,8 +33158,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 41.91 228.6 0)
+		(property "Key" "Ctrl"
+			(at 41.91 223.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33184,6 +33193,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "cbf2ed81-f268-4bbf-9ff6-5cc9a64b190b")
 		(property "Reference" "#PWR106"
 			(at 231.14 34.29 0)
@@ -33286,7 +33296,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0402"
 			(at 322.58 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -33319,7 +33329,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "GRM155R71C104KA88D"
 			(at 322.58 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -33330,7 +33340,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R71C104KA88D/1644733"
 			(at 322.58 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -33369,7 +33379,7 @@
 		(fields_autoplaced yes)
 		(uuid "cdd9199e-e066-4342-8a35-5ba322dad1b7")
 		(property "Reference" "D6"
-			(at 152.4 152.3999 90)
+			(at 151.13 152.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33391,7 +33401,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 148.59 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -33475,7 +33485,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf75a089-2106-411d-afbb-f54d2ddb3f24")
 		(property "Reference" "R5"
-			(at 354.33 21.59 90)
+			(at 354.33 20.32 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33485,7 +33495,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 354.33 24.13 90)
+			(at 354.33 22.86 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33494,7 +33504,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0402"
 			(at 354.33 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -33527,7 +33537,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "RC0402FR-074K7L"
 			(at 354.33 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -33538,7 +33548,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-074K7L/2827881"
 			(at 354.33 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -33577,7 +33587,7 @@
 		(fields_autoplaced yes)
 		(uuid "cfc51060-8b4f-4d45-86f4-f3abde81ad95")
 		(property "Reference" "D35"
-			(at 152.4 233.6799 90)
+			(at 151.13 233.6799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33599,7 +33609,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 148.59 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -33682,7 +33692,7 @@
 		(fields_autoplaced yes)
 		(uuid "d122a51b-d7de-4f0f-bb3a-36f9d72e5f25")
 		(property "Reference" "SW49"
-			(at 163.83 264.16 0)
+			(at 163.83 261.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33758,8 +33768,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 163.83 269.24 0)
+		(property "Key" "N"
+			(at 163.83 264.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33793,6 +33803,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d1bcff10-1f86-4f96-94c8-e0c0adeb7dd7")
 		(property "Reference" "#PWR86"
 			(at 342.9 252.73 0)
@@ -33871,6 +33882,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "d1e5626a-5fbf-4200-b40f-5edae06a3360")
 		(property "Reference" "#PWR94"
 			(at 345.44 222.25 0)
@@ -33951,7 +33963,7 @@
 		(fields_autoplaced yes)
 		(uuid "d28faab0-784b-4afc-b07e-0e786c9ccce5")
 		(property "Reference" "D23"
-			(at 193.04 193.0399 90)
+			(at 191.77 193.0399 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -33973,7 +33985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 189.23 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -34056,7 +34068,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4bff223-9ef8-4d08-beea-b08d6ac79dfc")
 		(property "Reference" "D9"
-			(at 213.36 152.3999 90)
+			(at 212.09 152.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34078,7 +34090,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 209.55 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -34161,7 +34173,7 @@
 		(fields_autoplaced yes)
 		(uuid "d4ec3b06-324b-491b-8bb7-fde427c04d1a")
 		(property "Reference" "D7"
-			(at 172.72 152.3999 90)
+			(at 171.45 152.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34183,7 +34195,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 168.91 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -34380,7 +34392,7 @@
 		(fields_autoplaced yes)
 		(uuid "d5f671b1-b25e-44ff-b9ba-836ff84207ad")
 		(property "Reference" "D31"
-			(at 71.12 233.6799 90)
+			(at 69.85 233.6799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34402,7 +34414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 67.31 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -34473,7 +34485,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{OUT2}")
+		(lib_id "symbols:3.0V")
 		(at 278.13 140.97 0)
 		(unit 1)
 		(body_style 1)
@@ -34495,7 +34507,7 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT2}"
+		(property "Value" "3.0V"
 			(at 278.13 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34563,7 +34575,7 @@
 		(fields_autoplaced yes)
 		(uuid "d75e4825-6504-4628-b1e7-99e320548892")
 		(property "Reference" "SW18"
-			(at 82.55 182.88 0)
+			(at 82.55 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34639,8 +34651,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 82.55 187.96 0)
+		(property "Key" "W"
+			(at 82.55 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34666,7 +34678,7 @@
 	)
 	(symbol
 		(lib_id "symbols:R")
-		(at 234.95 57.15 180)
+		(at 226.06 57.15 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -34677,7 +34689,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9efe3e7-d28a-4d83-9646-5dcfbcde5030")
 		(property "Reference" "R1"
-			(at 237.49 55.8799 0)
+			(at 228.6 55.8799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34688,7 +34700,7 @@
 			)
 		)
 		(property "Value" "2.2R"
-			(at 237.49 58.4199 0)
+			(at 228.6 58.4199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34698,8 +34710,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 234.95 57.15 0)
+		(property "Footprint" "footprints:0402"
+			(at 226.06 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34710,7 +34722,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 234.95 57.15 0)
+			(at 226.06 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34721,7 +34733,7 @@
 			)
 		)
 		(property "Description" "Chip resistor"
-			(at 234.95 57.15 0)
+			(at 226.06 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34731,8 +34743,8 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
-			(at 234.95 57.15 0)
+		(property "Ideal part number" "RC0402FR-072R2L"
+			(at 226.06 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34742,8 +34754,8 @@
 				)
 			)
 		)
-		(property "Order link" ""
-			(at 234.95 57.15 0)
+		(property "Order link" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-072R2L/1037048"
+			(at 226.06 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -34781,7 +34793,7 @@
 		(fields_autoplaced yes)
 		(uuid "da573792-2a3c-48a5-a674-1ccf5de82ef9")
 		(property "Reference" "SW24"
-			(at 204.47 182.88 0)
+			(at 204.47 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34857,8 +34869,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 204.47 187.96 0)
+		(property "Key" "I"
+			(at 204.47 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34895,7 +34907,7 @@
 		(fields_autoplaced yes)
 		(uuid "db67e280-93f0-4501-b364-e72392c7c6b6")
 		(property "Reference" "D34"
-			(at 132.08 233.6799 90)
+			(at 130.81 233.6799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -34917,7 +34929,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 128.27 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -34997,6 +35009,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "dbfce457-287f-4622-a530-26debc5af1c5")
 		(property "Reference" "#PWR62"
 			(at 269.24 292.1 0)
@@ -35078,7 +35091,7 @@
 		(fields_autoplaced yes)
 		(uuid "dd2a7e13-fe8b-4a46-834d-48ec2e70f5eb")
 		(property "Reference" "SW48"
-			(at 143.51 264.16 0)
+			(at 143.51 261.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35154,8 +35167,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 143.51 269.24 0)
+		(property "Key" "B"
+			(at 143.51 264.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35180,7 +35193,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{OUT2}")
+		(lib_id "symbols:3.0V")
 		(at 278.13 176.53 0)
 		(unit 1)
 		(body_style 1)
@@ -35202,7 +35215,7 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT2}"
+		(property "Value" "3.0V"
 			(at 278.13 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35267,19 +35280,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "dd9427a9-ea76-43f6-8d54-0fb462484808")
 		(property "Reference" "C36"
-			(at 231.14 29.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100n"
-			(at 233.68 30.48 0)
+			(at 234.95 27.9399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35289,7 +35293,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Value" "100n"
+			(at 234.95 30.4799 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:0402"
 			(at 231.14 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -35322,7 +35337,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "GRM155R71C104KA88D"
 			(at 231.14 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -35333,7 +35348,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R71C104KA88D/1644733"
 			(at 231.14 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -35372,7 +35387,7 @@
 		(fields_autoplaced yes)
 		(uuid "de6ea39c-09b8-4b6b-91ac-a716d56f6ff2")
 		(property "Reference" "SW21"
-			(at 143.51 182.88 0)
+			(at 143.51 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35448,8 +35463,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 143.51 187.96 0)
+		(property "Key" "T"
+			(at 143.51 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35486,7 +35501,7 @@
 		(fields_autoplaced yes)
 		(uuid "df9e4542-2e76-40bc-88ec-08da96add7b6")
 		(property "Reference" "D13"
-			(at 111.76 172.7199 90)
+			(at 110.49 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35508,7 +35523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 107.95 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -35579,7 +35594,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{OUT1}")
+		(lib_id "symbols:1.8V")
 		(at 254 97.79 0)
 		(unit 1)
 		(body_style 1)
@@ -35588,6 +35603,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e01d8d11-8fb7-494e-aaba-b9a2bcf15943")
 		(property "Reference" "#PWR57"
 			(at 254 97.79 0)
@@ -35600,7 +35616,7 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT1}"
+		(property "Value" "1.8V"
 			(at 254 93.98 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35748,7 +35764,7 @@
 		(fields_autoplaced yes)
 		(uuid "e09839a7-c954-492d-a808-b6dc21d5ddde")
 		(property "Reference" "SW19"
-			(at 102.87 182.88 0)
+			(at 102.87 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35824,8 +35840,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 102.87 187.96 0)
+		(property "Key" "E"
+			(at 102.87 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35850,7 +35866,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{OUT1}")
+		(lib_id "symbols:1.8V")
 		(at 246.38 278.13 0)
 		(unit 1)
 		(body_style 1)
@@ -35872,7 +35888,7 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT1}"
+		(property "Value" "1.8V"
 			(at 246.38 274.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35940,7 +35956,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2306f6e-6c79-481d-91a2-f6f6345afcf2")
 		(property "Reference" "D33"
-			(at 111.76 233.6799 90)
+			(at 110.49 233.6799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -35962,7 +35978,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 107.95 233.68 0)
 			(hide yes)
 			(show_name no)
@@ -36045,7 +36061,7 @@
 		(fields_autoplaced yes)
 		(uuid "e25f7ace-ddde-46b3-938b-03e562801a0a")
 		(property "Reference" "SW22"
-			(at 163.83 182.88 0)
+			(at 163.83 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36121,8 +36137,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 163.83 187.96 0)
+		(property "Key" "Y"
+			(at 163.83 182.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36262,7 +36278,7 @@
 	)
 	(symbol
 		(lib_id "symbols:V_{SYS}")
-		(at 33.02 101.6 0)
+		(at 33.02 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -36273,7 +36289,7 @@
 		(fields_autoplaced yes)
 		(uuid "e3e693a6-e31f-463b-858a-e20faaa602b0")
 		(property "Reference" "#PWR21"
-			(at 33.02 101.6 0)
+			(at 33.02 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36284,7 +36300,7 @@
 			)
 		)
 		(property "Value" "V_{SYS}"
-			(at 33.02 97.79 0)
+			(at 33.02 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36294,7 +36310,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 101.6 0)
+			(at 33.02 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36305,7 +36321,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 101.6 0)
+			(at 33.02 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36316,7 +36332,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 33.02 101.6 0)
+			(at 33.02 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36351,7 +36367,7 @@
 		(fields_autoplaced yes)
 		(uuid "e4296b43-7856-4096-9841-30c530948ca2")
 		(property "Reference" "SW63"
-			(at 123.19 243.84 0)
+			(at 123.19 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36427,8 +36443,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 123.19 248.92 0)
+		(property "Key" "Up"
+			(at 123.19 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36466,7 +36482,7 @@
 		(fields_autoplaced yes)
 		(uuid "e51b0d99-daeb-45d8-bcbd-804dc87c7435")
 		(property "Reference" "R7"
-			(at 354.33 41.91 90)
+			(at 354.33 40.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36476,7 +36492,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 354.33 44.45 90)
+			(at 354.33 43.18 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36485,7 +36501,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0402"
 			(at 354.33 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -36518,7 +36534,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "RC0402FR-074K7L"
 			(at 354.33 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -36529,7 +36545,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-074K7L/2827881"
 			(at 354.33 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -36557,7 +36573,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 83.82 66.04 0)
+		(at 66.04 66.04 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -36566,9 +36582,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e5fc9263-437e-4d1a-a4fb-75bd783fecd0")
 		(property "Reference" "#PWR9"
-			(at 83.82 66.04 0)
+			(at 66.04 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36579,7 +36596,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 83.82 69.85 0)
+			(at 66.04 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36590,7 +36607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 83.82 66.04 0)
+			(at 66.04 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36601,7 +36618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 66.04 0)
+			(at 66.04 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36612,7 +36629,7 @@
 			)
 		)
 		(property "Description" "Ground symbol"
-			(at 83.82 66.04 0)
+			(at 66.04 66.04 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36647,7 +36664,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6797e9c-423d-4a2a-8466-569c951e71cd")
 		(property "Reference" "SW26"
-			(at 62.23 203.2 0)
+			(at 62.23 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36723,8 +36740,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 62.23 208.28 0)
+		(property "Key" "P"
+			(at 62.23 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -36749,7 +36766,7 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{OUT2}")
+		(lib_id "symbols:3.0V")
 		(at 322.58 176.53 0)
 		(unit 1)
 		(body_style 1)
@@ -36771,7 +36788,7 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT2}"
+		(property "Value" "3.0V"
 			(at 322.58 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36836,29 +36853,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e7987821-c241-49fa-8eee-92f88eac7359")
 		(property "Reference" "Y2"
-			(at 354.33 73.66 0)
+			(at 346.71 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "32.768kHz"
-			(at 354.33 76.2 0)
+			(at 346.71 72.39 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:CRYSTAL-2-PAD"
 			(at 354.33 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -36891,17 +36909,18 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
-			(at 354.33 80.01 0)
+		(property "Ideal part number" "Q 0,032768-JTX210-9-20-T1-HMR-70K-LF"
+			(at 346.71 74.93 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/jauch-quartz/Q-0-032768-JTX210-9-20-T1-HMR-70K-LF/26600908"
 			(at 354.33 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -36961,7 +36980,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0402"
 			(at 261.62 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -36994,7 +37013,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "GRM155R71C104KA88D"
 			(at 261.62 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -37005,7 +37024,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R71C104KA88D/1644733"
 			(at 261.62 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -37033,7 +37052,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 256.54 46.99 0)
+		(at 246.38 39.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37041,9 +37060,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "e93970fa-401b-403d-8568-677fdf2c833b")
 		(property "Reference" "#PWR44"
-			(at 256.54 46.99 0)
+			(at 246.38 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37054,7 +37074,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 256.54 50.8 0)
+			(at 246.38 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37065,7 +37085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 256.54 46.99 0)
+			(at 246.38 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37076,7 +37096,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 46.99 0)
+			(at 246.38 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37087,7 +37107,7 @@
 			)
 		)
 		(property "Description" "Ground symbol"
-			(at 256.54 46.99 0)
+			(at 246.38 39.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37122,7 +37142,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec250dbb-10b5-4ff1-ad04-ac6635c95c0e")
 		(property "Reference" "D41"
-			(at 91.44 253.9999 90)
+			(at 90.17 253.9999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37144,7 +37164,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 87.63 254 0)
 			(hide yes)
 			(show_name no)
@@ -37227,7 +37247,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed531c6b-be1e-4ada-8d7f-6f06d7eae88d")
 		(property "Reference" "D11"
-			(at 71.12 172.7199 90)
+			(at 69.85 172.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37249,7 +37269,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 67.31 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -37321,7 +37341,7 @@
 	)
 	(symbol
 		(lib_id "symbols:C")
-		(at 43.18 106.68 0)
+		(at 43.18 109.22 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37332,17 +37352,6 @@
 		(fields_autoplaced yes)
 		(uuid "ed8135da-d05f-4340-8f85-0069c4e1ee0a")
 		(property "Reference" "C18"
-			(at 46.99 105.4099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10u"
 			(at 46.99 107.9499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37353,8 +37362,19 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 43.18 106.68 0)
+		(property "Value" "10u"
+			(at 46.99 110.4899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:0603"
+			(at 43.18 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37365,7 +37385,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 106.68 0)
+			(at 43.18 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37376,7 +37396,7 @@
 			)
 		)
 		(property "Description" "Chip capacitor"
-			(at 43.18 106.68 0)
+			(at 43.18 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37386,8 +37406,8 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
-			(at 43.18 106.68 0)
+		(property "Ideal part number" "GRM188R61E106MA73D"
+			(at 43.18 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37397,8 +37417,8 @@
 				)
 			)
 		)
-		(property "Order link" ""
-			(at 43.18 106.68 0)
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E106MA73D/3900486"
+			(at 43.18 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37424,8 +37444,8 @@
 		)
 	)
 	(symbol
-		(lib_id "symbols:V_{OUT2}")
-		(at 63.5 101.6 0)
+		(lib_id "symbols:3.0V")
+		(at 63.5 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -37436,7 +37456,7 @@
 		(fields_autoplaced yes)
 		(uuid "ed88d048-aef6-42ec-a165-1b7943796074")
 		(property "Reference" "#PWR34"
-			(at 63.5 101.6 0)
+			(at 63.5 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37446,8 +37466,8 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT2}"
-			(at 63.5 97.79 0)
+		(property "Value" "3.0V"
+			(at 63.5 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37457,7 +37477,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 101.6 0)
+			(at 63.5 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37468,7 +37488,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 101.6 0)
+			(at 63.5 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37479,7 +37499,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 63.5 101.6 0)
+			(at 63.5 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37514,7 +37534,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee7805c8-ef3c-4f09-92d9-a7023d199164")
 		(property "Reference" "SW65"
-			(at 163.83 243.84 0)
+			(at 163.83 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37590,8 +37610,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 163.83 248.92 0)
+		(property "Key" "Down"
+			(at 163.83 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37628,7 +37648,7 @@
 		(fields_autoplaced yes)
 		(uuid "ee9f093f-865a-4fb8-a2f1-304d41092076")
 		(property "Reference" "SW66"
-			(at 184.15 243.84 0)
+			(at 184.15 241.3 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37704,8 +37724,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 184.15 248.92 0)
+		(property "Key" "Right"
+			(at 184.15 243.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -37763,7 +37783,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0402"
 			(at 322.58 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -37796,7 +37816,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "GRM155R71C104KA88D"
 			(at 322.58 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -37807,7 +37827,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM155R71C104KA88D/1644733"
 			(at 322.58 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -37843,6 +37863,7 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "f043d613-816a-49e5-82ee-2419906537fb")
 		(property "Reference" "#PWR83"
 			(at 294.64 232.41 0)
@@ -37924,7 +37945,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0f3de1d-ff84-41d2-acea-ba0a9e539398")
 		(property "Reference" "SW25"
-			(at 41.91 203.2 0)
+			(at 41.91 200.66 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38000,8 +38021,8 @@
 				)
 			)
 		)
-		(property "Key" ""
-			(at 41.91 208.28 0)
+		(property "Key" "O"
+			(at 41.91 203.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38185,7 +38206,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 33.02 92.71 0)
+		(at 33.02 95.25 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38196,7 +38217,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2dbdb48-c06c-4a42-b268-7e8cb092f6df")
 		(property "Reference" "#PWR19"
-			(at 33.02 92.71 0)
+			(at 33.02 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38207,7 +38228,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 33.02 96.52 0)
+			(at 33.02 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38218,7 +38239,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 33.02 92.71 0)
+			(at 33.02 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38229,7 +38250,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 92.71 0)
+			(at 33.02 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38240,7 +38261,7 @@
 			)
 		)
 		(property "Description" "Ground symbol"
-			(at 33.02 92.71 0)
+			(at 33.02 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38275,7 +38296,7 @@
 		(fields_autoplaced yes)
 		(uuid "f549e369-8598-48b4-8de0-11feef64276b")
 		(property "Reference" "D44"
-			(at 71.12 274.3199 90)
+			(at 69.85 274.3199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38297,7 +38318,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 67.31 274.32 0)
 			(hide yes)
 			(show_name no)
@@ -38380,7 +38401,7 @@
 		(fields_autoplaced yes)
 		(uuid "f7609dc5-f4ea-4cb8-8766-dbaf91ecdd9f")
 		(property "Reference" "L5"
-			(at 205.74 86.36 90)
+			(at 205.74 85.09 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38389,8 +38410,8 @@
 				)
 			)
 		)
-		(property "Value" "tune"
-			(at 205.74 88.9 90)
+		(property "Value" "TBD"
+			(at 205.74 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38399,7 +38420,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0402"
 			(at 205.74 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -38482,7 +38503,7 @@
 		(fields_autoplaced yes)
 		(uuid "f888cf39-9d88-47af-8efd-716e73224b0b")
 		(property "Reference" "L6"
-			(at 156.21 49.53 90)
+			(at 156.21 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38492,7 +38513,7 @@
 			)
 		)
 		(property "Value" "2.2u"
-			(at 156.21 52.07 90)
+			(at 156.21 60.96 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38501,7 +38522,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:0806"
 			(at 156.21 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -38534,7 +38555,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "DFE201610E-2R2M#P2"
 			(at 156.21 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -38545,7 +38566,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/DFE201610E-2R2M-P2/7430537"
 			(at 156.21 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -38584,7 +38605,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9a11245-af41-431e-94da-210b8d5fee90")
 		(property "Reference" "U1"
-			(at 311.15 22.86 0)
+			(at 311.15 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38639,7 +38660,7 @@
 			)
 		)
 		(property "Ideal part number" "NRF54LM20A-QGAA-R7"
-			(at 311.15 25.4 0)
+			(at 311.15 24.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38837,19 +38858,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "fb394dec-4436-447e-b83c-84126c16b5f8")
 		(property "Reference" "C9"
-			(at 231.14 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.0p"
-			(at 233.68 96.52 0)
+			(at 234.95 93.9799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38859,7 +38871,18 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Value" "2.0p"
+			(at 234.95 96.5199 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:0201"
 			(at 231.14 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -38892,7 +38915,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
+		(property "Ideal part number" "GJM0335C1E2R0WB01D"
 			(at 231.14 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -38903,7 +38926,7 @@
 				)
 			)
 		)
-		(property "Order link" ""
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GJM0335C1E2R0WB01D/2592548"
 			(at 231.14 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -38931,7 +38954,7 @@
 	)
 	(symbol
 		(lib_id "symbols:R")
-		(at 256.54 72.39 180)
+		(at 246.38 72.39 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -38942,7 +38965,7 @@
 		(fields_autoplaced yes)
 		(uuid "fee783e6-d87c-45a6-9bb0-b9dbce1b75c8")
 		(property "Reference" "R2"
-			(at 259.08 71.1199 0)
+			(at 248.92 71.1199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38953,7 +38976,7 @@
 			)
 		)
 		(property "Value" "200R"
-			(at 259.08 73.6599 0)
+			(at 248.92 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -38963,8 +38986,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 256.54 72.39 0)
+		(property "Footprint" "footprints:0402"
+			(at 246.38 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38975,7 +38998,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 256.54 72.39 0)
+			(at 246.38 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38986,7 +39009,7 @@
 			)
 		)
 		(property "Description" "Chip resistor"
-			(at 256.54 72.39 0)
+			(at 246.38 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -38996,8 +39019,8 @@
 				)
 			)
 		)
-		(property "Ideal part number" ""
-			(at 256.54 72.39 0)
+		(property "Ideal part number" "RC0402FR-07200RL"
+			(at 246.38 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39007,8 +39030,8 @@
 				)
 			)
 		)
-		(property "Order link" ""
-			(at 256.54 72.39 0)
+		(property "Order link" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07200RL/2827569"
+			(at 246.38 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39046,7 +39069,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff12b2b3-f878-4f37-a260-2134946074c6")
 		(property "Reference" "D47"
-			(at 132.08 274.3199 90)
+			(at 130.81 274.3199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -39068,7 +39091,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:SOD-123"
 			(at 128.27 274.32 0)
 			(hide yes)
 			(show_name no)

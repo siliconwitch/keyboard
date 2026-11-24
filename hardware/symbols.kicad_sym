@@ -1319,7 +1319,7 @@
 					)
 				)
 			)
-			(pin open_collector line
+			(pin output line
 				(at 11.43 3.81 180)
 				(length 5.08)
 				(name "~{RESET}"
@@ -3882,7 +3882,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "V_{OUT1}"
+	(symbol "1.8V"
 		(power global)
 		(pin_names
 			(offset 0)
@@ -3903,7 +3903,7 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT1}"
+		(property "Value" "1.8V"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3946,7 +3946,7 @@
 				)
 			)
 		)
-		(symbol "V_{OUT1}_0_1"
+		(symbol "1.8V_0_1"
 			(polyline
 				(pts
 					(xy -0.762 0) (xy 0 1.27)
@@ -3984,12 +3984,12 @@
 				)
 			)
 		)
-		(symbol "V_{OUT1}_1_1"
+		(symbol "1.8V_1_1"
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
 				(hide yes)
-				(name "V_{OUT1}"
+				(name "1.8V"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -4007,7 +4007,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(symbol "V_{OUT2}"
+	(symbol "3.0V"
 		(power global)
 		(pin_names
 			(offset 0)
@@ -4028,7 +4028,7 @@
 				)
 			)
 		)
-		(property "Value" "V_{OUT2}"
+		(property "Value" "3.0V"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4071,7 +4071,7 @@
 				)
 			)
 		)
-		(symbol "V_{OUT2}_0_1"
+		(symbol "3.0V_0_1"
 			(polyline
 				(pts
 					(xy -0.762 0) (xy 0 1.27)
@@ -4109,12 +4109,12 @@
 				)
 			)
 		)
-		(symbol "V_{OUT2}_1_1"
+		(symbol "3.0V_1_1"
 			(pin power_in line
 				(at 0 0 90)
 				(length 0)
 				(hide yes)
-				(name "V_{OUT2}"
+				(name "3.0V"
 					(effects
 						(font
 							(size 1.27 1.27)
