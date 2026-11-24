@@ -5,7 +5,6 @@ Decisions not yet recorded in firmware code or KiCad files.
 ## Switches
 
 - The switches form a key matrix with one 1N4148W diode (Diodes Inc. 1N4148W-7-F, SOD-123) per switch, hand soldered.
-- Key pitch: 18 mm horizontal, 17 mm vertical, the usual Choc v1 spacing. The 17 × 16 mm printed caps leave a 1 mm gap each way.
 
 ## Layout
 
@@ -37,7 +36,3 @@ Decisions not yet recorded in firmware code or KiCad files.
 ## Firmware
 
 - ZMK, starting from Framework's nRF54LM20A fork until main-line ZMK supports the chip.
-
-## Space bar
-
-- The first board carries two footprints: a full bar with one center switch and a wire stabilizer in printed brackets, and a split bar. Choose by feel after printing both.

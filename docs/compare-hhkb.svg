@@ -1,0 +1,285 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-6.000 -18.375 367.500 135.250" width="1838" height="676" font-family="Helvetica, Arial, sans-serif">
+<rect x="-6.000" y="-18.375" width="367.500" height="135.250" fill="#ffffff"/>
+<text x="0.000" y="-10.375" font-size="4.5" fill="#212529">Our layout vs HHKB (ghost), aligned on F, units in mm</text>
+<rect x="0" y="0" width="355.500" height="94.500" rx="3.500" fill="#f1f3f5" stroke="#343a40" stroke-width="0.35"/>
+<rect x="2.000" y="2.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="21.000" y="2.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="40.000" y="2.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="59.000" y="2.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="78.000" y="2.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="97.000" y="2.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="116.000" y="2.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="135.000" y="2.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="154.000" y="2.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="173.000" y="2.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="192.000" y="2.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="211.000" y="2.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="230.000" y="2.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="249.000" y="2.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="268.000" y="2.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="2.000" y="20.500" width="26.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="30.500" y="20.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="49.500" y="20.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="68.500" y="20.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="87.500" y="20.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="106.500" y="20.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="125.500" y="20.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="144.500" y="20.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="163.500" y="20.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="182.500" y="20.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="201.500" y="20.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="220.500" y="20.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="239.500" y="20.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="259.000" y="20.500" width="26.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="7.500" y="39.000" width="26.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="35.500" y="39.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="54.500" y="39.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="73.500" y="39.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="92.500" y="39.000" width="17.500" height="16.500" rx="1.500" fill="#d0ebff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="111.500" y="39.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="130.500" y="39.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="149.500" y="39.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="168.500" y="39.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="187.500" y="39.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="206.500" y="39.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="225.500" y="39.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="244.500" y="39.000" width="35.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="7.500" y="57.500" width="35.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="44.500" y="57.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="63.500" y="57.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="82.500" y="57.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="101.500" y="57.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="120.500" y="57.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="139.500" y="57.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="158.500" y="57.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="177.500" y="57.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="196.500" y="57.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="215.500" y="57.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="234.500" y="57.500" width="26.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="262.500" y="57.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="32.500" y="76.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="51.500" y="76.000" width="26.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="79.500" y="76.000" width="35.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="116.500" y="76.000" width="35.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="153.500" y="76.000" width="35.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="190.500" y="76.000" width="26.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="218.500" y="76.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="312.250" y="57.500" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="293.250" y="76.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="312.250" y="76.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="331.250" y="76.000" width="17.500" height="16.500" rx="1.500" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<rect x="288.500" y="2.000" width="65.000" height="49.000" rx="0.000" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<text x="10.750" y="10.250" font-size="2.60" text-anchor="middle" dominant-baseline="central" fill="#343a40">Esc</text>
+<text x="29.750" y="7.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">!</text>
+<text x="29.750" y="12.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">1</text>
+<text x="48.750" y="7.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">@</text>
+<text x="48.750" y="12.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">2</text>
+<text x="67.750" y="7.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">#</text>
+<text x="67.750" y="12.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">3</text>
+<text x="86.750" y="7.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">$</text>
+<text x="86.750" y="12.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">4</text>
+<text x="105.750" y="7.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">%</text>
+<text x="105.750" y="12.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">5</text>
+<text x="124.750" y="7.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">^</text>
+<text x="124.750" y="12.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">6</text>
+<text x="143.750" y="7.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">&amp;</text>
+<text x="143.750" y="12.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">7</text>
+<text x="162.750" y="7.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">*</text>
+<text x="162.750" y="12.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">8</text>
+<text x="181.750" y="7.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">(</text>
+<text x="181.750" y="12.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">9</text>
+<text x="200.750" y="7.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">)</text>
+<text x="200.750" y="12.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">0</text>
+<text x="219.750" y="7.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">_</text>
+<text x="219.750" y="12.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">-</text>
+<text x="238.750" y="7.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">+</text>
+<text x="238.750" y="12.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">=</text>
+<text x="257.750" y="7.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">|</text>
+<text x="257.750" y="12.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">\</text>
+<text x="276.750" y="7.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">~</text>
+<text x="276.750" y="12.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">`</text>
+<text x="15.250" y="28.750" font-size="2.60" text-anchor="middle" dominant-baseline="central" fill="#343a40">Tab</text>
+<text x="39.250" y="28.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">Q</text>
+<text x="58.250" y="28.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">W</text>
+<text x="77.250" y="28.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">E</text>
+<text x="96.250" y="28.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">R</text>
+<text x="115.250" y="28.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">T</text>
+<text x="134.250" y="28.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">Y</text>
+<text x="153.250" y="28.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">U</text>
+<text x="172.250" y="28.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">I</text>
+<text x="191.250" y="28.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">O</text>
+<text x="210.250" y="28.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">P</text>
+<text x="229.250" y="26.250" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">{</text>
+<text x="229.250" y="31.250" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">[</text>
+<text x="248.250" y="26.250" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">}</text>
+<text x="248.250" y="31.250" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">]</text>
+<text x="272.250" y="28.750" font-size="2.60" text-anchor="middle" dominant-baseline="central" fill="#343a40">Bksp</text>
+<text x="20.750" y="47.250" font-size="2.60" text-anchor="middle" dominant-baseline="central" fill="#343a40">Ctrl</text>
+<text x="44.250" y="47.250" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">A</text>
+<text x="63.250" y="47.250" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">S</text>
+<text x="82.250" y="47.250" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">D</text>
+<text x="101.250" y="47.250" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">F</text>
+<text x="120.250" y="47.250" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">G</text>
+<text x="139.250" y="47.250" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">H</text>
+<text x="158.250" y="47.250" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">J</text>
+<text x="177.250" y="47.250" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">K</text>
+<text x="196.250" y="47.250" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">L</text>
+<text x="215.250" y="44.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">:</text>
+<text x="215.250" y="49.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">;</text>
+<text x="234.250" y="44.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">&quot;</text>
+<text x="234.250" y="49.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">&#x27;</text>
+<text x="262.250" y="47.250" font-size="2.60" text-anchor="middle" dominant-baseline="central" fill="#343a40">Return</text>
+<text x="25.250" y="65.750" font-size="2.60" text-anchor="middle" dominant-baseline="central" fill="#343a40">Shift</text>
+<text x="53.250" y="65.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">Z</text>
+<text x="72.250" y="65.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">X</text>
+<text x="91.250" y="65.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">C</text>
+<text x="110.250" y="65.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">V</text>
+<text x="129.250" y="65.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">B</text>
+<text x="148.250" y="65.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">N</text>
+<text x="167.250" y="65.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">M</text>
+<text x="186.250" y="63.250" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">&lt;</text>
+<text x="186.250" y="68.250" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">,</text>
+<text x="205.250" y="63.250" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">&gt;</text>
+<text x="205.250" y="68.250" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">.</text>
+<text x="224.250" y="63.250" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">?</text>
+<text x="224.250" y="68.250" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">/</text>
+<text x="247.750" y="65.750" font-size="2.60" text-anchor="middle" dominant-baseline="central" fill="#343a40">Shift</text>
+<text x="271.250" y="65.750" font-size="2.60" text-anchor="middle" dominant-baseline="central" fill="#343a40">Fn</text>
+<text x="41.250" y="84.250" font-size="2.60" text-anchor="middle" dominant-baseline="central" fill="#343a40">Alt</text>
+<text x="64.750" y="84.250" font-size="2.60" text-anchor="middle" dominant-baseline="central" fill="#343a40">Super</text>
+<text x="97.250" y="84.250" font-size="2.60" text-anchor="middle" dominant-baseline="central" fill="#343a40">Space</text>
+<text x="134.250" y="84.250" font-size="2.60" text-anchor="middle" dominant-baseline="central" fill="#343a40">Space</text>
+<text x="171.250" y="84.250" font-size="2.60" text-anchor="middle" dominant-baseline="central" fill="#343a40">Space</text>
+<text x="203.750" y="84.250" font-size="2.60" text-anchor="middle" dominant-baseline="central" fill="#343a40">Super</text>
+<text x="227.250" y="84.250" font-size="2.60" text-anchor="middle" dominant-baseline="central" fill="#343a40">Alt</text>
+<text x="321.000" y="65.750" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">↑</text>
+<text x="302.000" y="84.250" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">←</text>
+<text x="321.000" y="84.250" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">↓</text>
+<text x="340.000" y="84.250" font-size="3.90" text-anchor="middle" dominant-baseline="central" fill="#343a40">→</text>
+<rect x="1.237" y="-0.375" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="2.137" y="2.225" font-size="2.2" fill="#e8590c">Esc</text>
+<rect x="20.287" y="-0.375" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="21.187" y="2.225" font-size="2.2" fill="#e8590c">1</text>
+<rect x="39.337" y="-0.375" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="40.237" y="2.225" font-size="2.2" fill="#e8590c">2</text>
+<rect x="58.388" y="-0.375" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="59.288" y="2.225" font-size="2.2" fill="#e8590c">3</text>
+<rect x="77.438" y="-0.375" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="78.338" y="2.225" font-size="2.2" fill="#e8590c">4</text>
+<rect x="96.487" y="-0.375" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="97.388" y="2.225" font-size="2.2" fill="#e8590c">5</text>
+<rect x="115.538" y="-0.375" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="116.438" y="2.225" font-size="2.2" fill="#e8590c">6</text>
+<rect x="134.587" y="-0.375" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="135.487" y="2.225" font-size="2.2" fill="#e8590c">7</text>
+<rect x="153.637" y="-0.375" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="154.537" y="2.225" font-size="2.2" fill="#e8590c">8</text>
+<rect x="172.688" y="-0.375" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="173.588" y="2.225" font-size="2.2" fill="#e8590c">9</text>
+<rect x="191.738" y="-0.375" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="192.638" y="2.225" font-size="2.2" fill="#e8590c">0</text>
+<rect x="210.788" y="-0.375" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="211.688" y="2.225" font-size="2.2" fill="#e8590c">-</text>
+<rect x="229.838" y="-0.375" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="230.738" y="2.225" font-size="2.2" fill="#e8590c">=</text>
+<rect x="248.887" y="-0.375" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="249.787" y="2.225" font-size="2.2" fill="#e8590c">\</text>
+<rect x="267.938" y="-0.375" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="268.837" y="2.225" font-size="2.2" fill="#e8590c">`</text>
+<rect x="1.237" y="18.675" width="28.575" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="2.137" y="21.275" font-size="2.2" fill="#e8590c">Tab</text>
+<rect x="29.812" y="18.675" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="30.712" y="21.275" font-size="2.2" fill="#e8590c">Q</text>
+<rect x="48.862" y="18.675" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="49.762" y="21.275" font-size="2.2" fill="#e8590c">W</text>
+<rect x="67.912" y="18.675" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="68.812" y="21.275" font-size="2.2" fill="#e8590c">E</text>
+<rect x="86.963" y="18.675" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="87.863" y="21.275" font-size="2.2" fill="#e8590c">R</text>
+<rect x="106.013" y="18.675" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="106.913" y="21.275" font-size="2.2" fill="#e8590c">T</text>
+<rect x="125.062" y="18.675" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="125.963" y="21.275" font-size="2.2" fill="#e8590c">Y</text>
+<rect x="144.113" y="18.675" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="145.013" y="21.275" font-size="2.2" fill="#e8590c">U</text>
+<rect x="163.163" y="18.675" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="164.063" y="21.275" font-size="2.2" fill="#e8590c">I</text>
+<rect x="182.212" y="18.675" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="183.112" y="21.275" font-size="2.2" fill="#e8590c">O</text>
+<rect x="201.262" y="18.675" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="202.162" y="21.275" font-size="2.2" fill="#e8590c">P</text>
+<rect x="220.312" y="18.675" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="221.213" y="21.275" font-size="2.2" fill="#e8590c">[</text>
+<rect x="239.363" y="18.675" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="240.263" y="21.275" font-size="2.2" fill="#e8590c">]</text>
+<rect x="258.413" y="18.675" width="28.575" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="259.312" y="21.275" font-size="2.2" fill="#e8590c">Delete</text>
+<rect x="1.237" y="37.725" width="33.337" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="2.137" y="40.325" font-size="2.2" fill="#e8590c">Control</text>
+<rect x="34.575" y="37.725" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="35.475" y="40.325" font-size="2.2" fill="#e8590c">A</text>
+<rect x="53.625" y="37.725" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="54.525" y="40.325" font-size="2.2" fill="#e8590c">S</text>
+<rect x="72.675" y="37.725" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="73.575" y="40.325" font-size="2.2" fill="#e8590c">D</text>
+<rect x="91.725" y="37.725" width="19.050" height="19.050" rx="0" fill="#e8590c" fill-opacity="0.12" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="92.625" y="40.325" font-size="2.2" fill="#e8590c">F</text>
+<rect x="110.775" y="37.725" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="111.675" y="40.325" font-size="2.2" fill="#e8590c">G</text>
+<rect x="129.825" y="37.725" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="130.725" y="40.325" font-size="2.2" fill="#e8590c">H</text>
+<rect x="148.875" y="37.725" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="149.775" y="40.325" font-size="2.2" fill="#e8590c">J</text>
+<rect x="167.925" y="37.725" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="168.825" y="40.325" font-size="2.2" fill="#e8590c">K</text>
+<rect x="186.975" y="37.725" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="187.875" y="40.325" font-size="2.2" fill="#e8590c">L</text>
+<rect x="206.025" y="37.725" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="206.925" y="40.325" font-size="2.2" fill="#e8590c">;</text>
+<rect x="225.075" y="37.725" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="225.975" y="40.325" font-size="2.2" fill="#e8590c">&#x27;</text>
+<rect x="244.125" y="37.725" width="42.863" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="245.025" y="40.325" font-size="2.2" fill="#e8590c">Return</text>
+<rect x="1.237" y="56.775" width="42.863" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="2.137" y="59.375" font-size="2.2" fill="#e8590c">Shift</text>
+<rect x="44.100" y="56.775" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="45.000" y="59.375" font-size="2.2" fill="#e8590c">Z</text>
+<rect x="63.150" y="56.775" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="64.050" y="59.375" font-size="2.2" fill="#e8590c">X</text>
+<rect x="82.200" y="56.775" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="83.100" y="59.375" font-size="2.2" fill="#e8590c">C</text>
+<rect x="101.250" y="56.775" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="102.150" y="59.375" font-size="2.2" fill="#e8590c">V</text>
+<rect x="120.300" y="56.775" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="121.200" y="59.375" font-size="2.2" fill="#e8590c">B</text>
+<rect x="139.350" y="56.775" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="140.250" y="59.375" font-size="2.2" fill="#e8590c">N</text>
+<rect x="158.400" y="56.775" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="159.300" y="59.375" font-size="2.2" fill="#e8590c">M</text>
+<rect x="177.450" y="56.775" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="178.350" y="59.375" font-size="2.2" fill="#e8590c">,</text>
+<rect x="196.500" y="56.775" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="197.400" y="59.375" font-size="2.2" fill="#e8590c">.</text>
+<rect x="215.550" y="56.775" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="216.450" y="59.375" font-size="2.2" fill="#e8590c">/</text>
+<rect x="234.600" y="56.775" width="33.337" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="235.500" y="59.375" font-size="2.2" fill="#e8590c">Shift</text>
+<rect x="267.938" y="56.775" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="268.837" y="59.375" font-size="2.2" fill="#e8590c">Fn</text>
+<rect x="29.812" y="75.825" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="30.712" y="78.425" font-size="2.2" fill="#e8590c">Alt</text>
+<rect x="48.862" y="75.825" width="28.575" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="49.762" y="78.425" font-size="2.2" fill="#e8590c">◇</text>
+<rect x="77.438" y="75.825" width="114.300" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<rect x="191.738" y="75.825" width="28.575" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="192.638" y="78.425" font-size="2.2" fill="#e8590c">◇</text>
+<rect x="220.312" y="75.825" width="19.050" height="19.050" rx="0" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="221.213" y="78.425" font-size="2.2" fill="#e8590c">Alt</text>
+<rect x="0.000" y="99.875" width="4" height="4" rx="0.8" fill="#ffffff" stroke="#343a40" stroke-width="0.25"/>
+<text x="5.500" y="102.875" font-size="3" fill="#343a40">Our keycaps and board outline</text>
+<rect x="70.000" y="99.875" width="4" height="4" fill="none" stroke="#e8590c" stroke-width="0.3" stroke-dasharray="1.2 0.8"/>
+<text x="75.500" y="102.875" font-size="3" fill="#343a40">HHKB key space (19.05 mm pitch)</text>
+<rect x="152.000" y="99.875" width="4" height="4" rx="0.8" fill="#d0ebff" stroke="#343a40" stroke-width="0.25"/>
+<text x="157.500" y="102.875" font-size="3" fill="#343a40">F key, centred on the same point in both</text>
+<text x="0.000" y="108.875" font-size="2.6" fill="#495057">HHKB: key positions from QMK keyboards/hhkb/ansi, 19.05 mm key pitch from PFU. PFU does not publish keycap sizes, so each HHKB key is drawn as the 19.05 mm space it occupies.</text>
+</svg>

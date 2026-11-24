@@ -15,6 +15,22 @@ If you build one, you get:
 
 [docs/product.md](docs/product.md) lists every feature.
 
+## How the layout compares
+
+Each image draws our keycaps over a dashed ghost of another keyboard, with both F keys centred on the same point.
+
+### HHKB
+
+The letter keys sit within 0.25 mm of the HHKB's across. Our rows are 0.55 mm closer together, and our modifiers are narrower to fit Choc keycap sizes.
+
+![Our layout over the HHKB layout](docs/compare-hhkb.svg)
+
+### Apple Magic Keyboard, US layout
+
+The letter keys use the same 19.0 mm key pitch and 18.5 mm row pitch as the Magic Keyboard. Our keycaps are 1.5 mm wider and 1 mm deeper, so the gaps between them are narrower.
+
+![Our layout over the Apple Magic Keyboard layout](docs/compare-magic-keyboard.svg)
+
 ## Repository layout
 
 | Directory    | Contents                                        |
