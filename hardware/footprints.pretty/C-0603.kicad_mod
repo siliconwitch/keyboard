@@ -54,8 +54,8 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
-		(start -1.155 -0.6)
-		(end 1.155 0.6)
+		(start -1.25 -0.6)
+		(end 1.25 0.6)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -76,15 +76,15 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.64 0)
-		(size 0.83 1)
+		(at -0.775 0)
+		(size 0.75 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "ed4c1d4b-27c6-484e-a139-e53a6db591d6")
 	)
 	(pad "2" smd roundrect
-		(at 0.64 0)
-		(size 0.83 1)
+		(at 0.775 0)
+		(size 0.75 0.9)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "c19d9f70-3fa0-42c3-99b1-5e2961523a95")

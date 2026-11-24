@@ -100,6 +100,37 @@
 		(thermal_bridge_angle 45)
 		(uuid "2d57909f-5aad-4b34-a572-5d553c35e533")
 	)
+	(zone
+		(layers "F.Cu" "B.Cu")
+		(uuid "ca7fa46b-0aee-4241-b4f4-9fee9c103d61")
+		(name "Antenna clearance")
+		(hatch full 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -3.5 -1) (xy 1.5 -1) (xy 1.5 4) (xy -3.5 4)
+			)
+		)
+	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/models/NN02-101.step"
 		(offset

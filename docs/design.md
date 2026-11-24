@@ -21,7 +21,7 @@ Decisions not yet recorded in firmware code or KiCad files.
 
 ## Controller and power
 
-- Antenna: Ignion NN02-101 in a board corner, with a 5 × 5 mm copper-free area on every layer and a pi matching network tuned with a VNA.
+- Antenna: Ignion NN02-101 in a board corner, with a pi matching network tuned with a VNA.
 - USB-C connector for charging and firmware updates: GCT USB4105-GF-A, USB 2.0, top mount. Its 0.95 mm shell stakes stay inside the top board.
 
 ## Chassis

@@ -75,9 +75,9 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole circle
+	(pad "" thru_hole circle
 		(at -5.08 0)
-		(size 1 1)
+		(size 1.2 1.2)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
 		(uuid "8075f6e4-24db-4d8f-aebd-030201890133")
