@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(hide yes)
 		(uuid "a4a9b81f-85ba-4c88-9873-a6dfef954d95")
 		(effects

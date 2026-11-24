@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(hide yes)
 		(uuid "a80c8443-a107-40e8-b48b-c86a8b5a50da")
 		(effects
@@ -63,6 +63,17 @@
 		(fill no)
 		(layer "F.CrtYd")
 		(uuid "a809750d-cfd4-452c-84ff-d7c5d8af8877")
+	)
+	(fp_text user "+"
+		(at 1 -1.6 0)
+		(layer "F.SilkS")
+		(uuid "6d3ee552-e832-41d2-8cfe-1156daa6a712")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)

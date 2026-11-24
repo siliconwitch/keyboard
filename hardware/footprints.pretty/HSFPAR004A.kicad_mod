@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(hide yes)
 		(uuid "9dee9c25-5e6e-4737-8c7e-fa71083ed2a8")
 		(effects
@@ -53,17 +53,6 @@
 	)
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_circle
-		(center -1.05 -1.25)
-		(end -0.95 -1.25)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill yes)
-		(layer "F.SilkS")
-		(uuid "1c031da3-d1db-467b-8ffe-593f970f061d")
-	)
 	(fp_rect
 		(start -1.05 -1.25)
 		(end 1.05 1.25)

@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(hide yes)
 		(uuid "84b07893-43b5-4c81-8e06-dd2486dbf3e1")
 		(effects
@@ -53,46 +53,6 @@
 	)
 	(attr through_hole)
 	(duplicate_pad_numbers_are_jumpers no)
-	(fp_line
-		(start -7.6 -7.6)
-		(end -7.6 7.6)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "cbc50b17-f030-4ac4-9990-18be1ec4fba6")
-	)
-	(fp_line
-		(start -7.6 7.6)
-		(end 7.6 7.6)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "180a0827-8fa0-4c42-8167-fbb21ef63f1a")
-	)
-	(fp_line
-		(start 7.6 -7.6)
-		(end -7.6 -7.6)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "5d9330a3-f961-472f-855c-e68c525ba4cb")
-	)
-	(fp_line
-		(start 7.6 7.6)
-		(end 7.6 -7.6)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "b2add0d9-9ecb-4e86-b9e5-9fc04235c131")
-	)
 	(fp_line
 		(start -7.25 -7.25)
 		(end -7.25 7.25)
