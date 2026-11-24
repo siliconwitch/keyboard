@@ -21,13 +21,13 @@ Each image draws our keycaps over a dashed ghost of another keyboard, with both 
 
 ### HHKB
 
-The letter keys sit within 0.25 mm of the HHKB's across. Our rows are 0.55 mm closer together, and our modifiers are narrower to fit Choc keycap sizes.
+Each letter key sits within 0.7 mm of its HHKB position across. Our rows are 0.55 mm closer together, and our modifiers are narrower to fit Choc keycap sizes.
 
 ![Our layout over the HHKB layout](docs/compare-hhkb.svg)
 
 ### Apple Magic Keyboard, US layout
 
-The letter keys use the same 19.0 mm key pitch and 18.5 mm row pitch as the Magic Keyboard. Our keycaps are 1.5 mm wider and 1 mm deeper, so the gaps between them are narrower.
+The letter keys use the same 19.0 mm key pitch and 18.5 mm row pitch as the Magic Keyboard, and each sits within 0.5 mm of its Magic Keyboard position across. Our keycaps are 1.5 mm wider and 1 mm deeper, so the gaps between them are narrower.
 
 ![Our layout over the Apple Magic Keyboard layout](docs/compare-magic-keyboard.svg)
 
