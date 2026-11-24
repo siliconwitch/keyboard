@@ -1,4 +1,4 @@
-(footprint "0201"
+(footprint "R-0402"
 	(version 20260206)
 	(generator "pcbnew")
 	(generator_version "10.0")
@@ -7,7 +7,7 @@
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "3ebfce09-30f7-45ce-ad26-b8f38e2a2d7c")
+		(uuid "0bdc4f6b-faf6-424d-897c-6590a9763c3b")
 		(effects
 			(font
 				(size 0.2 0.2)
@@ -19,7 +19,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a0d27b36-04ae-42c0-8fa6-67345575a048")
+		(uuid "8ac56ad2-875e-4b95-b52e-810526d434a1")
 		(effects
 			(font
 				(size 0.2 0.2)
@@ -31,7 +31,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "4cd08930-80f7-45d4-adcf-d5a55ebfd9c0")
+		(uuid "7b3454a7-f1d6-455d-9e07-f690b017a01f")
 		(effects
 			(font
 				(size 0.2 0.2)
@@ -43,7 +43,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1682e510-db54-4268-88e8-dc134dfe6fc4")
+		(uuid "4c1fd6ce-e293-4c32-a238-e8a4cf9762bc")
 		(effects
 			(font
 				(size 0.2 0.2)
@@ -54,20 +54,20 @@
 	(attr smd)
 	(duplicate_pad_numbers_are_jumpers no)
 	(fp_rect
-		(start -0.455 -0.275)
-		(end 0.455 0.275)
+		(start -0.855 -0.45)
+		(end 0.855 0.45)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(fill no)
 		(layer "F.CrtYd")
-		(uuid "34fc4beb-84f6-484f-bf87-ad1ed2daea17")
+		(uuid "31b078f3-4316-4f34-8e8e-ecaeeac6bd65")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "eff43dc8-13e6-48ac-9937-a34f706367de")
+		(uuid "58dd77d1-ce81-4e2d-a6fd-1da041a622ed")
 		(effects
 			(font
 				(size 0.2 0.2)
@@ -76,21 +76,21 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.23 0)
-		(size 0.25 0.35)
+		(at -0.44 0)
+		(size 0.63 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "1efd1355-dec6-4e1d-bc8a-5f06bd7ce70a")
+		(uuid "6836fb38-0153-48af-94ad-225f87aa18cf")
 	)
 	(pad "2" smd roundrect
-		(at 0.23 0)
-		(size 0.25 0.35)
+		(at 0.44 0)
+		(size 0.63 0.7)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
-		(uuid "bc98dd72-570c-4db8-b3c4-8657d88ac776")
+		(uuid "d6f8ff10-0002-46b1-a1e5-957baeb23247")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/models/0201.step"
+	(model "${KIPRJMOD}/models/R-0402.step"
 		(offset
 			(xyz 0 0 0)
 		)
