@@ -36,3 +36,7 @@ Decisions not yet recorded in firmware code or KiCad files.
 ## Firmware
 
 - ZMK, starting from Framework's nRF54LM20A fork until main-line ZMK supports the chip.
+- Matrix position ROW7/COL8 is the power switch (SW1). It is held closed while the switch is off.
+- When the switch turns off, save the fuel gauge state to flash and put the nPM1300 in ship mode. Restore the saved state at boot.
+- Before entering ship mode, set nPM1300 `SHPHLDTIM` to 16 ms and apply it with `TASKSHPHLDCFGSTROBE`. Sliding the switch on pulls SHPHLD low through C20 for only about 50 ms, which is shorter than the 96 ms default.
+- USB power wakes the nPM1300 from ship mode. While USB is connected and the switch is off, keep the radio off and charge. Enter ship mode once USB is disconnected.
