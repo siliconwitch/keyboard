@@ -7,6 +7,13 @@
 		(legacy_teardrops no)
 	)
 	(paper "A3")
+	(title_block
+		(title "Happy Witching Keyboard (HWKB)")
+		(date "2026-11-25")
+		(rev "1")
+		(company "https://github.com/siliconwitch/keyboard")
+		(comment 1 "By Raj Nakarja (siliconwitch)")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -130,7 +137,7 @@
 		(layer "F.Cu")
 		(uuid "01dfeec8-c4df-430b-8f14-463d91136575")
 		(at -32.815 70.08)
-		(property "Reference" "C29"
+		(property "Reference" "C30"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -802,7 +809,7 @@
 		(layer "F.Cu")
 		(uuid "06804c9e-d399-4663-80de-af9acd7a54b9")
 		(at 238.75 184.25)
-		(property "Reference" "SW35"
+		(property "Reference" "SW36"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1516,7 +1523,7 @@
 		(layer "F.Cu")
 		(uuid "0a27b485-0f58-48e4-a241-098c5b4b6419")
 		(at 206.25 184.25)
-		(property "Reference" "SW34"
+		(property "Reference" "SW35"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1947,7 +1954,7 @@
 		(layer "F.Cu")
 		(uuid "0b03ba1d-b9a6-46f1-bfe2-d4afdf8b3948")
 		(at 193.25 147.25)
-		(property "Reference" "SW44"
+		(property "Reference" "SW45"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2519,7 +2526,7 @@
 		(layer "F.Cu")
 		(uuid "0b90b110-267a-4932-8ff3-5409f6843743")
 		(at -32.815 74.08)
-		(property "Reference" "C31"
+		(property "Reference" "C32"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2661,7 +2668,7 @@
 		(layer "F.Cu")
 		(uuid "0ba77fca-34d2-43e3-8e77-f8da36c50ce4")
 		(at 55.75 147.25)
-		(property "Reference" "SW37"
+		(property "Reference" "SW38"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2950,7 +2957,7 @@
 		(layer "F.Cu")
 		(uuid "0c57ccff-3320-4b97-a34f-624a65931cf2")
 		(at 76.25 184.25)
-		(property "Reference" "SW16"
+		(property "Reference" "SW17"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3805,7 +3812,7 @@
 		(layer "F.Cu")
 		(uuid "0f5c6c36-ee30-41b1-8e3d-5de3d9605ea3")
 		(at 188.25 128.75)
-		(property "Reference" "SW26"
+		(property "Reference" "SW27"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4380,7 +4387,7 @@
 		(layer "F.Cu")
 		(uuid "155598bb-5975-4052-923f-172410b0516a")
 		(at 131.25 128.75)
-		(property "Reference" "SW23"
+		(property "Reference" "SW24"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5094,7 +5101,7 @@
 		(layer "F.Cu")
 		(uuid "1b8a458d-3bea-4140-8d3b-bc91d6ebc85c")
 		(at -32.815 72.08)
-		(property "Reference" "C30"
+		(property "Reference" "C31"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5236,7 +5243,7 @@
 		(layer "F.Cu")
 		(uuid "1cc5bd19-54ec-4de2-84d8-802d7283dcff")
 		(at 202.25 165.75)
-		(property "Reference" "SW61"
+		(property "Reference" "SW62"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -5808,7 +5815,7 @@
 		(layer "F.Cu")
 		(uuid "1fcba0b0-1e03-4cbf-bd43-e72f929927f8")
 		(at 83.75 110.25)
-		(property "Reference" "SW3"
+		(property "Reference" "SW4"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7313,7 +7320,7 @@
 		(layer "F.Cu")
 		(uuid "224f4e77-2d07-455a-b5ad-141b5e5a024a")
 		(at 283.25 128.75)
-		(property "Reference" "SW31"
+		(property "Reference" "SW32"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -7885,7 +7892,7 @@
 		(layer "F.Cu")
 		(uuid "26367abb-4b25-4fd5-9f1b-9b4e611963ea")
 		(at 145.25 165.75)
-		(property "Reference" "SW58"
+		(property "Reference" "SW59"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8595,11 +8602,236 @@
 			)
 		)
 	)
+	(footprint "footprints:MM8130-2600"
+		(layer "F.Cu")
+		(uuid "2955ed2b-8c61-4b02-bb84-3d99744c11b7")
+		(at -12.475 11.225)
+		(property "Reference" "J7"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "650cbc10-951d-4c22-8bb4-e5783a9e1f18")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b35f947e-515d-4eb3-b5b8-2d0bcf7c6acc")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/13/Microwave_Coaxial_Conn_Cat030E.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f6c8dcf8-4ae8-440a-8c09-3a29a73699a6")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Description" "Coaxial connector with switch"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d3b0880f-0f6b-480c-a8b2-10434f5b4802")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Ideal part number" "MM8130-2600RA2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a842b3d0-8765-4faa-8df3-462bfbaa40b2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/MM8130-2600RA2/1775922"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31a857e9-f9f2-4b42-b8dd-244635bb7417")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(path "/d764f0fa-7935-4bf2-8dad-bca72902a958")
+		(sheetname "/")
+		(sheetfile "keyboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "C" "G" "A")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -1.65 -1.7)
+			(end 1.65 1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "17d7f881-75b7-415e-a733-ed7122f84f82")
+		)
+		(fp_rect
+			(start -1.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "26513046-3cfa-4103-b359-e65d589129f6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "c45d3e13-700e-4bd7-aa1b-8c8671d2b857")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(pad "" smd rect
+			(at -0.945 -0.95)
+			(size 0.59 0.8)
+			(layers "F.Paste")
+			(uuid "890797c7-d03e-44d5-972d-e01fd7c477f5")
+		)
+		(pad "" smd rect
+			(at -0.945 0.95)
+			(size 0.59 0.8)
+			(layers "F.Paste")
+			(uuid "95bb207e-e593-4b24-a2ca-49bb1d5ce880")
+		)
+		(pad "" smd rect
+			(at 0 -1.21)
+			(size 0.28 0.28)
+			(layers "F.Paste")
+			(uuid "64059f28-052a-4a92-b185-20467188e831")
+		)
+		(pad "" smd rect
+			(at 0 1.21)
+			(size 0.28 0.28)
+			(layers "F.Paste")
+			(uuid "4c29523e-5a7b-49f6-a6d3-0c3ccbae24f1")
+		)
+		(pad "" smd rect
+			(at 0.945 -0.95)
+			(size 0.59 0.8)
+			(layers "F.Paste")
+			(uuid "b61e38c8-6224-4b50-aa21-6e4dd9712b79")
+		)
+		(pad "" smd rect
+			(at 0.945 0.95)
+			(size 0.59 0.8)
+			(layers "F.Paste")
+			(uuid "4858a41a-e9cc-421c-af63-eeef59528e2f")
+		)
+		(pad "A" smd rect
+			(at 0 1.16)
+			(size 0.5 0.58)
+			(layers "F.Cu" "F.Mask")
+			(net "unconnected-(J7-PadA)")
+			(pinfunction "A_A")
+			(pintype "passive+no_connect")
+			(uuid "be0bf695-71cd-4400-87d2-6b0448a38239")
+		)
+		(pad "C" smd rect
+			(at 0 -1.16)
+			(size 0.5 0.58)
+			(layers "F.Cu" "F.Mask")
+			(net "Net-(J7-PadC)")
+			(pinfunction "C_C")
+			(pintype "passive")
+			(uuid "e772147c-0587-4364-96c6-f65010d09448")
+		)
+		(pad "G" smd rect
+			(at -1.025 -0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Mask")
+			(net "GND")
+			(pinfunction "G_G")
+			(pintype "passive")
+			(uuid "f274b8c8-0dd6-47e2-8bdf-a6253e0cb042")
+		)
+		(pad "G" smd rect
+			(at -1.025 0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Mask")
+			(net "GND")
+			(pinfunction "G_G")
+			(pintype "passive")
+			(uuid "fd0ee81d-08c7-422c-915c-d4ce2e1c883a")
+		)
+		(pad "G" smd rect
+			(at 1.025 -0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Mask")
+			(net "GND")
+			(pinfunction "G_G")
+			(pintype "passive")
+			(uuid "de2f71d8-be43-4da4-9b60-79b096d53f4a")
+		)
+		(pad "G" smd rect
+			(at 1.025 0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Mask")
+			(net "GND")
+			(pinfunction "G_G")
+			(pintype "passive")
+			(uuid "6c136802-e736-419a-b611-433d07ced765")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/MM8130-2600.step"
+			(offset
+				(xyz 5.844 20.344 0.432)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)
 	(footprint "footprints:PG1350"
 		(layer "F.Cu")
 		(uuid "2a6a9177-3601-46da-8c0f-d2b14b1ecdb5")
 		(at 240.25 165.75)
-		(property "Reference" "SW63"
+		(property "Reference" "SW64"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -8888,7 +9120,7 @@
 		(layer "F.Cu")
 		(uuid "2ad38631-c43f-47d1-ab1a-3d42cab2779d")
 		(at 375 184.25)
-		(property "Reference" "SW53"
+		(property "Reference" "SW54"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9177,7 +9409,7 @@
 		(layer "F.Cu")
 		(uuid "2d6bbdbc-202f-48b2-8eb0-8e53243f3f61")
 		(at 356 165.75)
-		(property "Reference" "SW50"
+		(property "Reference" "SW51"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9466,7 +9698,7 @@
 		(layer "F.Cu")
 		(uuid "2f1ce138-3853-45c9-9386-374623f73f4b")
 		(at -40.945 98.82)
-		(property "Reference" "C22"
+		(property "Reference" "C23"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10076,7 +10308,7 @@
 		(layer "F.Cu")
 		(uuid "3408564d-b3b0-4ce9-9ce2-82c933fed1d0")
 		(at 311.75 110.25)
-		(property "Reference" "SW15"
+		(property "Reference" "SW16"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10365,7 +10597,7 @@
 		(layer "F.Cu")
 		(uuid "34bb4ec1-908e-4144-9248-31f938bbb0e5")
 		(at 292.75 110.25)
-		(property "Reference" "SW14"
+		(property "Reference" "SW15"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -10938,7 +11170,7 @@
 		(layer "F.Cu")
 		(uuid "387125f3-d8ac-4e82-8663-875b8d2a637d")
 		(at 155.25 147.25)
-		(property "Reference" "SW42"
+		(property "Reference" "SW43"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11227,7 +11459,7 @@
 		(layer "F.Cu")
 		(uuid "38c08668-1b85-4248-aff9-75d0f3d79f64")
 		(at 207.25 128.75)
-		(property "Reference" "SW27"
+		(property "Reference" "SW28"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11800,7 +12032,7 @@
 		(layer "F.Cu")
 		(uuid "3d9b7ee6-ea16-4249-8fd4-6c8180b5d38c")
 		(at 307.25 128.75)
-		(property "Reference" "SW32"
+		(property "Reference" "SW33"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12368,6 +12600,231 @@
 			)
 		)
 	)
+	(footprint "footprints:MM8130-2600"
+		(layer "F.Cu")
+		(uuid "4006b7da-c4ca-4b6a-9aaa-e2d7f8962466")
+		(at -9.825 81.725)
+		(property "Reference" "J4"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a66cf0d7-c31e-4ae6-9e3b-cd2629cf66a3")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "676c20ec-9c46-42b2-8f86-085cc455b04f")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/13/Microwave_Coaxial_Conn_Cat030E.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34f0bf5f-ba68-4471-a7cc-dd58ededd40e")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Description" "Coaxial connector with switch"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aecce7db-3967-48b7-96c3-9d17fd435c14")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Ideal part number" "MM8130-2600RA2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "74c814ed-3368-4955-b847-3933c8ea665c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/MM8130-2600RA2/1775922"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "111bb045-5512-4023-a1b1-d4a54626a0f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(path "/091be2e0-4d02-4f57-8a5a-639a5f131569")
+		(sheetname "/")
+		(sheetfile "keyboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "C" "G" "A")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -1.65 -1.7)
+			(end 1.65 1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "813e4714-ac8e-40f1-8556-2908ca9a2570")
+		)
+		(fp_rect
+			(start -1.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "ed95c2c3-3b75-4d0e-9034-8b7f721a7150")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "3d41d8c6-c9f8-48a6-8448-44b728deff00")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(pad "" smd rect
+			(at -0.945 -0.95)
+			(size 0.59 0.8)
+			(layers "F.Paste")
+			(uuid "85e470e4-f28f-4c2e-a1b8-28a2dae5f790")
+		)
+		(pad "" smd rect
+			(at -0.945 0.95)
+			(size 0.59 0.8)
+			(layers "F.Paste")
+			(uuid "5bad269b-c044-4421-b448-a929ed976e1c")
+		)
+		(pad "" smd rect
+			(at 0 -1.21)
+			(size 0.28 0.28)
+			(layers "F.Paste")
+			(uuid "7cb7ef42-326a-4bfa-bc5a-c7fb9538d854")
+		)
+		(pad "" smd rect
+			(at 0 1.21)
+			(size 0.28 0.28)
+			(layers "F.Paste")
+			(uuid "7f45c1a2-8f55-4852-b2b4-b8be4eadbf75")
+		)
+		(pad "" smd rect
+			(at 0.945 -0.95)
+			(size 0.59 0.8)
+			(layers "F.Paste")
+			(uuid "fbaed266-8a07-4a4f-8817-d53e0195023e")
+		)
+		(pad "" smd rect
+			(at 0.945 0.95)
+			(size 0.59 0.8)
+			(layers "F.Paste")
+			(uuid "d516dfe3-5a5c-45b3-8fb4-5890ac70ab2b")
+		)
+		(pad "A" smd rect
+			(at 0 1.16)
+			(size 0.5 0.58)
+			(layers "F.Cu" "F.Mask")
+			(net "Net-(J3-PadA)")
+			(pinfunction "A_A")
+			(pintype "passive")
+			(uuid "b7a38fb0-fa2c-4b33-9cfd-f29aef5c5186")
+		)
+		(pad "C" smd rect
+			(at 0 -1.16)
+			(size 0.5 0.58)
+			(layers "F.Cu" "F.Mask")
+			(net "Net-(C17-Pad1)")
+			(pinfunction "C_C")
+			(pintype "passive")
+			(uuid "694ac1cd-dbd0-49f5-8f6b-d4c10bff6a14")
+		)
+		(pad "G" smd rect
+			(at -1.025 -0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Mask")
+			(net "GND")
+			(pinfunction "G_G")
+			(pintype "passive")
+			(uuid "b5ed3bb3-aee6-45c0-a5ba-5a898fb6ece7")
+		)
+		(pad "G" smd rect
+			(at -1.025 0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Mask")
+			(net "GND")
+			(pinfunction "G_G")
+			(pintype "passive")
+			(uuid "f4f8d7e2-9e3e-4058-9ea8-87c7e33a9e7d")
+		)
+		(pad "G" smd rect
+			(at 1.025 -0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Mask")
+			(net "GND")
+			(pinfunction "G_G")
+			(pintype "passive")
+			(uuid "3418c88c-0751-4ed8-a036-44ad25946c6f")
+		)
+		(pad "G" smd rect
+			(at 1.025 0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Mask")
+			(net "GND")
+			(pinfunction "G_G")
+			(pintype "passive")
+			(uuid "0feb951c-3366-4d43-9b32-ed4588ee4853")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/MM8130-2600.step"
+			(offset
+				(xyz 5.844 20.344 0.432)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "417c8141-96be-4244-9b6d-1b65073ab710")
@@ -12655,7 +13112,7 @@
 		(layer "F.Cu")
 		(uuid "42e1464e-6157-4218-bf97-7b3fcfce38f5")
 		(at 216.75 110.25)
-		(property "Reference" "SW10"
+		(property "Reference" "SW11"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -12944,7 +13401,7 @@
 		(layer "F.Cu")
 		(uuid "43b391ce-bf30-4eb0-8909-cc3b0036ce92")
 		(at 226.25 128.75)
-		(property "Reference" "SW28"
+		(property "Reference" "SW29"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14083,7 +14540,7 @@
 		(layer "F.Cu")
 		(uuid "49930033-fe45-466b-9d34-92461b59e4a1")
 		(at 121.75 110.25)
-		(property "Reference" "SW5"
+		(property "Reference" "SW6"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -14368,7 +14825,7 @@
 			)
 		)
 	)
-	(footprint "footprints:L-0201"
+	(footprint "footprints:L-0402"
 		(layer "F.Cu")
 		(uuid "4a18013d-4e4c-4568-b0bd-71306f2041e1")
 		(at -38.235 102.145)
@@ -14420,7 +14877,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" "LQP03HQ2N7B02D"
+		(property "Ideal part number" "LQG15WZ2N7B02D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14433,7 +14890,7 @@
 				)
 			)
 		)
-		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/LQP03HQ2N7B02D/6098709"
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/LQG15WZ2N7B02D/16033778"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14458,20 +14915,20 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
-			(start -0.55 -0.265)
-			(end 0.55 0.265)
+			(start -0.7 -0.375)
+			(end 0.7 0.375)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "5fd7707d-7faa-460b-b252-40b508968f2f")
+			(uuid "8d96388e-c2f4-41ad-b29f-046b7ee47380")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "2c19b8cf-bb44-4709-b508-4f03854506f7")
+			(uuid "bdb3a7c7-2f5c-4535-aaf4-3e4928a14ccf")
 			(effects
 				(font
 					(size 0.2 0.2)
@@ -14480,27 +14937,27 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.3 0)
-			(size 0.3 0.275)
+			(at -0.4 0)
+			(size 0.4 0.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(C19-Pad1)")
 			(pinfunction "1_1")
 			(pintype "passive")
-			(uuid "6c26b89c-eecf-488b-b1e4-8fb1656b3631")
+			(uuid "3760de2c-0def-41a0-bb20-58d3face4ad2")
 		)
 		(pad "2" smd roundrect
-			(at 0.3 0)
-			(size 0.3 0.275)
+			(at 0.4 0)
+			(size 0.4 0.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(U2-ANT)")
 			(pinfunction "2_2")
 			(pintype "passive")
-			(uuid "8844e948-f040-46b7-be9e-551dcc89b9c9")
+			(uuid "cf72eb4a-1f53-4087-8ca8-aafba8c046d8")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/models/L-0201.step"
+		(model "${KIPRJMOD}/models/L-0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -14516,7 +14973,7 @@
 		(layer "F.Cu")
 		(uuid "4e0fa742-8604-4bd6-9c0a-7b784f6b6f42")
 		(at 102.75 110.25)
-		(property "Reference" "SW4"
+		(property "Reference" "SW5"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -15525,7 +15982,7 @@
 		(layer "F.Cu")
 		(uuid "590f25da-f928-4e06-be84-abb3ebde217c")
 		(at 169.25 128.75)
-		(property "Reference" "SW25"
+		(property "Reference" "SW26"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16848,7 +17305,7 @@
 		(layer "F.Cu")
 		(uuid "5b3466fb-51d5-4b3d-9669-d57bc267bdc9")
 		(at -40.945 96.52)
-		(property "Reference" "C21"
+		(property "Reference" "C22"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -16990,7 +17447,7 @@
 		(layer "F.Cu")
 		(uuid "5be28e28-913b-4d80-8b2a-789082d18606")
 		(at 306.25 165.75)
-		(property "Reference" "SW66"
+		(property "Reference" "SW67"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17279,7 +17736,7 @@
 		(layer "F.Cu")
 		(uuid "5d168b29-54df-4c34-92f2-6734eba2d415")
 		(at -35.625 74.08)
-		(property "Reference" "C24"
+		(property "Reference" "C25"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -17417,7 +17874,232 @@
 			)
 		)
 	)
-	(footprint "footprints:C-0201"
+	(footprint "footprints:MM8130-2600"
+		(layer "F.Cu")
+		(uuid "5d1e1e73-76e4-45d9-b7b0-035b1312e533")
+		(at -5.825 81.725)
+		(property "Reference" "J3"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "539de1ea-ad1f-4951-82dd-df29c4ea5eef")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "edb9f406-f050-4e41-89d7-c25319fe5478")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/13/Microwave_Coaxial_Conn_Cat030E.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b8972357-ac49-441d-9a12-d863daa80e4a")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Description" "Coaxial connector with switch"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4184515c-d851-407f-b18d-ef0929550bb1")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Ideal part number" "MM8130-2600RA2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8aa8a93b-53d9-4c5c-aa9b-2f8cf16f3974")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/MM8130-2600RA2/1775922"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79432719-5a4f-419e-9748-e440f34ef860")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(path "/e1b47b7b-8965-44f6-a90e-4a9266ae09ba")
+		(sheetname "/")
+		(sheetfile "keyboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "C" "G" "A")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -1.65 -1.7)
+			(end 1.65 1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "0fa515fc-fa1e-45f0-891a-6c30f13698aa")
+		)
+		(fp_rect
+			(start -1.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "c6a56285-b771-45c7-acb9-0d28c996cfe6")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "1fe13a53-b204-4f15-8615-8273cef61a50")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(pad "" smd rect
+			(at -0.945 -0.95)
+			(size 0.59 0.8)
+			(layers "F.Paste")
+			(uuid "7281a53a-f3e7-46a0-b619-a699ee9d1008")
+		)
+		(pad "" smd rect
+			(at -0.945 0.95)
+			(size 0.59 0.8)
+			(layers "F.Paste")
+			(uuid "ac432491-ae3e-4d5e-a339-1b8899cbeca4")
+		)
+		(pad "" smd rect
+			(at 0 -1.21)
+			(size 0.28 0.28)
+			(layers "F.Paste")
+			(uuid "6395bdcc-77c4-4388-ac32-2135b062604c")
+		)
+		(pad "" smd rect
+			(at 0 1.21)
+			(size 0.28 0.28)
+			(layers "F.Paste")
+			(uuid "781a6c7f-2750-4098-a863-a4e17fb5a28d")
+		)
+		(pad "" smd rect
+			(at 0.945 -0.95)
+			(size 0.59 0.8)
+			(layers "F.Paste")
+			(uuid "ac1f738c-09df-4fc5-98cb-6af450c3dbe8")
+		)
+		(pad "" smd rect
+			(at 0.945 0.95)
+			(size 0.59 0.8)
+			(layers "F.Paste")
+			(uuid "3ab79972-257a-4c1a-b5ff-2f37ea85563b")
+		)
+		(pad "A" smd rect
+			(at 0 1.16)
+			(size 0.5 0.58)
+			(layers "F.Cu" "F.Mask")
+			(net "Net-(J3-PadA)")
+			(pinfunction "A_A")
+			(pintype "passive")
+			(uuid "2ef2f2d4-9035-42fd-8009-07e8daf7ef03")
+		)
+		(pad "C" smd rect
+			(at 0 -1.16)
+			(size 0.5 0.58)
+			(layers "F.Cu" "F.Mask")
+			(net "Net-(C16-Pad1)")
+			(pinfunction "C_C")
+			(pintype "passive")
+			(uuid "69fc032b-a269-4940-94df-9da71b01d47d")
+		)
+		(pad "G" smd rect
+			(at -1.025 -0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Mask")
+			(net "GND")
+			(pinfunction "G_G")
+			(pintype "passive")
+			(uuid "0eb87a47-0505-4b7b-8d46-4dc52a6afcb7")
+		)
+		(pad "G" smd rect
+			(at -1.025 0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Mask")
+			(net "GND")
+			(pinfunction "G_G")
+			(pintype "passive")
+			(uuid "6c72f991-f170-40de-a498-907941bbdf7a")
+		)
+		(pad "G" smd rect
+			(at 1.025 -0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Mask")
+			(net "GND")
+			(pinfunction "G_G")
+			(pintype "passive")
+			(uuid "7bac4ae3-8e21-446d-8ef3-8372d929bfef")
+		)
+		(pad "G" smd rect
+			(at 1.025 0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Mask")
+			(net "GND")
+			(pinfunction "G_G")
+			(pintype "passive")
+			(uuid "4a593b52-4bce-4bbc-8fc6-cd5c4e0c30e3")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/MM8130-2600.step"
+			(offset
+				(xyz 5.844 20.344 0.432)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)
+	(footprint "footprints:C-0402"
 		(layer "F.Cu")
 		(uuid "5db6f545-73d0-453c-b2e5-dfecfa0a64d4")
 		(at -38.235 95.545)
@@ -17469,7 +18151,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" "GJM0335C1E2R0WB01D"
+		(property "Ideal part number" "GJM1555C1H2R0WB01D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17482,7 +18164,7 @@
 				)
 			)
 		)
-		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GJM0335C1E2R0WB01D/2592548"
+		(property "Order link" "https://www.digikey.com/en/products/result?keywords=GJM1555C1H2R0WB01D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -17507,20 +18189,20 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
-			(start -0.455 -0.275)
-			(end 0.455 0.275)
+			(start -0.75 -0.425)
+			(end 0.75 0.425)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "ccd370b9-d127-4bbe-9737-424b84523e04")
+			(uuid "a8376ba0-4d53-4320-9ed1-60eb2a36637c")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "814ef839-a402-4cf0-b4f8-4a3b50d10c65")
+			(uuid "5b3fa6c2-8bbe-4239-9059-86b147d6d266")
 			(effects
 				(font
 					(size 0.2 0.2)
@@ -17529,25 +18211,25 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.23 0)
-			(size 0.25 0.35)
+			(at -0.4375 0)
+			(size 0.425 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(C18-Pad1)")
 			(pintype "passive")
-			(uuid "f22f78eb-4331-43ac-9c5f-ebee970b2e5c")
+			(uuid "68fccff2-d277-4cbb-8a4c-efceb778d5b5")
 		)
 		(pad "2" smd roundrect
-			(at 0.23 0)
-			(size 0.25 0.35)
+			(at 0.4375 0)
+			(size 0.425 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
 			(pintype "passive")
-			(uuid "8c766dc3-85bc-4f3f-8f53-d6e6fa0c2f9b")
+			(uuid "6486c53b-7328-47aa-a81d-c6bee2e51f26")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/models/C-0201.step"
+		(model "${KIPRJMOD}/models/C-0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -17846,7 +18528,7 @@
 		(layer "F.Cu")
 		(uuid "5ed63a76-8595-4202-a2d7-a3240fcf03a6")
 		(at 254.75 110.25)
-		(property "Reference" "SW12"
+		(property "Reference" "SW13"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -18135,7 +18817,7 @@
 		(layer "F.Cu")
 		(uuid "6124bef5-ece5-49ae-8e02-aa98c0e29849")
 		(at 60.25 165.75)
-		(property "Reference" "SW54"
+		(property "Reference" "SW55"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19578,7 +20260,7 @@
 			(size 0.6 0.25)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(J3-SWCLK)")
+			(net "Net-(J5-SWCLK)")
 			(pinfunction "SWDCLK_31")
 			(pintype "input")
 			(uuid "a2e3e6d5-a483-475d-a89e-d697f1f9f368")
@@ -19588,7 +20270,7 @@
 			(size 0.6 0.25)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(J3-SWDIO)")
+			(net "Net-(J5-SWDIO)")
 			(pinfunction "SWDIO_32")
 			(pintype "bidirectional")
 			(uuid "dfb54137-b602-44f5-972a-1bc4b9bf9fc2")
@@ -19598,7 +20280,7 @@
 			(size 0.6 0.25)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(J3-~{RESET})")
+			(net "Net-(J5-~{RESET})")
 			(pinfunction "~{RESET}_33")
 			(pintype "input")
 			(uuid "adca0949-22b5-4517-947d-d4683e302f9d")
@@ -19821,7 +20503,7 @@
 		(layer "F.Cu")
 		(uuid "6555b17d-e198-4156-9985-db28cbe2359b")
 		(at 64.75 110.25)
-		(property "Reference" "SW2"
+		(property "Reference" "SW3"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20393,7 +21075,7 @@
 		(layer "F.Cu")
 		(uuid "668ca1f0-7894-41bd-a1bc-41e32d042969")
 		(at 98.25 147.25)
-		(property "Reference" "SW39"
+		(property "Reference" "SW40"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20682,7 +21364,7 @@
 		(layer "F.Cu")
 		(uuid "668e7647-eeb7-47e8-a419-fd4c92cb8c47")
 		(at 88.25 165.75)
-		(property "Reference" "SW55"
+		(property "Reference" "SW56"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -20971,7 +21653,7 @@
 		(layer "F.Cu")
 		(uuid "66d93b33-ec24-4307-a895-6a895ccc37ac")
 		(at -35.4 65.335)
-		(property "Reference" "J3"
+		(property "Reference" "J5"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -21110,7 +21792,7 @@
 			(drill 0.81)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J3-SWDIO)")
+			(net "Net-(J5-SWDIO)")
 			(pinfunction "SWDIO_2")
 			(pintype "bidirectional")
 			(uuid "f1241e64-fb3f-48bb-b374-eb2411483436")
@@ -21121,7 +21803,7 @@
 			(drill 0.81)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J3-~{RESET})")
+			(net "Net-(J5-~{RESET})")
 			(pinfunction "~{RESET}_3")
 			(pintype "output")
 			(uuid "600d32d2-5974-4a96-962a-1120fed3795e")
@@ -21132,7 +21814,7 @@
 			(drill 0.81)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "Net-(J3-SWCLK)")
+			(net "Net-(J5-SWCLK)")
 			(pinfunction "SWCLK_4")
 			(pintype "output")
 			(uuid "0fe20fe5-7762-40c4-adac-e189ad4ab940")
@@ -21154,7 +21836,7 @@
 			(drill 0.81)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net "unconnected-(J3-SWO-Pad6)")
+			(net "unconnected-(J5-SWO-Pad6)")
 			(pinfunction "SWO_6")
 			(pintype "input+no_connect")
 			(uuid "3b45d9cb-d773-4161-968c-109c5483160b")
@@ -21346,7 +22028,7 @@
 		(layer "F.Cu")
 		(uuid "67a47167-19ca-4f5f-8bd9-88be2af1a4f4")
 		(at 259.25 165.75)
-		(property "Reference" "SW64"
+		(property "Reference" "SW65"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -22814,7 +23496,7 @@
 		(layer "F.Cu")
 		(uuid "6f2e4b7b-10f9-42ad-9b02-1ac69b50974f")
 		(at -40.945 101.12)
-		(property "Reference" "C23"
+		(property "Reference" "C24"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -23239,7 +23921,7 @@
 		(layer "F.Cu")
 		(uuid "72323eb0-4d6c-4a81-8665-63327a677320")
 		(at 297.25 147.25)
-		(property "Reference" "SW49"
+		(property "Reference" "SW50"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24519,7 +25201,7 @@
 		(layer "F.Cu")
 		(uuid "7877138c-5993-45c4-bfe7-e4a4e329b816")
 		(at 112.25 128.75)
-		(property "Reference" "SW22"
+		(property "Reference" "SW23"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -24808,7 +25490,7 @@
 		(layer "F.Cu")
 		(uuid "78fa81cc-b0f4-445f-a566-ab056a78924f")
 		(at 150.25 128.75)
-		(property "Reference" "SW24"
+		(property "Reference" "SW25"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -25376,11 +26058,153 @@
 			)
 		)
 	)
+	(footprint "footprints:R-0402"
+		(layer "F.Cu")
+		(uuid "7a4d1658-9071-445a-81aa-9f6f17aaf881")
+		(at -17.6 16.3)
+		(property "Reference" "R11"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32ca2a92-b1a4-4206-92df-443e0a0f478c")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b30e59b9-aa4e-4af5-90d3-4bee5888ec94")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "28f4cd4b-15a6-4d4c-a957-51b66f5bb44f")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Description" "Chip resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6eb2ecbc-5203-4543-82f3-5496f3050e8d")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Ideal part number" "RC0402JR-070RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8fb28335-a3ae-4e99-9eec-106dd2aeb1d3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Order link" "https://www.digikey.com/en/products/detail/yageo/RC0402JR-070RL/726406"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "31e8f9db-06ab-4bf2-9b9c-e32f6ab96de2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(path "/d29894fe-3eac-42ed-abcc-1d82ae2193c7")
+		(sheetname "/")
+		(sheetfile "keyboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -0.85 -0.4)
+			(end 0.85 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "ba8a7807-a7c8-4959-9c12-889f47042b26")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "4649d7b1-82b2-46b1-826b-97aac10be5b4")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 0.5 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pintype "passive")
+			(uuid "593f3b68-5cf5-4adf-8ddb-88b9662b39a4")
+		)
+		(pad "2" smd roundrect
+			(at 0.5 0)
+			(size 0.5 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(J7-PadC)")
+			(pintype "passive")
+			(uuid "b6051eec-3e2a-46c9-b20a-f4ccb365d9cc")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/R-0402.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "footprints:PG1350"
 		(layer "F.Cu")
 		(uuid "7ac7c846-9ccf-42ef-bb97-eb67a4cbd652")
 		(at 250.25 147.25)
-		(property "Reference" "SW47"
+		(property "Reference" "SW48"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26235,7 +27059,7 @@
 		(layer "F.Cu")
 		(uuid "7ece0cb8-b79c-41fc-9fcb-bf438d31e8b5")
 		(at 337 184.25)
-		(property "Reference" "SW51"
+		(property "Reference" "SW52"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26666,7 +27490,7 @@
 		(layer "F.Cu")
 		(uuid "82477dac-c8b1-4360-8d53-abac0b18b801")
 		(at 235.75 110.25)
-		(property "Reference" "SW11"
+		(property "Reference" "SW12"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -26955,7 +27779,7 @@
 		(layer "F.Cu")
 		(uuid "8253529f-6d56-450c-bf05-6816667d8373")
 		(at 99.75 184.25)
-		(property "Reference" "SW17"
+		(property "Reference" "SW18"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27244,7 +28068,7 @@
 		(layer "F.Cu")
 		(uuid "875e526f-606c-446f-9b85-ca2d37af6e80")
 		(at 169.25 184.25)
-		(property "Reference" "SW18"
+		(property "Reference" "SW19"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27533,7 +28357,7 @@
 		(layer "F.Cu")
 		(uuid "87b676cd-4457-4472-8cee-9e5a8e118d81")
 		(at 231.25 147.25)
-		(property "Reference" "SW46"
+		(property "Reference" "SW47"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -27822,7 +28646,7 @@
 		(layer "F.Cu")
 		(uuid "87cdada9-3ec6-464f-8f0d-033632966e2f")
 		(at -32.815 76.08)
-		(property "Reference" "C32"
+		(property "Reference" "C33"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28247,7 +29071,7 @@
 		(layer "F.Cu")
 		(uuid "8a9069d8-301d-46a7-a8db-13ffd635e15f")
 		(at 45.75 110.25)
-		(property "Reference" "SW1"
+		(property "Reference" "SW2"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28532,11 +29356,153 @@
 			)
 		)
 	)
+	(footprint "footprints:R-0402"
+		(layer "F.Cu")
+		(uuid "8b73f21e-ec23-4ed0-9a9a-9cf9650760c8")
+		(at -11.75 86.45)
+		(property "Reference" "R9"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6306e3bd-de0f-40c9-bfa8-2535e67af5b5")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Value" "100R"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cc1e8f2c-7185-490e-ba2f-af371ae026af")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "418a9ffc-eb8c-466e-8317-49ba535beeca")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Description" "Chip resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f5cc2b2e-e7f0-4cc2-bc8e-e8d7cffeea29")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Ideal part number" "RC0402FR-07100RL"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dfaa6086-0341-4c04-8814-f01c03b1a417")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Order link" "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07100RL/726527"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e014454c-ecda-4d9d-b077-c39b27cf9f9a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(path "/77b230cc-1b3d-4b52-84f1-1c30ac3e2e6a")
+		(sheetname "/")
+		(sheetfile "keyboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -0.85 -0.4)
+			(end 0.85 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "93003163-2166-44eb-841d-912dcb47a619")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "6068e167-133f-4ec4-8287-5a65123c53d9")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 0.5 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(SW1B-A)")
+			(pintype "passive")
+			(uuid "02a09f59-7331-4e18-8db2-bbed46173a2d")
+		)
+		(pad "2" smd roundrect
+			(at 0.5 0)
+			(size 0.5 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(U1-SHPHLD)")
+			(pintype "passive")
+			(uuid "f398b9ff-d7da-4dfb-b926-9d76c0f41dbb")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/R-0402.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "footprints:PG1350"
 		(layer "F.Cu")
 		(uuid "8bbe40af-4f56-49b4-b4c9-56604a242c6b")
 		(at 159.75 110.25)
-		(property "Reference" "SW7"
+		(property "Reference" "SW8"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -28818,6 +29784,231 @@
 			)
 			(rotate
 				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "footprints:MM8130-2600"
+		(layer "F.Cu")
+		(uuid "8ce4440a-9c3f-49c0-95fb-88ba666b4f22")
+		(at -16.825 11.225)
+		(property "Reference" "J6"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "488b575e-f348-4522-9b4d-2c614eaa8a48")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "48022914-3fbd-4a1d-98ef-d9fc60089a52")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/13/Microwave_Coaxial_Conn_Cat030E.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "bdee19cd-fac9-4472-9b64-b06b252f925b")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Description" "Coaxial connector with switch"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b06bed54-da7e-42c0-9da6-66a4256b887f")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Ideal part number" "MM8130-2600RA2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a8f62fd0-e53b-4af9-9ba0-7e510c044740")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/MM8130-2600RA2/1775922"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3b60a178-7d7a-47e5-8e32-34db06008415")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(path "/292afb7d-9933-41a5-af48-37949cc39b03")
+		(sheetname "/")
+		(sheetfile "keyboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "C" "G" "A")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -1.65 -1.7)
+			(end 1.65 1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "3768762b-814c-4499-a0c1-e8452c664b00")
+		)
+		(fp_rect
+			(start -1.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "2052b7e3-3ca0-45b6-8118-621b4ef36487")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "f9368ad5-d7ff-45ac-a8d6-aeda66131e82")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(pad "" smd rect
+			(at -0.945 -0.95)
+			(size 0.59 0.8)
+			(layers "F.Paste")
+			(uuid "4f0df478-3dbe-4322-83ce-bde4ac2f3746")
+		)
+		(pad "" smd rect
+			(at -0.945 0.95)
+			(size 0.59 0.8)
+			(layers "F.Paste")
+			(uuid "49e95320-2956-4bf5-9e50-94bd6a51b31d")
+		)
+		(pad "" smd rect
+			(at 0 -1.21)
+			(size 0.28 0.28)
+			(layers "F.Paste")
+			(uuid "041e890c-c21f-42cb-a818-6960d310961b")
+		)
+		(pad "" smd rect
+			(at 0 1.21)
+			(size 0.28 0.28)
+			(layers "F.Paste")
+			(uuid "94173d85-4b9c-4c7c-b6f6-c679771cd785")
+		)
+		(pad "" smd rect
+			(at 0.945 -0.95)
+			(size 0.59 0.8)
+			(layers "F.Paste")
+			(uuid "3b6ad693-e74d-4af5-a7d6-9ea71e293684")
+		)
+		(pad "" smd rect
+			(at 0.945 0.95)
+			(size 0.59 0.8)
+			(layers "F.Paste")
+			(uuid "9e82bb83-3c8c-4815-9c03-68b1eb3ffcb2")
+		)
+		(pad "A" smd rect
+			(at 0 1.16)
+			(size 0.5 0.58)
+			(layers "F.Cu" "F.Mask")
+			(net "unconnected-(J6-PadA)")
+			(pinfunction "A_A")
+			(pintype "passive+no_connect")
+			(uuid "7537e7b1-08ea-40e8-8836-898bda81e32c")
+		)
+		(pad "C" smd rect
+			(at 0 -1.16)
+			(size 0.5 0.58)
+			(layers "F.Cu" "F.Mask")
+			(net "Net-(J6-PadC)")
+			(pinfunction "C_C")
+			(pintype "passive")
+			(uuid "7a8ef99b-9194-4014-9be0-3ad1d6e88536")
+		)
+		(pad "G" smd rect
+			(at -1.025 -0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Mask")
+			(net "GND")
+			(pinfunction "G_G")
+			(pintype "passive")
+			(uuid "7b8d06ed-59ec-41fe-9cc2-b2d76466a324")
+		)
+		(pad "G" smd rect
+			(at -1.025 0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Mask")
+			(net "GND")
+			(pinfunction "G_G")
+			(pintype "passive")
+			(uuid "8f4e253d-ea7e-4862-a1d5-d13f3ef41e0b")
+		)
+		(pad "G" smd rect
+			(at 1.025 -0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Mask")
+			(net "GND")
+			(pinfunction "G_G")
+			(pintype "passive")
+			(uuid "7fb795dc-10e7-4e6d-8260-9f04d2243ff6")
+		)
+		(pad "G" smd rect
+			(at 1.025 0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Mask")
+			(net "GND")
+			(pinfunction "G_G")
+			(pintype "passive")
+			(uuid "84745a35-1005-483a-b3c2-0381da3390c8")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/MM8130-2600.step"
+			(offset
+				(xyz 5.844 20.344 0.432)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
 			)
 		)
 	)
@@ -29392,7 +30583,7 @@
 		(layer "F.Cu")
 		(uuid "92ad658b-32dd-4652-a246-80b286bcdc17")
 		(at 269.25 147.25)
-		(property "Reference" "SW48"
+		(property "Reference" "SW49"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -29681,7 +30872,7 @@
 		(layer "F.Cu")
 		(uuid "944c8abe-ac57-4118-afe3-2aaf450f4bd1")
 		(at 93.25 128.75)
-		(property "Reference" "SW21"
+		(property "Reference" "SW22"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31385,7 +32576,7 @@
 		(layer "F.Cu")
 		(uuid "9c9e2113-5df6-4945-a67a-a62564b0cccb")
 		(at 245.25 128.75)
-		(property "Reference" "SW29"
+		(property "Reference" "SW30"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -31957,7 +33148,7 @@
 		(layer "F.Cu")
 		(uuid "9fc2f62a-3232-4289-ad86-24ddb62a9c8f")
 		(at 262.25 184.25)
-		(property "Reference" "SW36"
+		(property "Reference" "SW37"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32525,11 +33716,221 @@
 			)
 		)
 	)
+	(footprint "footprints:CL-SB-22A"
+		(layer "F.Cu")
+		(uuid "a2134b53-a0ff-4459-b2fc-36794c0587fa")
+		(at -17.225 80.725)
+		(property "Reference" "SW1"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1ba0ef36-d0c1-4f24-bb7a-22b1c8d79470")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7a25b1b-26b1-4c8a-a346-4e5292ae0f2a")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cl-sb.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "afbb3c14-a8d5-4ad5-afa1-4024890fe11e")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Description" "Switch, dual pole double throw, one unit per pole"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e68eeeb2-9d1e-446b-b592-e464de7837ad")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Ideal part number" "CL-SB-22A-12T"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e098b08b-0c86-47ab-b272-3bf71b0d1987")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Order link" "https://www.digikey.com/en/products/detail/nidec-components/CL-SB-22A-12T/3507830"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "25dd97b3-821d-4b33-b518-f8e9f5bb7e84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(path "/0d31e1f7-98b8-4a32-8158-1d63b7cd1cf7")
+		(sheetname "/")
+		(sheetfile "keyboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "2" "1" "3")
+			)
+			(unit
+				(name "B")
+				(pins "5" "4" "6")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -4.75 -2.7)
+			(end 4.75 4.25)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "1d0493d9-1c02-40d7-ba8c-e178c3489e44")
+		)
+		(fp_rect
+			(start -4.25 -1.75)
+			(end 4.25 1.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "c535ec0a-e57c-4151-805f-003040877f96")
+		)
+		(fp_rect
+			(start -1.75 1.75)
+			(end -0.25 3.75)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "d3977271-abc9-4a85-b3e0-2d2c58865a50")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7bf248be-1323-4c89-839f-2642359ddd4b")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -2.5 1.4)
+			(size 1.2 1.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/COL8")
+			(pinfunction "A_1")
+			(pintype "passive")
+			(uuid "dca3e3a4-7f3a-4df3-bbd0-606251b8f0a6")
+		)
+		(pad "2" smd roundrect
+			(at 0 1.4)
+			(size 1.2 1.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(D68-A)")
+			(pinfunction "B_2")
+			(pintype "passive")
+			(uuid "cdea16bd-4fb9-4dab-aa46-07502a800464")
+		)
+		(pad "3" smd roundrect
+			(at 2.5 1.4)
+			(size 1.2 1.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "unconnected-(SW1A-C-Pad3)")
+			(pinfunction "C_3")
+			(pintype "passive+no_connect")
+			(uuid "539be787-063a-4a28-85e7-246944b57873")
+		)
+		(pad "4" smd roundrect
+			(at -2.5 -1.4)
+			(size 1.2 1.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(SW1B-A)")
+			(pinfunction "A_4")
+			(pintype "passive")
+			(uuid "82ff815b-67f4-4ff0-862d-9acf69cc42b6")
+		)
+		(pad "5" smd roundrect
+			(at 0 -1.4)
+			(size 1.2 1.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(SW1B-B)")
+			(pinfunction "B_5")
+			(pintype "passive")
+			(uuid "8508d54d-845b-4726-bfac-ae918a52fd2f")
+		)
+		(pad "6" smd roundrect
+			(at 2.5 -1.4)
+			(size 1.2 1.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pinfunction "C_6")
+			(pintype "passive")
+			(uuid "e388a69c-a5a8-4050-bf71-3bb67352b4e4")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/CL-SB-22A.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)
 	(footprint "footprints:C-0402"
 		(layer "F.Cu")
 		(uuid "a2bbbc7d-05f7-4729-814b-d6df5030e573")
 		(at -35.625 78.08)
-		(property "Reference" "C26"
+		(property "Reference" "C27"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -32954,7 +34355,7 @@
 		(layer "F.Cu")
 		(uuid "a6ad159c-5c6b-4c38-aeab-363181902be4")
 		(at -35.625 82.08)
-		(property "Reference" "C28"
+		(property "Reference" "C29"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33379,7 +34780,7 @@
 		(layer "F.Cu")
 		(uuid "aae36ab5-c92f-430c-8e4f-89743bbe1bc2")
 		(at 164.25 165.75)
-		(property "Reference" "SW59"
+		(property "Reference" "SW60"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -33664,7 +35065,7 @@
 			)
 		)
 	)
-	(footprint "footprints:C-0201"
+	(footprint "footprints:C-0402"
 		(layer "F.Cu")
 		(uuid "ab3501cb-7f46-4abf-98ef-5623e470ade2")
 		(at -38.235 97.195)
@@ -33716,7 +35117,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" "GJM0335C1E1R5WB01D"
+		(property "Ideal part number" "GJM1555C1H1R5WB01D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33729,7 +35130,7 @@
 				)
 			)
 		)
-		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GJM0335C1E1R5WB01D/2592528"
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GJM1555C1H1R5WB01D/2592890"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -33754,20 +35155,20 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
-			(start -0.455 -0.275)
-			(end 0.455 0.275)
+			(start -0.75 -0.425)
+			(end 0.75 0.425)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "ceebc478-52a6-4ca8-b23e-9a7963da1716")
+			(uuid "84ee222b-5df8-4490-a5c6-9113b338fd33")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "2c366a67-8838-4866-902a-1e19fabecdac")
+			(uuid "b99a6101-2828-4249-b6c5-2e071e851492")
 			(effects
 				(font
 					(size 0.2 0.2)
@@ -33776,25 +35177,25 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.23 0)
-			(size 0.25 0.35)
+			(at -0.4375 0)
+			(size 0.425 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(C19-Pad1)")
 			(pintype "passive")
-			(uuid "ee8f8591-5688-405c-8b3a-ad1a8465b9c9")
+			(uuid "1e88e006-fc41-4691-ab9d-e91419286567")
 		)
 		(pad "2" smd roundrect
-			(at 0.23 0)
-			(size 0.25 0.35)
+			(at 0.4375 0)
+			(size 0.425 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
 			(pintype "passive")
-			(uuid "5a2d3092-2802-4bf6-8bbd-562d9dce7909")
+			(uuid "a82fa38f-2acf-46f2-8f05-5765400acdbb")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/models/C-0201.step"
+		(model "${KIPRJMOD}/models/C-0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -33810,7 +35211,7 @@
 		(layer "F.Cu")
 		(uuid "b0b70198-6b62-4389-a6f2-631480f79931")
 		(at 273.75 110.25)
-		(property "Reference" "SW13"
+		(property "Reference" "SW14"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -34378,7 +35779,7 @@
 			)
 		)
 	)
-	(footprint "footprints:L-0201"
+	(footprint "footprints:L-0402"
 		(layer "F.Cu")
 		(uuid "b180347e-8ac3-4081-9d74-b29ae5067cb4")
 		(at -38.235 98.845)
@@ -34430,7 +35831,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" "LQP03HQ2N0B02D"
+		(property "Ideal part number" "LQG15WZ2N0B02D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34443,7 +35844,7 @@
 				)
 			)
 		)
-		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/LQP03HQ2N0B02D/6098695"
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/LQG15WZ2N0B02D/16033616"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -34468,20 +35869,20 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
-			(start -0.55 -0.265)
-			(end 0.55 0.265)
+			(start -0.7 -0.375)
+			(end 0.7 0.375)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "b20ee72b-57fa-41fe-834d-b9523c03db9a")
+			(uuid "f33121f0-7a29-424a-b0ef-ac5390e0166f")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "63393966-f353-46b0-92d1-1847ef989742")
+			(uuid "2ff5830c-1c2d-4605-b705-0e3670203329")
 			(effects
 				(font
 					(size 0.2 0.2)
@@ -34490,27 +35891,27 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.3 0)
-			(size 0.3 0.275)
+			(at -0.4 0)
+			(size 0.4 0.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(C16-Pad1)")
+			(net "Net-(C17-Pad1)")
 			(pinfunction "1_1")
 			(pintype "passive")
-			(uuid "a9227b41-174a-4fab-a053-66dfd8a59bb9")
+			(uuid "79967482-b013-4ebd-b47d-99b284628586")
 		)
 		(pad "2" smd roundrect
-			(at 0.3 0)
-			(size 0.3 0.275)
+			(at 0.4 0)
+			(size 0.4 0.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(C18-Pad1)")
 			(pinfunction "2_2")
 			(pintype "passive")
-			(uuid "5b5177f3-5a58-45f5-a070-11b3882bc674")
+			(uuid "b3e20c60-e3cc-4168-8c15-2b0d9d292945")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/models/L-0201.step"
+		(model "${KIPRJMOD}/models/L-0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -34526,7 +35927,7 @@
 		(layer "F.Cu")
 		(uuid "b310e505-1156-4da1-9a9b-fafa30cd5227")
 		(at 197.75 110.25)
-		(property "Reference" "SW9"
+		(property "Reference" "SW10"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35098,7 +36499,7 @@
 		(layer "F.Cu")
 		(uuid "b82a62f4-f3bd-4a31-b6ae-33f80abc2c99")
 		(at 282.75 165.75)
-		(property "Reference" "SW65"
+		(property "Reference" "SW66"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -35808,6 +37209,289 @@
 			)
 		)
 	)
+	(footprint "footprints:SOD-123"
+		(layer "F.Cu")
+		(uuid "bbca4371-7b8a-4863-8dde-b799200a53cf")
+		(at -19.625 87.175)
+		(property "Reference" "D68"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aab54fc6-cdda-4318-834a-af5e348191bc")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "894ef886-270d-4179-a8df-0829898c452d")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/BAV16W_1N4148W.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4c273390-98cf-4a3c-bdcc-84b57e442dc9")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Description" "Switching diode"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec94f39f-3620-49d3-8f2b-901c25bb2608")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Ideal part number" "1N4148W-7-F"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "18d27bef-d9ac-424b-9d4e-848f7d9da46a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Order link" "https://www.digikey.com/en/products/detail/diodes-incorporated/1N4148W-7-F/814371"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5757e83e-4339-4fc8-a4bd-d44bd152daad")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(path "/2d0c6aa9-dd08-4c3e-96d5-cb1b1dba1b8f")
+		(sheetname "/")
+		(sheetfile "keyboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_line
+			(start -2.35 -1.15)
+			(end -2.35 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "4c51673a-df5f-4a05-8ab2-dce380fba1de")
+		)
+		(fp_line
+			(start -2.35 -1.15)
+			(end 2.35 -1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "2f8a9e4d-7b27-44be-bf9c-2f59343efa18")
+		)
+		(fp_line
+			(start 2.35 -1.15)
+			(end 2.35 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "31f7592f-e087-4b1e-83a3-13ad39b68ae1")
+		)
+		(fp_line
+			(start 2.35 1.15)
+			(end -2.35 1.15)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(layer "F.CrtYd")
+			(uuid "0cbfb2a3-c96e-4ef7-afe2-1c15d6c4458f")
+		)
+		(fp_line
+			(start -1.325 -0.775)
+			(end 1.325 -0.775)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d678c483-a958-4ef8-8693-532c21635ecc")
+		)
+		(fp_line
+			(start -1.325 0.775)
+			(end -1.325 -0.775)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "6f1a0499-1a88-4e79-826d-d2cebf1ca84d")
+		)
+		(fp_line
+			(start -0.75 0)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4a5cb644-db4a-4154-95db-86f545ac9bef")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 -0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "ef3ca758-3176-4440-98f8-ef0ba3598339")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end -0.35 0.55)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "c571012a-958b-4f17-b678-8abf9b343bcc")
+		)
+		(fp_line
+			(start -0.35 0)
+			(end 0.25 -0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "436c6cdb-9f5a-46c0-b68b-00fcfdee6fb4")
+		)
+		(fp_line
+			(start 0.25 -0.4)
+			(end 0.25 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "2950f44c-ce9c-40cf-9cbd-44b8657c43f3")
+		)
+		(fp_line
+			(start 0.25 0)
+			(end 0.75 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "1a99309a-f719-468c-8c14-afe779c3e463")
+		)
+		(fp_line
+			(start 0.25 0.4)
+			(end -0.35 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "cff04a9c-ee80-4ed1-a8f9-6e807aa22712")
+		)
+		(fp_line
+			(start 1.325 -0.775)
+			(end 1.325 0.775)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "4cdbb6c5-e449-45bb-aaca-2e8e718e6ea0")
+		)
+		(fp_line
+			(start 1.325 0.775)
+			(end -1.325 0.775)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "79e51579-1a32-4897-b54b-8497d3de87bc")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "7ea363d4-bff6-484e-8a92-c7b31bef1912")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -1.65 0)
+			(size 0.9 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "/ROW7")
+			(pinfunction "K_1")
+			(pintype "passive")
+			(uuid "8137b3bc-e16d-4b62-9a74-0e95f679623d")
+		)
+		(pad "2" smd roundrect
+			(at 1.65 0)
+			(size 0.9 1.2)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(D68-A)")
+			(pinfunction "A_2")
+			(pintype "passive")
+			(uuid "ad2b0355-e336-4f7e-b906-adb79578ee3d")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/SOD-123.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "footprints:C-0402"
 		(layer "F.Cu")
 		(uuid "bc9281be-92de-438d-a73d-c4628c72a2a6")
@@ -35954,7 +37638,7 @@
 		(layer "F.Cu")
 		(uuid "be07b1a3-c0bd-4d6a-aabc-c4556fdf632c")
 		(at 221.25 165.75)
-		(property "Reference" "SW62"
+		(property "Reference" "SW63"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -36666,7 +38350,149 @@
 			)
 		)
 	)
-	(footprint "footprints:C-0201"
+	(footprint "footprints:R-0402"
+		(layer "F.Cu")
+		(uuid "c2690762-4c48-40d2-90fa-0fe18f4060e4")
+		(at -17.6 14.4)
+		(property "Reference" "R10"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "152c81e5-7e25-4867-90d5-b611f7166bdd")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Value" "50R"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6060cd5a-adbd-4fda-bd3a-7e3307249df2")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5673a31a-1e7f-46b6-a860-e22ead54e6a5")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Description" "Chip resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fc061074-edfd-4f51-a976-32bdea85c84f")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Ideal part number" "FC0402E50R0BST1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c48fff39-6e1d-4f1a-a6bb-aa77cc1475c9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Order link" "https://www.digikey.com/en/products/detail/vishay-dale-thin-film/FC0402E50R0BST1/1769756"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "810aa31e-4c58-4a15-9f31-b8541807bb40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(path "/466ebea4-1a44-4128-a1a6-a0a4a52782b7")
+		(sheetname "/")
+		(sheetfile "keyboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -0.85 -0.4)
+			(end 0.85 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "360ec48b-ad8e-41db-96ec-e59b53d390a4")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "092cf366-ed6b-4921-a9e7-7a7c09983a7d")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 0.5 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pintype "passive")
+			(uuid "d80793d1-64ae-4329-9186-2c8b6b58be86")
+		)
+		(pad "2" smd roundrect
+			(at 0.5 0)
+			(size 0.5 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(J6-PadC)")
+			(pintype "passive")
+			(uuid "c0d8b328-19e5-4f9c-9514-5bbdee89d870")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/R-0402.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "footprints:C-0402"
 		(layer "F.Cu")
 		(uuid "c486a3fe-edb8-46bf-85a7-13975a50a5be")
 		(at -38.235 93.895)
@@ -36718,7 +38544,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" "GJM0335C1E1R5WB01D"
+		(property "Ideal part number" "GJM1555C1H1R5WB01D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36731,7 +38557,7 @@
 				)
 			)
 		)
-		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GJM0335C1E1R5WB01D/2592528"
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GJM1555C1H1R5WB01D/2592890"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -36756,20 +38582,20 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
-			(start -0.455 -0.275)
-			(end 0.455 0.275)
+			(start -0.75 -0.425)
+			(end 0.75 0.425)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "1e2ffddf-ae2d-4503-9b55-663272151541")
+			(uuid "1d59ffcc-ccad-4f78-ab24-d19912e0c944")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "c3c00a42-eb6c-4406-a2eb-b206208104c4")
+			(uuid "a25feb12-e491-4b6f-91ae-59008df5c8cc")
 			(effects
 				(font
 					(size 0.2 0.2)
@@ -36778,25 +38604,25 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.23 0)
-			(size 0.25 0.35)
+			(at -0.4375 0)
+			(size 0.425 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
-			(net "Net-(C16-Pad1)")
+			(net "Net-(C17-Pad1)")
 			(pintype "passive")
-			(uuid "0606a218-afb0-4fc2-9caf-69815093edc6")
+			(uuid "57d92831-4dd0-4312-8ba9-610005cd4da0")
 		)
 		(pad "2" smd roundrect
-			(at 0.23 0)
-			(size 0.25 0.35)
+			(at 0.4375 0)
+			(size 0.425 0.55)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "GND")
 			(pintype "passive")
-			(uuid "04d5e2a8-e2f2-452c-ab69-417f56734364")
+			(uuid "aab108e3-4bce-4ce8-a8d9-d28294f54bd0")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/models/C-0201.step"
+		(model "${KIPRJMOD}/models/C-0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -36812,7 +38638,7 @@
 		(layer "F.Cu")
 		(uuid "c5e3fbbb-a50e-4dd9-bc79-a2bd1a31615f")
 		(at 50.25 128.75)
-		(property "Reference" "SW19"
+		(property "Reference" "SW20"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37245,7 +39071,7 @@
 		(layer "F.Cu")
 		(uuid "c8314ca8-eb8b-44d8-8bd0-4d60e1e9c6db")
 		(at -40.945 94.22)
-		(property "Reference" "C20"
+		(property "Reference" "C21"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37387,7 +39213,7 @@
 		(layer "F.Cu")
 		(uuid "c9e721df-9275-41de-ad55-3beaa04fde30")
 		(at 107.25 165.75)
-		(property "Reference" "SW56"
+		(property "Reference" "SW57"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -37676,7 +39502,7 @@
 		(layer "F.Cu")
 		(uuid "ca7d92c4-7ec4-48a8-b39f-8287100c97eb")
 		(at 126.25 165.75)
-		(property "Reference" "SW57"
+		(property "Reference" "SW58"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -39096,6 +40922,148 @@
 			)
 		)
 	)
+	(footprint "footprints:R-0402"
+		(layer "F.Cu")
+		(uuid "cf9ed412-4b74-41da-8e19-e681c879d32c")
+		(at -17.6 18.2)
+		(property "Reference" "R12"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8846eedc-7957-4c0e-840f-199508e1efc9")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "39498bc0-8bac-420b-bb6e-0afbb4ada3cd")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0ed71da6-a740-41dc-b1f9-4850f75508d0")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Description" "Chip resistor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "52f6a547-bcd3-450f-80f0-64384037cfaa")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Ideal part number" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "53accf84-65aa-49f9-80d2-6aa922ac2050")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Order link" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "06a0cd58-fea6-432b-8ef8-dfd756365181")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(path "/6ad81200-85fe-41ee-8e93-dcda1ee7c401")
+		(sheetname "/")
+		(sheetfile "keyboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd exclude_from_pos_files exclude_from_bom dnp)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -0.85 -0.4)
+			(end 0.85 0.4)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "6b3ea547-8b95-40cf-96ab-faca4aaaa767")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "b8b6601f-312e-49a7-ae69-d5f091cab338")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.5 0)
+			(size 0.5 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "GND")
+			(pintype "passive")
+			(uuid "e95185fc-1e4d-4801-8b13-aae7131f702b")
+		)
+		(pad "2" smd roundrect
+			(at 0.5 0)
+			(size 0.5 0.6)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(J8-PadC)")
+			(pintype "passive")
+			(uuid "8c406404-cd84-4cf9-a36b-cb1f85a17787")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/R-0402.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "d045a7ce-3bbe-4104-8ec9-5cc8869f6e74")
@@ -39666,7 +41634,7 @@
 		(layer "F.Cu")
 		(uuid "d3a9d2f6-f5f5-46a1-85b1-d4f4953b1b13")
 		(at 117.25 147.25)
-		(property "Reference" "SW40"
+		(property "Reference" "SW41"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -40177,8 +42145,8 @@
 		(units
 			(unit
 				(name "A")
-				(pins "21" "23" "24" "19" "18" "7" "8" "9" "10" "11" "25" "26" "27" "17"
-					"16" "15" "13" "14" "22" "20" "4" "12" "1" "3" "2" "32" "5" "6" "28"
+				(pins "21" "23" "24" "19" "18" "7" "8" "9" "10" "11" "25" "26" "27" "15"
+					"13" "14" "22" "20" "4" "12" "1" "3" "2" "32" "5" "6" "17" "16" "28"
 					"29" "30" "31" "33"
 				)
 			)
@@ -40632,9 +42600,9 @@
 			(size 0.3 0.85)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.5)
-			(net "unconnected-(U1-SHPHLD-Pad15)")
+			(net "Net-(U1-SHPHLD)")
 			(pinfunction "SHPHLD_15")
-			(pintype "input+no_connect")
+			(pintype "input")
 			(uuid "395f657c-3e20-4894-b3b4-fb9d88b271f7")
 		)
 		(pad "16" smd roundrect
@@ -40835,7 +42803,7 @@
 		(layer "F.Cu")
 		(uuid "d76295c0-ad6f-4230-b60c-4442374c4d7c")
 		(at 132.25 184.25)
-		(property "Reference" "SW33"
+		(property "Reference" "SW34"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -41403,7 +43371,7 @@
 			)
 		)
 	)
-	(footprint "footprints:L-0201"
+	(footprint "footprints:L-0402"
 		(layer "F.Cu")
 		(uuid "d8c29f6f-19b2-4edc-bc33-fbce80cb3135")
 		(at -38.235 100.495)
@@ -41455,7 +43423,7 @@
 				)
 			)
 		)
-		(property "Ideal part number" "LQP03HQ2N0B02D"
+		(property "Ideal part number" "LQG15WZ2N0B02D"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41468,7 +43436,7 @@
 				)
 			)
 		)
-		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/LQP03HQ2N0B02D/6098695"
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/LQG15WZ2N0B02D/16033616"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41493,20 +43461,20 @@
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_rect
-			(start -0.55 -0.265)
-			(end 0.55 0.265)
+			(start -0.7 -0.375)
+			(end 0.7 0.375)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "f2cd15e3-5592-4669-8a33-c3f968a95f80")
+			(uuid "b2064740-3499-47d3-977a-4395a9e95cf0")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
 			(layer "F.Fab")
-			(uuid "541bc8fe-dc32-4784-a41c-324f835b462f")
+			(uuid "bc8bedd2-bc38-41fd-b385-953fd7175eb3")
 			(effects
 				(font
 					(size 0.2 0.2)
@@ -41515,27 +43483,27 @@
 			)
 		)
 		(pad "1" smd roundrect
-			(at -0.3 0)
-			(size 0.3 0.275)
+			(at -0.4 0)
+			(size 0.4 0.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(C18-Pad1)")
 			(pinfunction "1_1")
 			(pintype "passive")
-			(uuid "de456b1d-3609-45af-93a0-c00921e75439")
+			(uuid "5297984c-324f-40b2-b288-77ceaed8b5af")
 		)
 		(pad "2" smd roundrect
-			(at 0.3 0)
-			(size 0.3 0.275)
+			(at 0.4 0)
+			(size 0.4 0.5)
 			(layers "F.Cu" "F.Mask" "F.Paste")
 			(roundrect_rratio 0.25)
 			(net "Net-(C19-Pad1)")
 			(pinfunction "2_2")
 			(pintype "passive")
-			(uuid "4894ad8f-26f2-4a60-b952-783398c58df7")
+			(uuid "6d3277b4-153d-4d67-b445-80a4eb15f4d6")
 		)
 		(embedded_fonts no)
-		(model "${KIPRJMOD}/models/L-0201.step"
+		(model "${KIPRJMOD}/models/L-0402.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -42400,7 +44368,7 @@
 		(layer "F.Cu")
 		(uuid "dbe889be-49d5-4999-858f-036b5ad14bf4")
 		(at 356 184.25)
-		(property "Reference" "SW52"
+		(property "Reference" "SW53"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -42689,7 +44657,7 @@
 		(layer "F.Cu")
 		(uuid "dd1972a6-de23-4c20-9596-8e7dc1574aba")
 		(at 212.25 147.25)
-		(property "Reference" "SW45"
+		(property "Reference" "SW46"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -43161,7 +45129,7 @@
 		(layer "F.Cu")
 		(uuid "ddc49a09-5e36-4903-b43f-ec20c47e9d27")
 		(at 140.75 110.25)
-		(property "Reference" "SW6"
+		(property "Reference" "SW7"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44437,11 +46405,236 @@
 			)
 		)
 	)
+	(footprint "footprints:MM8130-2600"
+		(layer "F.Cu")
+		(uuid "e6328183-25ff-426b-8de4-4abecd3707d3")
+		(at -8.125 11.225)
+		(property "Reference" "J8"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9b277b67-900f-4847-990a-ce7eaea800e8")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Value" "~"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5b0f397f-b149-4b03-8300-54fc1c241875")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/13/Microwave_Coaxial_Conn_Cat030E.pdf"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5ce7f5c-3e5f-4975-ad6c-525df4be8985")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Description" "Coaxial connector with switch"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5759e84a-02ff-45ce-9759-7bedf68fb4de")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Ideal part number" "MM8130-2600RA2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efcdf9e7-c26f-4bc6-b5f0-a0e0dfa0393a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/MM8130-2600RA2/1775922"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b0a1e698-2bdf-4505-b129-a7e5938a8a1a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(path "/66c85ffe-6a74-4bb1-99de-c86d1744bf93")
+		(sheetname "/")
+		(sheetfile "keyboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "C" "G" "A")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -1.65 -1.7)
+			(end 1.65 1.7)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "39ad6535-efc9-41a4-a523-c31cac74fe64")
+		)
+		(fp_rect
+			(start -1.25 -1.25)
+			(end 1.25 1.25)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.Fab")
+			(uuid "17682a34-6c44-4a1e-967c-176e5af31eba")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "3ec859c4-0d2e-4386-b7bd-31df4060940e")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(pad "" smd rect
+			(at -0.945 -0.95)
+			(size 0.59 0.8)
+			(layers "F.Paste")
+			(uuid "45bc1b8a-45ad-494e-852a-38d9039505f2")
+		)
+		(pad "" smd rect
+			(at -0.945 0.95)
+			(size 0.59 0.8)
+			(layers "F.Paste")
+			(uuid "7ca9d3fc-7888-4a80-8798-cf885d644667")
+		)
+		(pad "" smd rect
+			(at 0 -1.21)
+			(size 0.28 0.28)
+			(layers "F.Paste")
+			(uuid "1530171e-392c-405c-89ad-da93b415628d")
+		)
+		(pad "" smd rect
+			(at 0 1.21)
+			(size 0.28 0.28)
+			(layers "F.Paste")
+			(uuid "cfef1bdf-f78a-4816-b385-662382a59ddf")
+		)
+		(pad "" smd rect
+			(at 0.945 -0.95)
+			(size 0.59 0.8)
+			(layers "F.Paste")
+			(uuid "b3f7671d-9914-46a6-9302-5e56414cef14")
+		)
+		(pad "" smd rect
+			(at 0.945 0.95)
+			(size 0.59 0.8)
+			(layers "F.Paste")
+			(uuid "c332715c-96f1-4702-b810-b42c254aed84")
+		)
+		(pad "A" smd rect
+			(at 0 1.16)
+			(size 0.5 0.58)
+			(layers "F.Cu" "F.Mask")
+			(net "unconnected-(J8-PadA)")
+			(pinfunction "A_A")
+			(pintype "passive+no_connect")
+			(uuid "fb47017c-ed01-43d9-bdc8-1ec2b04a257a")
+		)
+		(pad "C" smd rect
+			(at 0 -1.16)
+			(size 0.5 0.58)
+			(layers "F.Cu" "F.Mask")
+			(net "Net-(J8-PadC)")
+			(pinfunction "C_C")
+			(pintype "passive")
+			(uuid "e84b1135-985a-4608-a6b0-cef95985d71e")
+		)
+		(pad "G" smd rect
+			(at -1.025 -0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Mask")
+			(net "GND")
+			(pinfunction "G_G")
+			(pintype "passive")
+			(uuid "a42c4d4f-ddd0-4c4b-b6d6-746493930e19")
+		)
+		(pad "G" smd rect
+			(at -1.025 0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Mask")
+			(net "GND")
+			(pinfunction "G_G")
+			(pintype "passive")
+			(uuid "5150ee84-834d-46b3-914e-5350d6c8cba9")
+		)
+		(pad "G" smd rect
+			(at 1.025 -0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Mask")
+			(net "GND")
+			(pinfunction "G_G")
+			(pintype "passive")
+			(uuid "02b5cc63-c18b-4dbb-b888-6b18138df5bc")
+		)
+		(pad "G" smd rect
+			(at 1.025 0.95)
+			(size 0.75 0.8)
+			(layers "F.Cu" "F.Mask")
+			(net "GND")
+			(pinfunction "G_G")
+			(pintype "passive")
+			(uuid "9f126f1f-2626-4a5a-b3e3-6e59be07d1a9")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/MM8130-2600.step"
+			(offset
+				(xyz 5.844 20.344 0.432)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+	)
 	(footprint "footprints:C-0402"
 		(layer "F.Cu")
 		(uuid "e6a6adeb-65e7-4222-a7d4-b585da51f9fa")
 		(at -35.625 76.08)
-		(property "Reference" "C25"
+		(property "Reference" "C26"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -44866,7 +47059,7 @@
 		(layer "F.Cu")
 		(uuid "e794dafb-a242-444a-851e-0585ba1ee2db")
 		(at 183.25 165.75)
-		(property "Reference" "SW60"
+		(property "Reference" "SW61"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -45155,7 +47348,7 @@
 		(layer "F.Cu")
 		(uuid "e8e51f8f-ae10-4bf8-b620-498ac2679a34")
 		(at 178.75 110.25)
-		(property "Reference" "SW8"
+		(property "Reference" "SW9"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -45529,17 +47722,6 @@
 		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
-		(fp_rect
-			(start -5.7 -1.2)
-			(end 5.7 1.2)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.CrtYd")
-			(uuid "a3a991ab-7f5e-46dc-9881-9cc2d78ae637")
-		)
 		(fp_circle
 			(center -5 -1.6)
 			(end -4.8 -1.6)
@@ -45550,6 +47732,17 @@
 			(fill yes)
 			(layer "F.SilkS")
 			(uuid "54c17f1c-1ab0-4b41-9ca9-d59df17b689a")
+		)
+		(fp_rect
+			(start -5.7 -1.2)
+			(end 5.7 1.2)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "a3a991ab-7f5e-46dc-9881-9cc2d78ae637")
 		)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -46332,6 +48525,148 @@
 			)
 		)
 	)
+	(footprint "footprints:C-0603"
+		(layer "F.Cu")
+		(uuid "ef91b383-8f66-4692-b8d6-ab507019ed88")
+		(at -14.95 86.65)
+		(property "Reference" "C20"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "2a4c445f-c1d8-4de5-b130-36de205c6ed8")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Value" "10u"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c412433e-e768-4de7-8b08-081727a51f86")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13fcccb4-4b8a-4f72-807c-c38105639567")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Description" "Chip capacitor"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c199ab81-663f-4241-9e50-7d0d842e4b69")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(property "Ideal part number" "GRM188R61E106MA73D"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22bb1972-d7a7-4416-a5f2-fa0c7cfb5e33")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Order link" "https://www.digikey.com/en/products/detail/murata-electronics/GRM188R61E106MA73D/3900486"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "569de713-6b2e-4654-9bbd-b50aa9485e9f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(path "/de6c3ab5-1622-47fd-bd66-bf2ebda00972")
+		(sheetname "/")
+		(sheetfile "keyboard.kicad_sch")
+		(units
+			(unit
+				(name "A")
+				(pins "1" "2")
+			)
+		)
+		(attr smd)
+		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -1.25 -0.6)
+			(end 1.25 0.6)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "82b96554-543e-4666-8ba3-61dc4961104a")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(layer "F.Fab")
+			(uuid "875a8f5a-ef83-41a1-b1d1-f977678fba07")
+			(effects
+				(font
+					(size 0.2 0.2)
+					(thickness 0.03)
+				)
+			)
+		)
+		(pad "1" smd roundrect
+			(at -0.775 0)
+			(size 0.75 0.9)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(U1-SHPHLD)")
+			(pintype "passive")
+			(uuid "b2f8c3be-b679-44d0-858d-e0b1f52f922a")
+		)
+		(pad "2" smd roundrect
+			(at 0.775 0)
+			(size 0.75 0.9)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(roundrect_rratio 0.25)
+			(net "Net-(SW1B-B)")
+			(pintype "passive")
+			(uuid "b675af8d-2633-44fa-b90f-f94cd6a6af6c")
+		)
+		(embedded_fonts no)
+		(model "${KIPRJMOD}/models/C-0603.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
 	(footprint "footprints:USB4105-GF-A"
 		(layer "F.Cu")
 		(uuid "f4569e7a-ff62-41bd-bb7b-8c7801f19117")
@@ -46988,7 +49323,7 @@
 		(layer "F.Cu")
 		(uuid "f71ddcee-efb5-4cb9-9c21-e3b61feeb9dc")
 		(at 74.25 128.75)
-		(property "Reference" "SW20"
+		(property "Reference" "SW21"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47277,7 +49612,7 @@
 		(layer "F.Cu")
 		(uuid "f73d3730-fa8a-47f2-a5e5-041848074fe9")
 		(at 264.25 128.75)
-		(property "Reference" "SW30"
+		(property "Reference" "SW31"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -47849,7 +50184,7 @@
 		(layer "F.Cu")
 		(uuid "f85abd7d-8a93-4c8b-ba95-0d43549cd6e5")
 		(at 79.25 147.25)
-		(property "Reference" "SW38"
+		(property "Reference" "SW39"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -48138,7 +50473,7 @@
 		(layer "F.Cu")
 		(uuid "f869eeef-9bc5-47af-b486-0a6604cd74e2")
 		(at 174.25 147.25)
-		(property "Reference" "SW43"
+		(property "Reference" "SW44"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -48427,7 +50762,7 @@
 		(layer "F.Cu")
 		(uuid "fc61fcb1-2a03-43e1-9e0a-9d04acec484c")
 		(at -35.625 80.08)
-		(property "Reference" "C27"
+		(property "Reference" "C28"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -49277,7 +51612,7 @@
 		(layer "F.Cu")
 		(uuid "ffaf08a2-124e-46a2-b250-5b38db42ad4a")
 		(at 136.25 147.25)
-		(property "Reference" "SW41"
+		(property "Reference" "SW42"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
