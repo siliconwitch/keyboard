@@ -9024,7 +9024,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 43.18) (xy 67.31 43.18)
+			(xy 53.34 43.18) (xy 67.31 43.18)
 		)
 		(stroke
 			(width 0)
@@ -9454,7 +9454,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 33.02) (xy 67.31 33.02)
+			(xy 53.34 33.02) (xy 67.31 33.02)
 		)
 		(stroke
 			(width 0)
@@ -9662,6 +9662,126 @@
 		)
 		(uuid "f8f77033-94b2-46a3-ac84-9a3a13add4f9")
 	)
+	(label "USB_C_D-"
+		(at 54.61 33.02 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "34c5d749-7ce1-4ab6-a87e-a901e002fe59")
+	)
+	(label "USB_C_D+"
+		(at 54.61 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "445da90a-f72f-4ca7-9698-f56f59668865")
+	)
+	(label "RF_NRF"
+		(at 271.78 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "00eda0a5-8eb1-463c-b01b-a66da27c6a7a")
+	)
+	(label "RF_FILTER1"
+		(at 248.92 90.17 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c6ca2874-a1d1-417d-96bc-a511d19b1e13")
+	)
+	(label "RF_FILTER2"
+		(at 238.76 90.17 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c8d6f1b-c300-4e51-9a8f-913a4be4425e")
+	)
+	(label "RF_FILTER_OUT"
+		(at 228.6 90.17 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfbd4068-07ba-4d87-ba4b-2b2ce05268c3")
+	)
+	(label "RF_LINK"
+		(at 213.36 90.17 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "720003ac-0297-49ee-9f7e-f1ae70797227")
+	)
+	(label "RF_MATCH_IN"
+		(at 198.12 90.17 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e7a4984b-8f94-43ea-9fb6-981dea7ced5c")
+	)
+	(label "RF_ANT"
+		(at 187.96 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1694c82a-822e-4d88-97aa-ecb937e54d44")
+	)
+	(label "RF_LOAD"
+		(at 375.92 142.24 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "661418ba-bdd9-407c-bdf5-19db72db3f29")
+	)
+	(label "RF_SHORT"
+		(at 375.92 162.56 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "28b2b7fc-6c90-4b3c-b216-57e02d930844")
+	)
+	(label "RF_OPEN"
+		(at 375.92 182.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "69f2153e-3403-4270-bd6a-d565518a86fe")
+	)
 	(label "COL1"
 		(at 332.74 102.87 0)
 		(effects
@@ -9813,7 +9933,7 @@
 		(uuid "28f2135f-f2f0-4689-9067-13025d80ac91")
 	)
 	(label "USB_D+"
-		(at 40.64 43.18 180)
+		(at 27.94 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9933,7 +10053,7 @@
 		(uuid "577e80ac-411b-4f82-918c-19a9f5d43fc7")
 	)
 	(label "USB_D-"
-		(at 40.64 33.02 180)
+		(at 27.94 33.02 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -18565,7 +18685,7 @@
 	)
 	(symbol
 		(lib_id "symbols:V_{USB}")
-		(at 53.34 25.4 0)
+		(at 40.64 25.4 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -18577,7 +18697,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ec06cfa-2571-49b1-afc8-154a30a68ef8")
 		(property "Reference" "#PWR07"
-			(at 53.34 25.4 0)
+			(at 40.64 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18588,7 +18708,7 @@
 			)
 		)
 		(property "Value" "V_{USB}"
-			(at 53.34 21.59 0)
+			(at 40.64 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18598,7 +18718,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 25.4 0)
+			(at 40.64 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18609,7 +18729,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 25.4 0)
+			(at 40.64 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18620,7 +18740,7 @@
 			)
 		)
 		(property "Description" "Power symbol"
-			(at 53.34 25.4 0)
+			(at 40.64 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20095,7 +20215,7 @@
 	)
 	(symbol
 		(lib_id "symbols:GND")
-		(at 53.34 50.8 0)
+		(at 40.64 50.8 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -20107,7 +20227,7 @@
 		(fields_autoplaced yes)
 		(uuid "4eb52bbb-a991-43c0-a54f-ab9df2579a3a")
 		(property "Reference" "#PWR017"
-			(at 53.34 50.8 0)
+			(at 40.64 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20118,7 +20238,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 54.61 0)
+			(at 40.64 54.61 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20129,7 +20249,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 50.8 0)
+			(at 40.64 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20140,7 +20260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 50.8 0)
+			(at 40.64 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20151,7 +20271,7 @@
 			)
 		)
 		(property "Description" "Ground symbol"
-			(at 53.34 50.8 0)
+			(at 40.64 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25272,7 +25392,7 @@
 	)
 	(symbol
 		(lib_id "symbols:USBLC6-2SC6")
-		(at 53.34 38.1 0)
+		(at 40.64 38.1 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -25284,7 +25404,7 @@
 		(fields_autoplaced yes)
 		(uuid "806da285-2cff-4c19-9658-7760e2fa1646")
 		(property "Reference" "D1"
-			(at 56.4581 25.4 0)
+			(at 43.7581 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25295,7 +25415,7 @@
 			)
 		)
 		(property "Value" ""
-			(at 56.4581 27.94 0)
+			(at 43.7581 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25307,7 +25427,7 @@
 			)
 		)
 		(property "Footprint" "footprints:SOT-23-6"
-			(at 53.34 38.1 0)
+			(at 40.64 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25318,7 +25438,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/usblc6-2.pdf"
-			(at 53.34 38.1 0)
+			(at 40.64 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25329,7 +25449,7 @@
 			)
 		)
 		(property "Description" "ESD protection IC"
-			(at 53.34 38.1 0)
+			(at 40.64 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -25340,7 +25460,7 @@
 			)
 		)
 		(property "Ideal part number" "USBLC6-2SC6"
-			(at 56.4581 27.94 0)
+			(at 43.7581 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -25351,7 +25471,7 @@
 			)
 		)
 		(property "Order link" "https://www.digikey.com/en/products/detail/stmicroelectronics/USBLC6-2SC6/1040559"
-			(at 53.34 38.1 0)
+			(at 40.64 38.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
