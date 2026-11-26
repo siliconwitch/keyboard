@@ -623,7 +623,7 @@
 	(footprint "footprints:HSFPAR004A"
 		(layer "F.Cu")
 		(uuid "0630797b-5133-493d-94e9-1081612a2012")
-		(at -16 70.93)
+		(at 327 147.5)
 		(property "Reference" "U5"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -9870,7 +9870,7 @@
 	(footprint "footprints:HSFPAR004A"
 		(layer "F.Cu")
 		(uuid "2f4114ca-f95c-4e3f-8057-685991158b80")
-		(at -12.775 70.93)
+		(at 385 147.5)
 		(property "Reference" "U6"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -16898,7 +16898,7 @@
 	(footprint "footprints:HSFPAR004A"
 		(layer "F.Cu")
 		(uuid "5a2a73f9-c48e-4be8-861b-1094e27828b3")
-		(at -19.225 70.93)
+		(at 385 105.5)
 		(property "Reference" "U4"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -22553,7 +22553,7 @@
 	(footprint "footprints:HSFPAR004A"
 		(layer "F.Cu")
 		(uuid "696f678b-4942-4dd7-afdb-48feb8a74070")
-		(at -22.45 70.93)
+		(at 327 105.5)
 		(property "Reference" "U3"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -53905,6 +53905,28 @@
 		(fill no)
 		(layer "Dwgs.User")
 		(uuid "b5922bc6-9841-4922-9bd1-d19b1a4fb1c5")
+	)
+	(gr_rect
+		(start 325.5 120.5)
+		(end 331.5 132.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "210707f7-8a77-42fd-b48b-b956528f2aab")
+	)
+	(gr_rect
+		(start 380.5 120.5)
+		(end 386.5 132.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "4a7141aa-073e-4fb1-b96c-bf7bdf559305")
 	)
 	(gr_rect
 		(start 328.25 176)
