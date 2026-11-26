@@ -158,10 +158,41 @@
 		(layers "F.Paste")
 		(uuid "d7f7bfcd-9415-4c98-917c-d0fcc494b394")
 	)
+	(zone
+		(layers "B.Cu")
+		(uuid "47a840a1-a29a-42d6-9d10-cc6a9b86dc52")
+		(name "Connector clearance")
+		(hatch full 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads allowed)
+			(copperpour allowed)
+			(footprints allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -1.4 -1.45) (xy 1.4 -1.45) (xy 1.4 1.45) (xy -1.4 1.45)
+			)
+		)
+	)
 	(embedded_fonts no)
 	(model "${KIPRJMOD}/models/MM8130-2600.step"
 		(offset
-			(xyz 5.844 20.344 0.432)
+			(xyz 5.844 20.344 0.968)
 		)
 		(scale
 			(xyz 1 1 1)

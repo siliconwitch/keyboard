@@ -21,13 +21,12 @@ Decisions not yet recorded in firmware code or KiCad files.
 
 ## Controller and power
 
-- Antenna: Ignion NN02-101 in a board corner, with a pi matching network tuned with a VNA.
+- Antenna: Ignion NN02-101 in a board corner, with a pi matching network tuned with a VNA. C15, C16 and L4 stay TBD until they are hand tuned on the first assembled boards.
 - USB-C connector for charging and firmware updates: GCT USB4105-GF-A, USB 2.0, top mount. Its 0.95 mm shell stakes stay inside the top board.
 
 ## Chassis
 
 - Both boards come from the same Gerbers. Clamp them together and solder each switch pin through both, so the solder joins the pin and both boards.
-- Switch pin holes are only slightly larger than the standard Choc footprint. A tight gap lets solder climb the full 3.2 mm.
 - Pads connected to a copper pour use thermal relief spokes.
 - The bottom layer has no exposed copper except through-hole pads. This stops pads on the bottom board's top face from shorting to the top board.
 - Extra plated holes, filled with solder or short wire pins, join the boards under the touchpad where there are no switch pins.
