@@ -1239,7 +1239,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "08bbed09-940c-4c2b-8c68-951958dfc623")
-		(at -22.345 25.675)
+		(at 55.75 138)
 		(property "Reference" "D38"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -2242,7 +2242,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "0b24b543-5682-4567-946e-1719c84f9dcb")
-		(at -33.935 49.125)
+		(at 76.85 119.5)
 		(property "Reference" "D21"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -3245,7 +3245,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "0da87408-a03e-4781-8df2-8b126e04c2bb")
-		(at -33.935 52.475)
+		(at 95.85 119.5)
 		(property "Reference" "D22"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -3528,7 +3528,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "0e73a373-2aee-4d65-8640-6b82ccb94a5f")
-		(at -22.345 55.825)
+		(at 231.25 138)
 		(property "Reference" "D47"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -4817,7 +4817,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "19f53425-1dcf-4ec3-9c27-3bfdd7900c92")
-		(at -22.345 52.475)
+		(at 212.25 138)
 		(property "Reference" "D46"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -5531,7 +5531,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "1da94247-d4bd-4d19-8347-d584836752de")
-		(at -39.73 29.025)
+		(at 71.65 119.5)
 		(property "Reference" "D3"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -6103,7 +6103,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "1ff62a45-b750-4660-a79e-818b2cd0ffa3")
-		(at -39.73 62.525)
+		(at 261.65 119.5)
 		(property "Reference" "D13"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -6731,7 +6731,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "211e2d6d-b4ec-4412-9a74-34905662bea4")
-		(at -39.73 59.175)
+		(at 242.65 119.5)
 		(property "Reference" "D12"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -7608,7 +7608,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "25eafb34-9a41-4abf-ab19-daea31053092")
-		(at -28.14 29.025)
+		(at 190.85 119.5)
 		(property "Reference" "D27"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -8180,7 +8180,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "278033a4-38f5-4249-93ab-518a28220e6c")
-		(at -39.73 42.425)
+		(at 147.65 119.5)
 		(property "Reference" "D7"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -10055,7 +10055,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "31770b1e-5fce-4652-93ea-b28dc68ff3cd")
-		(at -16.55 39.075)
+		(at 375 175)
 		(property "Reference" "D54"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -12351,7 +12351,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "3e67fac0-c9bc-442a-8c86-c10fa43aa8ca")
-		(at -28.14 42.425)
+		(at 266.85 119.5)
 		(property "Reference" "D31"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -12890,7 +12890,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "417c8141-96be-4244-9b6d-1b65073ab710")
-		(at -28.14 49.125)
+		(at 307.25 119.5)
 		(property "Reference" "D33"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -13751,7 +13751,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "44595b2e-1a93-4243-95ee-544aec0baccf")
-		(at -16.55 45.775)
+		(at 88.25 156.5)
 		(property "Reference" "D56"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -14034,7 +14034,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "45e80588-1762-4afb-83da-444d07cedf85")
-		(at -10.755 32.375)
+		(at 240.25 156.5)
 		(property "Reference" "D64"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -15760,7 +15760,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "57e1fc33-b506-4058-b13d-ad5fba2e3b6d")
-		(at -10.755 29.025)
+		(at 221.25 156.5)
 		(property "Reference" "D63"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -16332,7 +16332,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "59c990d1-8cc4-4522-bc7d-5312c61fb15b")
-		(at -28.14 39.075)
+		(at 247.85 119.5)
 		(property "Reference" "D30"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -16615,7 +16615,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "59d9d544-14e2-4ed5-b11d-1d72d2a9fded")
-		(at -16.55 42.425)
+		(at 60.25 156.5)
 		(property "Reference" "D55"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -17083,7 +17083,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "5a9c25ab-abe6-4708-9026-ae1670d5c2ab")
-		(at -28.14 32.375)
+		(at 209.85 119.5)
 		(property "Reference" "D28"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -18337,7 +18337,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "5e5263a1-c58f-4695-821f-1946a9ece3a9")
-		(at -22.345 32.375)
+		(at 98.25 138)
 		(property "Reference" "D40"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -19340,7 +19340,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "64a695d6-4c90-4bfc-9394-81f36ae96f93")
-		(at -16.55 35.725)
+		(at 356 175)
 		(property "Reference" "D53"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -20884,7 +20884,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "665c9dc5-15c3-43ab-9979-5632c572a9f8")
-		(at -33.935 42.425)
+		(at 169.25 175)
 		(property "Reference" "D19"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -22738,7 +22738,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "6c09c15c-a799-4304-afe6-978fb9e9cc04")
-		(at -16.55 52.475)
+		(at 126.25 156.5)
 		(property "Reference" "D58"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -23021,7 +23021,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "6cd34d80-5d2e-4435-bbbe-dc72bfd04286")
-		(at -16.55 32.375)
+		(at 337 175)
 		(property "Reference" "D52"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -23730,7 +23730,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "71111890-0747-4a4a-aff9-7ef451c9824b")
-		(at -33.935 29.025)
+		(at 302.05 119.5)
 		(property "Reference" "D15"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -24444,7 +24444,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "7632e5a6-e917-4fe7-9650-72ace73a3123")
-		(at -22.345 35.725)
+		(at 117.25 138)
 		(property "Reference" "D41"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -24727,7 +24727,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "76efe3ab-b8dc-4384-b2f7-8880afb47029")
-		(at -16.55 25.675)
+		(at 297.25 138)
 		(property "Reference" "D50"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -25010,7 +25010,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "78397b03-ff41-4fcc-8ed6-9c2e37ca3c32")
-		(at -16.55 59.175)
+		(at 164.25 156.5)
 		(property "Reference" "D60"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -25871,7 +25871,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "7910f5ac-a316-4abd-801f-8bc50739011a")
-		(at -22.345 59.175)
+		(at 250.25 138)
 		(property "Reference" "D48"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -26585,7 +26585,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "7acc1225-0b30-4b97-86c9-228ff1a8a629")
-		(at -22.345 42.425)
+		(at 155.25 138)
 		(property "Reference" "D43"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -26868,7 +26868,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "7b653fd1-55a5-47f8-93a4-1e55f740f0cf")
-		(at -39.73 49.125)
+		(at 185.65 119.5)
 		(property "Reference" "D9"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -28880,7 +28880,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "87ec9ffb-cd4d-469c-b733-61024a2c837c")
-		(at -16.55 29.025)
+		(at 356 156.5)
 		(property "Reference" "D51"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -30139,7 +30139,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "8d48f81d-69ce-4369-af33-e4c9ddd5cf95")
-		(at -16.55 49.125)
+		(at 107.25 156.5)
 		(property "Reference" "D57"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -31284,7 +31284,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "96042e73-695a-45ec-9fdc-cec84c2590c1")
-		(at -39.73 32.375)
+		(at 90.65 119.5)
 		(property "Reference" "D4"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -31567,7 +31567,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "97e263af-9825-4d30-b9a6-829c217c3b0f")
-		(at -39.73 35.725)
+		(at 109.65 119.5)
 		(property "Reference" "D5"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -31850,7 +31850,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "981448f4-b9cc-41ac-8e45-19781a4bd534")
-		(at -16.55 55.825)
+		(at 145.25 156.5)
 		(property "Reference" "D59"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -32133,7 +32133,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "9a465b3e-84e7-4844-a24c-53ff6792c255")
-		(at -28.14 25.675)
+		(at 171.85 119.5)
 		(property "Reference" "D26"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -32416,7 +32416,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "9aeb5662-4085-4bef-ba6d-7ea5d27c8674")
-		(at -28.14 52.475)
+		(at 132.25 175)
 		(property "Reference" "D34"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -32988,7 +32988,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "9e642e6b-8069-4cd6-8d86-b5744c143ea3")
-		(at -33.935 25.675)
+		(at 280.65 119.5)
 		(property "Reference" "D14"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -33560,7 +33560,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "a1a6a8b5-fdcd-4827-aa1a-a4c4f3203f1b")
-		(at -39.73 25.675)
+		(at 47.65 119.5)
 		(property "Reference" "D2"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -34195,7 +34195,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "a46000fb-5007-44c2-aff5-c41cc99432d9")
-		(at -10.755 25.675)
+		(at 202.25 156.5)
 		(property "Reference" "D62"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -34620,7 +34620,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "aa627315-3fd9-4c71-8e6a-0b7486ca1b3d")
-		(at -33.935 45.775)
+		(at 52.85 119.5)
 		(property "Reference" "D20"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -35623,7 +35623,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "b10eec93-dfeb-4203-b6c2-bbf1fb095304")
-		(at -16.55 62.525)
+		(at 183.25 156.5)
 		(property "Reference" "D61"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -36339,7 +36339,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "b4d28972-dda9-4a53-a140-d3355e1234a9")
-		(at -39.73 45.775)
+		(at 166.65 119.5)
 		(property "Reference" "D8"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -37053,7 +37053,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "bb354c65-4009-48d0-9099-eddb0543fe38")
-		(at -22.345 39.075)
+		(at 136.25 138)
 		(property "Reference" "D42"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -38194,7 +38194,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "c0c80a70-c6c4-4c25-9e83-142cea8a3b8b")
-		(at -39.73 52.475)
+		(at 204.65 119.5)
 		(property "Reference" "D10"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -40056,7 +40056,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "cbde2ac5-2dd6-4529-b61c-f4ade9147616")
-		(at -28.14 59.175)
+		(at 238.75 175)
 		(property "Reference" "D36"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -40339,7 +40339,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "cc46aaca-1ab8-44c8-bb8d-3a162b30c24c")
-		(at -33.935 59.175)
+		(at 133.85 119.5)
 		(property "Reference" "D24"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -40622,7 +40622,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "cc92795d-0e84-4a52-b5e9-c6aaa47caddd")
-		(at -10.755 35.725)
+		(at 259.25 156.5)
 		(property "Reference" "D65"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -41191,7 +41191,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "d045a7ce-3bbe-4104-8ec9-5cc8869f6e74")
-		(at -28.14 35.725)
+		(at 228.85 119.5)
 		(property "Reference" "D29"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -41474,7 +41474,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "d39ba800-c39f-467a-b98a-597b645a0da6")
-		(at -28.14 55.825)
+		(at 206.25 175)
 		(property "Reference" "D35"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -43215,7 +43215,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "d7677161-f467-4fb1-9a11-c8f3bf389c69")
-		(at -39.73 55.825)
+		(at 223.65 119.5)
 		(property "Reference" "D11"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -43642,7 +43642,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "d8d2017a-403d-4e3f-a6c2-3a1a6b2f21f9")
-		(at -33.935 35.725)
+		(at 76.25 175)
 		(property "Reference" "D17"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -43925,7 +43925,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "da39e143-d84a-4d19-9e4d-70b73fe1f5c6")
-		(at -28.14 45.775)
+		(at 285.85 119.5)
 		(property "Reference" "D32"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -44208,7 +44208,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "da4c83e0-f927-40a1-bf77-0f48106eeae2")
-		(at -22.345 29.025)
+		(at 79.25 138)
 		(property "Reference" "D39"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -45683,7 +45683,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "e1d60a1e-ab36-4086-95c3-f07bd8426faa")
-		(at -28.14 62.525)
+		(at 262.25 175)
 		(property "Reference" "D37"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -45966,7 +45966,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "e2755071-fb74-489b-b9c8-daa9f439fe86")
-		(at -33.935 39.075)
+		(at 99.75 175)
 		(property "Reference" "D18"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -46249,7 +46249,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "e5d0d92a-7052-4e9a-8d19-e7d39fb5555f")
-		(at -22.345 45.775)
+		(at 174.25 138)
 		(property "Reference" "D44"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -46930,7 +46930,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "e70c33c1-ac2a-45a4-a36e-c1279baa609d")
-		(at -10.755 42.425)
+		(at 306.25 156.5)
 		(property "Reference" "D67"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -47975,7 +47975,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "eb27ee05-f8a0-487a-9f3b-71045c99150a")
-		(at -22.345 62.525)
+		(at 269.25 138)
 		(property "Reference" "D49"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -48400,7 +48400,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "ef506f38-7df6-467c-89e3-6aa529276902")
-		(at -39.73 39.075)
+		(at 128.65 119.5)
 		(property "Reference" "D6"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -49194,7 +49194,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "f46ceb30-668b-41ea-b835-95240917cb06")
-		(at -10.755 39.075)
+		(at 282.75 156.5)
 		(property "Reference" "D66"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -50055,7 +50055,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "f7b8ce4c-65bd-44d5-8792-03ec24c0053b")
-		(at -33.935 55.825)
+		(at 114.85 119.5)
 		(property "Reference" "D23"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -51200,7 +51200,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "fda0f139-8d8f-4fd2-9b60-5b5618271bdf")
-		(at -33.935 32.375)
+		(at 312.45 119.5)
 		(property "Reference" "D16"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -51483,7 +51483,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "fe35daab-4c73-449c-b228-1176c45cdb00")
-		(at -33.935 62.525)
+		(at 152.85 119.5)
 		(property "Reference" "D25"
 			(at 0 0 0)
 			(layer "F.Fab")
@@ -52055,7 +52055,7 @@
 	(footprint "footprints:SOD-123"
 		(layer "F.Cu")
 		(uuid "ffee099b-4b13-4ce2-8857-6b8d913aa7f7")
-		(at -22.345 49.125)
+		(at 193.25 138)
 		(property "Reference" "D45"
 			(at 0 0 0)
 			(layer "F.Fab")
