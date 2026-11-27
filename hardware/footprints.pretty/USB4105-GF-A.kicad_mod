@@ -67,7 +67,7 @@
 		(start -5.32 -4.76)
 		(end 5.32 4.18)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(fill no)

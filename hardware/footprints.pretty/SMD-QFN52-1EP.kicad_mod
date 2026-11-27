@@ -57,7 +57,7 @@
 		(start -3.45 -2.775)
 		(end -3.25 -2.775)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -67,7 +67,7 @@
 		(start -3.45 2.775)
 		(end -3.45 -2.775)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -77,7 +77,7 @@
 		(start -3.25 -3.25)
 		(end -2.775 -3.25)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -87,7 +87,7 @@
 		(start -3.25 -2.775)
 		(end -3.25 -3.25)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -97,7 +97,7 @@
 		(start -3.25 2.775)
 		(end -3.45 2.775)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -107,7 +107,7 @@
 		(start -3.25 3.25)
 		(end -3.25 2.775)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -117,7 +117,7 @@
 		(start -2.775 -3.45)
 		(end 2.775 -3.45)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -127,7 +127,7 @@
 		(start -2.775 -3.25)
 		(end -2.775 -3.45)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -137,7 +137,7 @@
 		(start -2.775 3.25)
 		(end -3.25 3.25)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -147,7 +147,7 @@
 		(start -2.775 3.45)
 		(end -2.775 3.25)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -157,7 +157,7 @@
 		(start 2.775 -3.45)
 		(end 2.775 -3.25)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -167,7 +167,7 @@
 		(start 2.775 -3.25)
 		(end 3.25 -3.25)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -177,7 +177,7 @@
 		(start 2.775 3.25)
 		(end 2.775 3.45)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -187,7 +187,7 @@
 		(start 2.775 3.45)
 		(end -2.775 3.45)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -197,7 +197,7 @@
 		(start 3.25 -3.25)
 		(end 3.25 -2.775)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -207,7 +207,7 @@
 		(start 3.25 -2.775)
 		(end 3.45 -2.775)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -217,7 +217,7 @@
 		(start 3.25 2.775)
 		(end 3.25 3.25)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -227,7 +227,7 @@
 		(start 3.25 3.25)
 		(end 2.775 3.25)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -237,7 +237,7 @@
 		(start 3.45 -2.775)
 		(end 3.45 2.775)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")
@@ -247,7 +247,7 @@
 		(start 3.45 2.775)
 		(end 3.25 2.775)
 		(stroke
-			(width 0.05)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.CrtYd")

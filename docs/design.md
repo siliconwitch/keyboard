@@ -9,9 +9,9 @@ Decisions not yet recorded in firmware code or KiCad files.
 ## Layout
 
 - Key tops sit 10 mm above the top board, measured with the printed caps.
-- The battery, a flat pouch cell of about 4 × 40 × 45 mm, sits on the board under the touchpad. The force sensors, actuators and drivers sit beside it.
-- The battery area is a section held by mouse bites. Breaking it out of the top board gives a pocket 1.6 mm deeper for a thicker cell. The section holds only the RF calibration token (J6–J8, R10–R12) and carries no keyboard traces or copper. The joining holes and touchpad parts stay outside it.
-- The controller, PMIC, USB-C connector and antenna go in the back-right corner, around the touchpad and battery. The space left of the bottom-row Alt is the fallback, as drawn in `docs/layout.svg`.
+- The battery, a 5 × 35 × 45 mm pouch cell, sits under the touchpad. The force sensors, actuators and drivers sit beside it.
+- The battery area is a section held by mouse bites. It is broken out of the top board and kept in the bottom board, so the cell sits in a pocket 1.6 mm deep. The section holds only the RF calibration token (J6–J8, R10–R12) and carries no keyboard traces or copper. The joining holes and touchpad parts stay outside it.
+- The gap between the top board and the touchpad is at least 3.4 mm. This clears the cell and leaves at least 0.6 mm above the 2.8 mm LRAs. The touchpad height is not fixed and may rise to the key tops.
 
 ## Touchpad
 
